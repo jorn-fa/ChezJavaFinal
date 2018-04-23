@@ -1,0 +1,104 @@
+package be.leerstad.Database;
+
+import be.leerstad.Ober;
+import be.leerstad.helpers.DbaseConnection;
+import org.apache.log4j.Logger;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class WaiterDAOImpl implements WaiterDAO {
+
+    Connection connection = DbaseConnection.getConnection();
+    Logger logger = Logger.getLogger("dbase");
+
+
+    @Override
+    public HashMap waiterList() {
+        HashMap<Integer, String> waiters = new HashMap<Integer, String>();
+
+        String SQL = "select waiterid,firstname,lastname from waiters";
+
+        try (
+                PreparedStatement pStatement = connection.prepareStatement(SQL);
+                ResultSet resultSet = pStatement.executeQuery()) {
+            while (resultSet.next()) {
+
+                int id = (resultSet.getInt(1));
+                String first = resultSet.getString(2);
+                String last =  resultSet.getString(3);
+                waiters.put( id, first + " " + last);
+            }
+        } catch (SQLException e) {
+            logger.error("something went wrong with waiterList");
+            throw new IllegalArgumentException("check sql");
+        }
+        logger.debug("Opvragen waiter lijst");
+
+
+        return waiters;
+    }
+
+    @Override
+    public Ober compareOber(Ober ober) {
+
+        logger.debug("opvragen ober met gegevens : " + ober.getVoornaam() + " " + ober.getNaam());
+
+        String SQL = String.format("select * from waiters where firstname = '%s' and lastname = '%s' ",ober.getVoornaam(),ober.getNaam());
+
+        String voornaam="";
+        String naam="";
+        int oberID=0;
+
+        try ( PreparedStatement pStatement = connection.prepareStatement(SQL);
+              ResultSet resultSet = pStatement.executeQuery()) {
+            while (resultSet.next()) {
+                oberID = resultSet.getInt("waiterID");
+                voornaam= resultSet.getString("firstName");
+                naam = resultSet.getString("lastName");
+            }
+        } catch (SQLException e) {
+            logger.debug(e.getMessage());
+        }
+
+        if (voornaam.equalsIgnoreCase(ober.getVoornaam()) && naam.equalsIgnoreCase(ober.getNaam()))
+        {
+            logger.debug("Logged in waiter "+ ober.getVoornaam() + " " + ober.getNaam());
+            return new Ober(oberID, naam, voornaam);
+        }
+        return null;
+    }
+
+    public static void main(String[] args) {
+        WaiterDAOImpl a= new WaiterDAOImpl();
+
+
+            HashMap<Integer, String> list = new HashMap<Integer, String>();
+            list=a.waiterList();
+            Set set2 = list.entrySet();
+            Iterator iterator2 = set2.iterator();
+
+            while(iterator2.hasNext()) {
+                Map.Entry mentry2 = (Map.Entry)iterator2.next();
+                System.out.print("Key is: "+mentry2.getKey() + " & Value is: ");
+                System.out.println(mentry2.getValue());
+            }
+
+            Ober een = new Ober(1,"jorn","peters","pwd");
+            Ober temp = a.compareOber(een);
+
+        try {
+            System.out.println(temp.getID());
+        } catch (Exception e) {
+            System.out.println("waiter not found");
+        }
+
+
+    }
+}

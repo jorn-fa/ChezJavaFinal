@@ -1,0 +1,80 @@
+2018-04-17 22:13:13 DEBUG Tafel:28 - created : Tafel{1}
+2018-04-17 22:13:13 INFO  Tafel:29 - created : Tafel{1}
+2018-04-17 22:13:13 DEBUG Tafel:28 - created : Tafel{2}
+2018-04-17 22:13:13 INFO  Tafel:29 - created : Tafel{2}
+2018-04-17 22:13:13 DEBUG Tafel:28 - created : Tafel{3}
+2018-04-17 22:13:13 INFO  Tafel:29 - created : Tafel{3}
+2018-04-17 22:13:13 DEBUG Tafel:28 - created : Tafel{4}
+2018-04-17 22:13:13 INFO  Tafel:29 - created : Tafel{4}
+2018-04-17 22:13:13 DEBUG Tafel:28 - created : Tafel{5}
+2018-04-17 22:13:13 INFO  Tafel:29 - created : Tafel{5}
+2018-04-17 22:13:13 DEBUG Tafel:28 - created : Tafel{6}
+2018-04-17 22:13:13 INFO  Tafel:29 - created : Tafel{6}
+2018-04-17 22:13:13 DEBUG Tafel:28 - created : Tafel{001}
+2018-04-17 22:13:13 INFO  Tafel:29 - created : Tafel{001}
+2018-04-17 22:13:18 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-04-17 22:13:18 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-04-17 22:13:18 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-04-17 22:13:18 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-04-17 22:13:18 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-04-17 22:13:18 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-04-20 20:58:22 DEBUG Tafel:28 - created : Tafel{1}
+2018-04-20 20:58:22 INFO  Tafel:29 - created : Tafel{1}
+2018-04-20 20:58:22 DEBUG Tafel:28 - created : Tafel{2}
+2018-04-20 20:58:22 INFO  Tafel:29 - created : Tafel{2}
+2018-04-20 20:58:22 DEBUG Tafel:28 - created : Tafel{3}
+2018-04-20 20:58:22 INFO  Tafel:29 - created : Tafel{3}
+2018-04-20 20:58:22 DEBUG Tafel:28 - created : Tafel{4}
+2018-04-20 20:58:22 INFO  Tafel:29 - created : Tafel{4}
+2018-04-20 20:58:22 DEBUG Tafel:28 - created : Tafel{5}
+2018-04-20 20:58:22 INFO  Tafel:29 - created : Tafel{5}
+2018-04-20 20:58:22 DEBUG Tafel:28 - created : Tafel{6}
+2018-04-20 20:58:22 INFO  Tafel:29 - created : Tafel{6}
+2018-04-20 20:58:22 DEBUG Tafel:28 - created : Tafel{001}
+2018-04-20 20:58:22 INFO  Tafel:29 - created : Tafel{001}
+2018-04-23 22:49:31 DEBUG Tafel:28 - created : Tafel{1}
+2018-04-23 22:49:31 INFO  Tafel:29 - created : Tafel{1}
+2018-04-23 22:49:31 DEBUG Tafel:28 - created : Tafel{2}
+2018-04-23 22:49:31 INFO  Tafel:29 - created : Tafel{2}
+2018-04-23 22:49:31 DEBUG Tafel:28 - created : Tafel{3}
+2018-04-23 22:49:31 INFO  Tafel:29 - created : Tafel{3}
+2018-04-23 22:49:31 DEBUG Tafel:28 - created : Tafel{4}
+2018-04-23 22:49:31 INFO  Tafel:29 - created : Tafel{4}
+2018-04-23 22:49:31 DEBUG Tafel:28 - created : Tafel{5}
+2018-04-23 22:49:31 INFO  Tafel:29 - created : Tafel{5}
+2018-04-23 22:49:31 DEBUG Tafel:28 - created : Tafel{6}
+2018-04-23 22:49:31 INFO  Tafel:29 - created : Tafel{6}
+2018-04-23 22:49:31 DEBUG Tafel:28 - created : Tafel{001}
+2018-04-23 22:49:31 INFO  Tafel:29 - created : Tafel{001}
