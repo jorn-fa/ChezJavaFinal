@@ -49,16 +49,16 @@ public class Cafe extends Application {
 
     private Ober currentWaiter;
 
-    Tafel tafel1 = new Tafel("1");
+    /*Tafel tafel1 = new Tafel("1");
     Tafel tafel2 = new Tafel("2");
     Tafel tafel3 = new Tafel("3");
     Tafel tafel4 = new Tafel("4");
     Tafel tafel5 = new Tafel("5");
-    Tafel tafel6 = new Tafel("6");
+    Tafel tafel6 = new Tafel("6");*/
 
 
     //todo  nog te wissen na serialzing
-    public Tafel currentTafel = new Tafel("001");
+    public Tafel currentTafel = tafel1;
 
 
     private List<Consumption> beverageList = new ArrayList<>();

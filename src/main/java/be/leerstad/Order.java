@@ -14,14 +14,14 @@ public class Order implements java.io.Serializable{
     public void addConsumption(Consumption consumption)
     {
         if (lijst.contains(consumption)){
-            //lijst.indexOf(consumption)
             lijst.get(lijst.indexOf(consumption)).changeAantal(consumption.aantal);
-        }
+            }
 
         else {
             lijst.add(consumption);
 
         }
+        if(lijst.get(lijst.indexOf(consumption)).aantal<=0){lijst.remove(consumption);}
 
     }
 

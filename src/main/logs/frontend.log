@@ -5,3 +5,179 @@
 2018-04-20 20:58:33 DEBUG frontend:105 - order Screen
 2018-04-23 22:49:55 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
 2018-04-23 22:49:55 DEBUG frontend:105 - order Screen
+2018-04-23 23:21:13 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-23 23:21:13 DEBUG frontend:105 - order Screen
+2018-04-25 18:07:08 DEBUG frontend:78 - User login screen
+2018-04-25 18:07:13 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:07:13 DEBUG frontend:105 - order Screen
+2018-04-25 18:12:57 DEBUG frontend:78 - User login screen
+2018-04-25 18:13:01 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:13:02 DEBUG frontend:105 - order Screen
+2018-04-25 18:23:58 DEBUG frontend:78 - User login screen
+2018-04-25 18:24:57 DEBUG frontend:78 - User login screen
+2018-04-25 18:25:39 DEBUG frontend:78 - User login screen
+2018-04-25 18:29:55 DEBUG frontend:78 - User login screen
+2018-04-25 18:30:00 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:30:00 DEBUG frontend:105 - order Screen
+2018-04-25 18:30:25 DEBUG frontend:78 - User login screen
+2018-04-25 18:32:21 DEBUG frontend:78 - User login screen
+2018-04-25 18:32:24 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:32:25 DEBUG frontend:105 - order Screen
+2018-04-25 18:35:40 DEBUG frontend:78 - User login screen
+2018-04-25 18:36:25 DEBUG frontend:78 - User login screen
+2018-04-25 18:37:15 DEBUG frontend:78 - User login screen
+2018-04-25 18:38:11 DEBUG frontend:78 - User login screen
+2018-04-25 18:40:10 DEBUG frontend:78 - User login screen
+2018-04-25 18:40:20 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-25 18:40:20 DEBUG frontend:105 - order Screen
+2018-04-25 18:40:22 DEBUG frontend:78 - User login screen
+2018-04-25 18:40:26 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:40:26 DEBUG frontend:105 - order Screen
+2018-04-25 18:42:43 DEBUG frontend:78 - User login screen
+2018-04-25 18:42:49 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:42:49 DEBUG frontend:105 - order Screen
+2018-04-25 18:49:36 DEBUG frontend:78 - User login screen
+2018-04-25 18:49:40 DEBUG frontend:78 - User login screen
+2018-04-25 18:50:04 DEBUG frontend:78 - User login screen
+2018-04-25 18:50:09 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:50:09 DEBUG frontend:105 - order Screen
+2018-04-25 18:50:46 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-25 18:50:46 DEBUG frontend:105 - order Screen
+2018-04-25 18:50:48 DEBUG frontend:78 - User login screen
+2018-04-25 18:50:52 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:50:52 DEBUG frontend:105 - order Screen
+2018-04-25 18:58:54 DEBUG frontend:78 - User login screen
+2018-04-25 18:58:58 DEBUG frontend:224 - Call current tabel name
+2018-04-25 18:58:58 DEBUG frontend:105 - order Screen
+2018-04-25 19:05:01 DEBUG frontend:78 - User login screen
+2018-04-25 19:05:06 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:05:06 DEBUG frontend:105 - order Screen
+2018-04-25 19:06:11 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-25 19:06:11 DEBUG frontend:105 - order Screen
+2018-04-25 19:06:13 DEBUG frontend:78 - User login screen
+2018-04-25 19:06:17 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:06:17 DEBUG frontend:105 - order Screen
+2018-04-25 19:14:34 DEBUG frontend:78 - User login screen
+2018-04-25 19:15:02 DEBUG frontend:78 - User login screen
+2018-04-25 19:15:06 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:15:06 DEBUG frontend:105 - order Screen
+2018-04-25 19:16:59 DEBUG frontend:78 - User login screen
+2018-04-25 19:17:03 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:17:03 DEBUG frontend:105 - order Screen
+2018-04-25 19:18:27 DEBUG frontend:78 - User login screen
+2018-04-25 19:18:31 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:18:31 DEBUG frontend:105 - order Screen
+2018-04-25 19:19:41 DEBUG frontend:78 - User login screen
+2018-04-25 19:19:46 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:19:46 DEBUG frontend:105 - order Screen
+2018-04-25 19:22:32 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-25 19:22:32 DEBUG frontend:105 - order Screen
+2018-04-25 19:22:35 DEBUG frontend:78 - User login screen
+2018-04-25 19:22:40 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:22:40 DEBUG frontend:105 - order Screen
+2018-04-25 19:24:19 DEBUG frontend:78 - User login screen
+2018-04-25 19:24:24 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:24:24 DEBUG frontend:105 - order Screen
+2018-04-25 19:25:28 DEBUG frontend:78 - User login screen
+2018-04-25 19:25:33 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:25:33 DEBUG frontend:105 - order Screen
+2018-04-25 19:30:10 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-25 19:30:10 DEBUG frontend:105 - order Screen
+2018-04-25 19:30:13 DEBUG frontend:78 - User login screen
+2018-04-25 19:30:18 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:30:18 DEBUG frontend:105 - order Screen
+2018-04-25 19:31:59 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-25 19:31:59 DEBUG frontend:105 - order Screen
+2018-04-25 19:32:01 DEBUG frontend:78 - User login screen
+2018-04-25 19:32:06 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:32:06 DEBUG frontend:105 - order Screen
+2018-04-25 19:35:25 DEBUG frontend:78 - User login screen
+2018-04-25 19:35:29 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:35:29 DEBUG frontend:105 - order Screen
+2018-04-25 19:36:51 DEBUG frontend:78 - User login screen
+2018-04-25 19:36:54 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:36:54 DEBUG frontend:105 - order Screen
+2018-04-25 19:49:54 DEBUG frontend:78 - User login screen
+2018-04-25 19:49:59 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:49:59 DEBUG frontend:105 - order Screen
+2018-04-25 19:50:10 DEBUG frontend:138 - Add: cola 0
+2018-04-25 19:50:40 DEBUG frontend:156 - Remove: cola 0
+2018-04-25 19:53:20 DEBUG frontend:78 - User login screen
+2018-04-25 19:53:24 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:53:24 DEBUG frontend:105 - order Screen
+2018-04-25 19:53:28 DEBUG frontend:139 - Add: cola 1
+2018-04-25 19:53:37 DEBUG frontend:139 - Add: cola 1
+2018-04-25 19:53:38 DEBUG frontend:139 - Add: cola 1
+2018-04-25 19:53:40 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:53:41 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:53:42 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:53:43 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:53:44 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:57:22 DEBUG frontend:78 - User login screen
+2018-04-25 19:57:26 DEBUG frontend:224 - Call current tabel name
+2018-04-25 19:57:26 DEBUG frontend:105 - order Screen
+2018-04-25 19:57:33 DEBUG frontend:139 - Add: cola 1
+2018-04-25 19:57:40 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:57:43 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:57:51 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:57:53 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:57:54 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:57:58 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:57:59 DEBUG frontend:139 - Add: cola 1
+2018-04-25 19:58:08 DEBUG frontend:139 - Add: cola 1
+2018-04-25 19:58:14 DEBUG frontend:139 - Add: cola 1
+2018-04-25 19:58:16 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:58:17 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:58:44 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:58:52 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:58:53 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:58:54 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 19:58:57 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:14 DEBUG frontend:78 - User login screen
+2018-04-25 20:01:35 DEBUG frontend:224 - Call current tabel name
+2018-04-25 20:01:35 DEBUG frontend:105 - order Screen
+2018-04-25 20:01:44 DEBUG frontend:139 - Add: cola 1
+2018-04-25 20:01:49 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:51 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:52 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:52 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:53 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:53 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:55 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:56 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:01:56 DEBUG frontend:158 - Remove: cola -1
+2018-04-25 20:02:00 DEBUG frontend:158 - Remove: cola -5
+2018-04-25 20:02:01 DEBUG frontend:139 - Add: cola 5
+2018-04-25 20:02:03 DEBUG frontend:139 - Add: cola 5
+2018-04-25 20:02:04 DEBUG frontend:158 - Remove: cola -5
+2018-04-25 20:02:06 DEBUG frontend:158 - Remove: cola -5
+2018-04-25 20:03:22 DEBUG frontend:78 - User login screen
+2018-04-25 20:03:29 DEBUG frontend:224 - Call current tabel name
+2018-04-25 20:03:29 DEBUG frontend:105 - order Screen
+2018-04-25 20:22:59 DEBUG frontend:78 - User login screen
+2018-04-25 20:23:04 DEBUG frontend:224 - Call current tabel name
+2018-04-25 20:23:04 DEBUG frontend:105 - order Screen
+2018-04-25 20:23:13 DEBUG frontend:138 - Add: cola 1
+2018-04-25 20:23:21 DEBUG frontend:156 - Remove: cola -1
+2018-04-25 20:23:22 DEBUG frontend:156 - Remove: cola -4
+2018-04-25 20:23:23 DEBUG frontend:156 - Remove: cola -6
+2018-04-25 20:23:23 DEBUG frontend:156 - Remove: cola -8
+2018-04-25 20:23:23 DEBUG frontend:156 - Remove: cola -10
+2018-04-25 20:24:53 DEBUG frontend:78 - User login screen
+2018-04-25 20:24:57 DEBUG frontend:224 - Call current tabel name
+2018-04-25 20:24:57 DEBUG frontend:105 - order Screen
+2018-04-25 20:25:01 DEBUG frontend:138 - Add: cola 1
+2018-04-25 20:25:05 DEBUG frontend:255 - Payment button pressed
+2018-04-25 20:25:05 DEBUG frontend:165 - afrekenen
+2018-04-25 20:27:06 DEBUG frontend:78 - User login screen
+2018-04-25 20:27:10 DEBUG frontend:224 - Call current tabel name
+2018-04-25 20:27:11 DEBUG frontend:105 - order Screen
+2018-04-25 20:29:11 DEBUG frontend:94 - Not logged in popup
+2018-04-25 20:29:11 DEBUG frontend:92 - Rapport Screen
+2018-04-25 20:29:31 DEBUG frontend:78 - User login screen
+2018-04-25 20:29:43 DEBUG frontend:78 - User login screen
+2018-04-25 20:48:36 DEBUG frontend:220 - oproepen order window zonder ingelogd te zijn
+2018-04-25 20:48:36 DEBUG frontend:105 - order Screen
+2018-04-25 20:48:38 DEBUG frontend:78 - User login screen
+2018-04-25 20:48:43 DEBUG frontend:224 - Call current tabel name
+2018-04-25 20:48:43 DEBUG frontend:105 - order Screen

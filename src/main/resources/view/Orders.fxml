@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
@@ -24,7 +25,12 @@
             </AnchorPane>
             <AnchorPane prefHeight="200.0" prefWidth="410.0">
                <children>
-                  <ListView fx:id="temp" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="100.0" />
+                  <TableView fx:id="besteldData" editable="true" prefHeight="460.0" prefWidth="183.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="100.0">
+                     <columns>
+                        <TableColumn fx:id="besteldName" prefWidth="248.0" text="Besteld" />
+                        <TableColumn fx:id="besteldQty" prefWidth="61.0" text="Aantal" />
+                     </columns>
+                  </TableView>
                </children>
             </AnchorPane>
          </children>

@@ -11,6 +11,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.net.URL;
@@ -18,12 +19,16 @@ import java.util.ResourceBundle;
 
 public class OrdersController implements Initializable {
 
-    public OrdersController() {
-    }
+    public OrdersController() {    }
+
+    private static Logger log = Logger.getLogger("frontend");
+    Consumption consumption;
 
     private boolean isIngelogd;
 
+    //overzicht van consumpties
 
+    private ObservableList<Consumption> consumptionlist = FXCollections.observableArrayList();
 
     @FXML
     private TableView<Consumption> consumptionData;
@@ -32,10 +37,17 @@ public class OrdersController implements Initializable {
     @FXML
     private TableColumn<Consumption, Integer> consumptionQty;
 
-    private ObservableList<Consumption> consumptionlist = FXCollections.observableArrayList();
+    //ovezicht van bestelling
 
+    private ObservableList<Consumption> besteldList = FXCollections.observableArrayList();
     @FXML
-    private ListView<Consumption> temp = new ListView<>();
+    private TableView<Consumption> besteldData;
+    @FXML
+    private TableColumn<Consumption, String> besteldName;
+    @FXML
+    private TableColumn<Consumption, Integer> besteldQty;
+
+
 
     @FXML
     private Label tafelNaamLabel;
@@ -56,94 +68,122 @@ public class OrdersController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         //todo aanpassen tafel lijst
+        consumptionData.setItems(Cafe.getInstance().getFXbeveragelist());
         consumptionlist = Cafe.getInstance().getFXbeveragelist();
 
-        consumptionlist = Cafe.getInstance().currentTafel.getFXLijstForPayment();
-        temp.getItems().addAll(consumptionlist);
+        besteldList = Cafe.getInstance().currentTafel.getFXLijstForPayment();
 
 
-        consumptionData.setItems(Cafe.getInstance().getFXbeveragelist());
-        consumptionName.setCellValueFactory(celldata -> celldata.getValue().getNaamProperty());
-        consumptionQty.setCellValueFactory(new PropertyValueFactory<Consumption, Integer>("prijs"));
-
+        //clear data
         showConsumptionDetails(null);
-        consumptionData.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> showConsumptionDetails(newValue));
+
+        consumptionName.setCellValueFactory(celldata -> celldata.getValue().getNaamProperty());
+        consumptionQty.setCellValueFactory(new PropertyValueFactory<>("prijs"));
+
+        besteldName.setCellValueFactory(celldata -> celldata.getValue().getNaamProperty());
+        besteldQty.setCellValueFactory(new PropertyValueFactory<>("aantal"));
+
+
+
+        consumptionData.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> System.out.println(newValue.toString()));
+        besteldData.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> System.out.println(newValue.toString()));
+
+
+        consumption = consumptionData.getSelectionModel().getSelectedItem();
+
 
         tafelNaamLabel.setText(Cafe.getInstance().getTafelNaam());
         isIngelogd= Cafe.getInstance().isIngelogd();
 
 
         //qty field forceren om enkel getallen te aanvaarden
-        qtyField.textProperty().addListener(new ChangeListener<String>() {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
-                if (!newValue.matches("\\d{0,7}([\\.]\\d{0,4})?")) {
-                    qtyField.setText(oldValue);
-                }
+        qtyField.textProperty().addListener((observable, oldValue, newValue) -> {
+            if (!newValue.matches("\\d{0,7}(\\d{0,4})?")) {
+                qtyField.setText(oldValue);
             }
         });
 
-
-
-
-
     }
+
+
+
+
+
 
     private boolean verifyQty(){
 
         //opvangen lege string
+
         if ( qtyField.getText().isEmpty()){
+            log.debug("opgevangen leeg invoerveld");
+            qtyField.setText("0");        }
 
-            qtyField.setText("0");
-        }
-
-        if(Double.valueOf(qtyField.getText())>0){
-        return true;}
+        if(Double.valueOf(qtyField.getText())>0){ return true;}
         return false;
     }
 
 
-    //todo   hier bezig
+
     @FXML
-    private void addConsumtionAction(ActionEvent event) throws IOException{
+    private void addConsumtionAction(ActionEvent event) throws IOException {
 
-        if (isIngelogd){
+        //todo aanpassen naar geselecteerde consumptie
+        consumption = new Consumption(1, "cola", 2.4d);
 
-            if (verifyQty()){
-        System.out.println("toevoegen");}
+        consumption.aantal=Integer.valueOf(qtyField.getText());
+
+        if (isIngelogd) {
+
+            if (verifyQty()) {
+                log.debug("Add: " + consumption.getNaam() + " " + consumption.getAantal());
+                Cafe.getInstance().currentTafel.addConsumption(consumption, Cafe.getInstance().getOber());
+            }
         }
     }
 
     @FXML
     private void removeConsumtionAction(ActionEvent event) throws  NumberFormatException{
-        if(verifyQty()){
-        //omzetten naar int
-        System.out.println(  (Double.valueOf(qtyField.getText())).intValue());}
 
-        if (isIngelogd){ System.out.println("weghalen");}
+
+        if (isIngelogd){
+
+            if (verifyQty()) {
+
+                //omzetten van add naar remove -> positief naar negatief getal
+                consumption.aantal-=Integer.valueOf(qtyField.getText())*2;
+
+                log.debug("Remove: " + consumption.getNaam() + " " + consumption.getAantal());
+                Cafe.getInstance().currentTafel.addConsumption(consumption, Cafe.getInstance().getOber());
+            }
+        }
     }
 
     @FXML
     private void afrekenAction(ActionEvent event)throws NumberFormatException
     {
         Cafe.getInstance().afrekenen();
-
+        log.debug("afrekenen");
     }
 
 
 
     @FXML
     private void showConsumptionDetails(Consumption consumption) {
+
         if (consumption != null) {
             // Fill the labels with info from the person object.
+
             NaamLabel.setText(consumption.getNaam());
             qtyLabel.setText(String.valueOf(consumption.getAantal()));
             consumptionName.setText(consumption.getNaam());
 
         } else {
-            // Person is null, remove all the text.
+            System.out.println("in de null van consumption");
             //NaamLabel.setText("");
-            //qtyLabel.setText("");
+            //NaamLabel.setText(consumption.getNaam());
+            //qtyLabel.setText(String.valueOf(consumption.getAantal()));
+            //consumptionName.setText(consumption.getNaam());
+
 
         }
 
