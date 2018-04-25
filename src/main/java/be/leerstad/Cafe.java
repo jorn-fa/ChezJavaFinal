@@ -7,6 +7,7 @@ import be.leerstad.Database.WaiterDAOImpl;
 import be.leerstad.View.RootController;
 import be.leerstad.helpers.Clock;
 import be.leerstad.helpers.DbaseConnection;
+import be.leerstad.helpers.ObjectToSerialize;
 import be.leerstad.helpers.PdfFactory;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -34,12 +35,15 @@ public class Cafe extends Application {
     private static Logger frontlogger = Logger.getLogger("frontend");
     static Logger dbaseLogger = Logger.getLogger("dbase");
 
+
+
     private   String Naam;
     private boolean ingelogd;
 
     private static Cafe instance;
     public Cafe(){this(null);instance=this;}
     public PdfFactory pdfFactory = new PdfFactory();
+
 
 
     public Cafe(String naam)
@@ -49,17 +53,14 @@ public class Cafe extends Application {
 
     private Ober currentWaiter;
 
-    /*Tafel tafel1 = new Tafel("1");
+    Tafel tafel1 = new Tafel("1");
     Tafel tafel2 = new Tafel("2");
     Tafel tafel3 = new Tafel("3");
     Tafel tafel4 = new Tafel("4");
     Tafel tafel5 = new Tafel("5");
-    Tafel tafel6 = new Tafel("6");*/
+    Tafel tafel6 = new Tafel("6");
 
-
-    //todo  nog te wissen na serialzing
     public Tafel currentTafel = tafel1;
-
 
     private List<Consumption> beverageList = new ArrayList<>();
     private ObservableList<Consumption> FXbeveragelist =  FXCollections.observableArrayList(beverageList);
@@ -78,14 +79,49 @@ public class Cafe extends Application {
     public String totalSortedProp;
     public String TopWaiterPie;
 
-    @FXML
+
+    public void wisselTafel(int getal){
+
+        currentTafel = tafel1;
+
+        switch (getal){
+            case 1:
+                currentTafel = tafel1;
+                frontlogger.debug("swapped to table 1");
+                break;
+            case 2:
+                currentTafel = tafel2;
+                frontlogger.debug("swapped to table 2");
+                break;
+            case 3:
+                currentTafel = tafel3;
+                frontlogger.debug("swapped to table 3");
+                break;
+            case 4:
+                currentTafel = tafel4;
+                frontlogger.debug("swapped to table 4");
+                break;
+            case 5:
+                currentTafel = tafel5;
+                frontlogger.debug("swapped to table 5");
+                break;
+            case 6:
+                currentTafel = tafel6;
+                frontlogger.debug("swapped to table 6");
+                break;
+            default: currentTafel = tafel1;
+        }
+
+    }
+
+
     public static Cafe getInstance(){return instance;}
 
 
-    @FXML
     public Ober getOber(){return currentWaiter;}
 
 
+    //todo bybye
     public ObservableList<Consumption> getFXbeveragelist() {
         Collections.sort(beverageList);
         return FXbeveragelist;
@@ -125,6 +161,16 @@ public class Cafe extends Application {
         this.primaryStage.setHeight(800);
         this.primaryStage.setResizable(false);
         initRootLayout(currentWaiter);
+    }
+
+    @Override
+    public void stop()
+    {
+        //todo array van maken
+        ObjectToSerialize ob = new ObjectToSerialize();
+        if ((tafel3.hasOrders())&&isIngelogd()){
+        ob.Serialize(tafel3);}
+
     }
 
     public void initRootLayout(Ober ober) {
@@ -267,6 +313,7 @@ public class Cafe extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
 
 
 

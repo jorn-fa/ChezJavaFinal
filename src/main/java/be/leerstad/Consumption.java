@@ -18,16 +18,16 @@ import java.util.Comparator;
  *
  */
 
-public final class Consumption implements Comparable<Consumption> {
+public final class Consumption implements Comparable<Consumption>,java.io.Serializable {
 
     private final int beverageId;
     private final String naam;
-    private StringProperty naamProperty;
+    private transient StringProperty naamProperty;
     private double prijs;
     private int orderNummer;
     private int waiterID;
     public int aantal;
-    private IntegerProperty aantalProperty;
+    private transient IntegerProperty aantalProperty;
 
     private static Logger logger = Logger.getLogger(Consumption.class.getName());
 

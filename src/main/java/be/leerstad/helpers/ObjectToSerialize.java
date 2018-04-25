@@ -1,5 +1,6 @@
-package be.leerstad;
+package be.leerstad.helpers;
 
+import be.leerstad.Tafel;
 import org.apache.log4j.Logger;
 
 import java.io.File;
@@ -14,20 +15,18 @@ public class ObjectToSerialize {
 
     private static Logger logger = Logger.getLogger(Tafel.class.getName());
 
-    public static void main(String [] args) {
-        Tafel e = new Tafel( "tafel 1");
 
-        //Ober e = new Ober(1,"jorn","hiel","password");
+    public void Serialize(Tafel tafel){
 
 
         try {
 
-            String waar = System.getProperty("user.dir")+"-src-main-serialize-";
+            String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-";
 
             Path location = Paths.get(waar.replace("-",File.separator) );
 
             // naam baseren op class + id    eg.  tafel.1
-            Path name =  Paths.get (location + File.separator + e.getClass().getSimpleName() +"." + e.getNaam() );
+            Path name =  Paths.get (location + File.separator + tafel.getClass().getSimpleName() +"." + tafel.getNaam() );
 
             //path maken indien niet existerend
             if (!Files.exists(location)){Files.createDirectories(location);}
@@ -36,7 +35,7 @@ public class ObjectToSerialize {
             FileOutputStream fileOut = new FileOutputStream(name.toString());
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
 
-            out.writeObject(e);
+            out.writeObject(tafel);
             out.close();
             fileOut.close();
 
