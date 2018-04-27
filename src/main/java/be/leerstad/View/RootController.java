@@ -96,7 +96,7 @@ public class RootController implements Initializable{
     @FXML
     public void ShowTafel(ActionEvent event) throws IOException
     {
-        Cafe.getInstance().wisselTafel(3);
+        Cafe.getInstance().wisselTafel(15);
         Parent parent = FXMLLoader.load(getClass().getResource("/view/Orders.fxml"));
         Scene orderScene = new Scene(parent);
         Stage window = new Stage();

@@ -60,6 +60,8 @@ public class Cafe extends Application {
     Tafel tafel5 = new Tafel("5");
     Tafel tafel6 = new Tafel("6");
 
+    private Tafel[] tafels = new Tafel[]{tafel1,tafel2,tafel3,tafel4,tafel5,tafel6};
+
     public Tafel currentTafel = tafel1;
 
     private List<Consumption> beverageList = new ArrayList<>();
@@ -81,37 +83,12 @@ public class Cafe extends Application {
 
 
     public void wisselTafel(int getal){
-
-        currentTafel = tafel1;
-
-        switch (getal){
-            case 1:
-                currentTafel = tafel1;
-                frontlogger.debug("swapped to table 1");
-                break;
-            case 2:
-                currentTafel = tafel2;
-                frontlogger.debug("swapped to table 2");
-                break;
-            case 3:
-                currentTafel = tafel3;
-                frontlogger.debug("swapped to table 3");
-                break;
-            case 4:
-                currentTafel = tafel4;
-                frontlogger.debug("swapped to table 4");
-                break;
-            case 5:
-                currentTafel = tafel5;
-                frontlogger.debug("swapped to table 5");
-                break;
-            case 6:
-                currentTafel = tafel6;
-                frontlogger.debug("swapped to table 6");
-                break;
-            default: currentTafel = tafel1;
+        try {
+            currentTafel=tafels[getal-1];
+            frontlogger.debug("tafel wisselen naar tafel:" + getal);
+        } catch (IndexOutOfBoundsException e) {
+            frontlogger.debug("tafelnummer is niet bestaande");
         }
-
     }
 
 
@@ -166,10 +143,13 @@ public class Cafe extends Application {
     @Override
     public void stop()
     {
-        //todo array van maken
         ObjectToSerialize ob = new ObjectToSerialize();
-        if ((tafel3.hasOrders())&&isIngelogd()){
-        ob.Serialize(tafel3);}
+
+        for (int teller = 0; teller<tafels.length;teller++)
+        if (tafels[teller].hasOrders()&&isIngelogd()){
+            ob.Serialize(tafels[teller]);
+            frontlogger.debug("On exit - serial table: " + (teller+1));
+        }
 
     }
 
@@ -250,7 +230,7 @@ public class Cafe extends Application {
     }
 
 
-    @FXML
+
     public String getOberNaam(){
         if (currentWaiter != null) {
             return currentWaiter.getVoornaam() + " " + currentWaiter.getNaam();
@@ -259,7 +239,7 @@ public class Cafe extends Application {
 
     }
 
-    @FXML
+
     public String getTafelNaam() {
 
         if (currentWaiter == null) {
