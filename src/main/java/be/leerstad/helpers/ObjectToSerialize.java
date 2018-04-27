@@ -15,7 +15,7 @@ public class ObjectToSerialize {
 
     private static Logger logger = Logger.getLogger(Tafel.class.getName());
 
-    String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-";
+    private String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-";
 
     public Path getWaar(){
         return Paths.get(waar.replace("-",File.separator) );
@@ -50,8 +50,6 @@ public class ObjectToSerialize {
             i.printStackTrace();
         }
     }
-
-    //public Tafel readTafel(){}
 
 
 }

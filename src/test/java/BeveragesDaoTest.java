@@ -52,7 +52,8 @@ public class BeveragesDaoTest {
 
     @Test(timeout = 2000)
     public void troughCafe(){
-        Cafe cafe = new Cafe("test");
+        Cafe cafe = new Cafe("twee");
+        cafe.uitloggen();
         Ober vergelijk = new Ober(1,"peters","wout","password");
         cafe.inloggen(vergelijk);
         assertTrue(cafe.fillBeverageList()==true);

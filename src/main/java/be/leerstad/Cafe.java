@@ -5,10 +5,7 @@ import be.leerstad.Database.BeveragesDAOImpl;
 import be.leerstad.Database.OrdersDAOImpl;
 import be.leerstad.Database.WaiterDAOImpl;
 import be.leerstad.View.RootController;
-import be.leerstad.helpers.Clock;
-import be.leerstad.helpers.DbaseConnection;
-import be.leerstad.helpers.ObjectToSerialize;
-import be.leerstad.helpers.PdfFactory;
+import be.leerstad.helpers.*;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -43,6 +40,7 @@ public class Cafe extends Application {
     private static Cafe instance;
     public Cafe(){this(null);instance=this;}
     public PdfFactory pdfFactory = new PdfFactory();
+    private DeSerializer ds = new DeSerializer();
 
 
 
@@ -61,6 +59,8 @@ public class Cafe extends Application {
     Tafel tafel6 = new Tafel("6");
 
     private Tafel[] tafels = new Tafel[]{tafel1,tafel2,tafel3,tafel4,tafel5,tafel6};
+
+
 
     public Tafel currentTafel = tafel1;
 
@@ -131,11 +131,21 @@ public class Cafe extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+
+        tafels = ds.giveTafel(tafels);
+
+        for (Tafel tafel:
+                tafels
+             ) {
+            System.out.println(tafel.hasOrders());
+
+        }
+
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Chez Java");
         this.primaryStage.setResizable(true);
         this.primaryStage.setWidth(1200);
-        this.primaryStage.setHeight(800);
+        this.primaryStage.setHeight(700);
         this.primaryStage.setResizable(false);
         initRootLayout(currentWaiter);
     }
@@ -143,14 +153,18 @@ public class Cafe extends Application {
     @Override
     public void stop()
     {
+        wegSchrijven();
+
+    }
+
+    public void wegSchrijven(){
         ObjectToSerialize ob = new ObjectToSerialize();
 
         for (int teller = 0; teller<tafels.length;teller++)
-        if (tafels[teller].hasOrders()&&isIngelogd()){
-            ob.Serialize(tafels[teller]);
-            frontlogger.debug("On exit - serial table: " + (teller+1));
-        }
-
+            if (tafels[teller].hasOrders()&&isIngelogd()){
+                ob.Serialize(tafels[teller]);
+                frontlogger.debug("On exit - serial table: " + (teller+1));
+            }
     }
 
     public void initRootLayout(Ober ober) {
@@ -255,7 +269,9 @@ public class Cafe extends Application {
 
     public boolean fillBeverageList()
     {
-     if (beverageList.isEmpty()&&currentWaiter!=null)
+
+
+        if (beverageList.isEmpty()&&currentWaiter!=null)
      {
          BeveragesDAOImpl beveragesDAO = new BeveragesDAOImpl();
          beverageList=beveragesDAO.pricelijst();
@@ -263,6 +279,11 @@ public class Cafe extends Application {
 
          return true;
      }
+        if (beverageList.isEmpty()==false&&currentWaiter!=null){
+            frontlogger.debug("reeds gevuld door andere ober");
+            return true;
+        }
+
      return false;
     }
 
@@ -280,6 +301,7 @@ public class Cafe extends Application {
         dbaseLogger.debug("Order write procedure started");
         frontlogger.debug("Payment button pressed");
         currentTafel.hasPaid();
+        wegSchrijven();
     }
 
 
@@ -293,8 +315,6 @@ public class Cafe extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
-
 
 
 }

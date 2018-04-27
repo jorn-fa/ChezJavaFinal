@@ -17,7 +17,8 @@ import org.junit.runners.Suite.SuiteClasses;
         dbasePropertiesTest.class,
         DBtest.class,
         BeveragesDaoTest.class,
-        SerialTest.class
+        SerialTest.class,
+        DeserialTest.class
 
 
         })

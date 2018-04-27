@@ -23,7 +23,7 @@ public class SerialTest {
     private String waar = ob.getWaar().toString();
 
 
-    private void wisser()
+    public void wisser()
     {
 
         for (int teller=1;teller<10;teller++) {
@@ -39,7 +39,7 @@ public class SerialTest {
         }
     }
 
-    private long fileTeller(){
+    public long fileTeller(){
         try {
             try (Stream<Path> files = Files.list(Paths.get(waar))) {
                 return files.count();
