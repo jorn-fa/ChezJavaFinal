@@ -953,3 +953,81 @@
 2018-04-27 22:28:10 DEBUG frontend:160 - On exit - serial table: 1
 2018-04-27 22:28:10 DEBUG frontend:165 - afrekenen
 2018-04-27 22:28:40 DEBUG frontend:160 - On exit - serial table: 1
+2018-04-28 13:30:17 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 13:30:17 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 13:30:17 DEBUG frontend:106 - order Screen
+2018-04-28 13:31:41 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 13:31:41 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 13:31:42 DEBUG frontend:109 - order Screen
+2018-04-28 13:44:48 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 13:44:48 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 13:44:48 DEBUG frontend:110 - order Screen
+2018-04-28 13:45:19 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 13:45:19 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 13:45:19 DEBUG frontend:111 - order Screen
+2018-04-28 13:45:35 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 13:45:35 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 13:45:35 DEBUG frontend:111 - order Screen
+2018-04-28 13:47:10 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 13:47:10 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 13:47:11 DEBUG frontend:109 - order Screen
+2018-04-28 13:47:15 DEBUG frontend:79 - User login screen
+2018-04-28 13:47:19 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 13:47:19 DEBUG frontend:264 - Call current tabel name
+2018-04-28 13:47:19 DEBUG frontend:109 - order Screen
+2018-04-28 13:54:21 DEBUG frontend:79 - User login screen
+2018-04-28 13:54:27 DEBUG frontend:88 - tafel wisselen naar tafel:6
+2018-04-28 13:54:27 DEBUG frontend:264 - Call current tabel name
+2018-04-28 13:54:27 DEBUG frontend:109 - order Screen
+2018-04-28 14:07:58 DEBUG frontend:79 - User login screen
+2018-04-28 14:11:18 DEBUG frontend:79 - User login screen
+2018-04-28 14:27:14 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:27:14 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:27:15 DEBUG frontend:110 - order Screen
+2018-04-28 14:27:59 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:27:59 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:27:59 DEBUG frontend:110 - order Screen
+2018-04-28 14:29:49 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:29:49 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:29:49 DEBUG frontend:110 - order Screen
+2018-04-28 14:32:12 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:32:12 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:32:12 DEBUG frontend:110 - order Screen
+2018-04-28 14:33:03 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:33:03 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:33:03 DEBUG frontend:111 - order Screen
+2018-04-28 14:33:15 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:33:15 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:33:16 DEBUG frontend:111 - order Screen
+2018-04-28 14:35:19 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:35:19 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:35:19 DEBUG frontend:116 - order Screen
+2018-04-28 14:38:53 DEBUG frontend:88 - tafel wisselen naar tafel:6
+2018-04-28 14:38:54 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:38:54 DEBUG frontend:116 - order Screen
+2018-04-28 14:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:6
+2018-04-28 14:51:41 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:51:41 DEBUG frontend:116 - order Screen
+2018-04-28 14:51:43 DEBUG frontend:79 - User login screen
+2018-04-28 14:51:47 DEBUG frontend:88 - tafel wisselen naar tafel:6
+2018-04-28 14:51:47 DEBUG frontend:264 - Call current tabel name
+2018-04-28 14:51:47 DEBUG frontend:116 - order Screen
+2018-04-28 14:52:42 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:52:42 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:52:42 DEBUG frontend:116 - order Screen
+2018-04-28 14:52:44 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-28 14:52:44 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:52:44 DEBUG frontend:116 - order Screen
+2018-04-28 14:52:46 DEBUG frontend:79 - User login screen
+2018-04-28 14:52:51 DEBUG frontend:88 - tafel wisselen naar tafel:6
+2018-04-28 14:52:51 DEBUG frontend:264 - Call current tabel name
+2018-04-28 14:52:51 DEBUG frontend:116 - order Screen
+2018-04-28 14:52:54 DEBUG frontend:88 - tafel wisselen naar tafel:5
+2018-04-28 14:52:54 DEBUG frontend:264 - Call current tabel name
+2018-04-28 14:52:54 DEBUG frontend:116 - order Screen
+2018-04-28 14:52:56 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-28 14:52:56 DEBUG frontend:264 - Call current tabel name
+2018-04-28 14:52:56 DEBUG frontend:116 - order Screen
+2018-04-28 14:52:58 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:52:59 DEBUG frontend:264 - Call current tabel name
+2018-04-28 14:52:59 DEBUG frontend:116 - order Screen

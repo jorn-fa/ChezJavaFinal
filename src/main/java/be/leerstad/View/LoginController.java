@@ -2,7 +2,6 @@ package be.leerstad.View;
 
 import be.leerstad.Cafe;
 import be.leerstad.Ober;
-import be.leerstad.helpers.Clock;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,8 +12,6 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.paint.Color;
-import javafx.scene.transform.Scale;
 import javafx.stage.Stage;
 
 import java.io.IOException;

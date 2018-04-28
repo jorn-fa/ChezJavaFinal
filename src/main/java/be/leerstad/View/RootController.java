@@ -8,6 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
@@ -96,7 +97,16 @@ public class RootController implements Initializable{
     @FXML
     public void ShowTafel(ActionEvent event) throws IOException
     {
-        Cafe.getInstance().wisselTafel(15);
+        Button btn = (Button) event.getSource();
+        int tafelNummer=0;
+
+        try {
+            tafelNummer = Integer.valueOf(btn.getId().toString().substring(5));
+        } catch (NumberFormatException e) {
+            log.debug("Something went wrong with fx:id on button");
+        }
+
+        Cafe.getInstance().wisselTafel(tafelNummer);
         Parent parent = FXMLLoader.load(getClass().getResource("/view/Orders.fxml"));
         Scene orderScene = new Scene(parent);
         Stage window = new Stage();
