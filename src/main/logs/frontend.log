@@ -1031,3 +1031,51 @@
 2018-04-28 14:52:58 DEBUG frontend:88 - tafel wisselen naar tafel:1
 2018-04-28 14:52:59 DEBUG frontend:264 - Call current tabel name
 2018-04-28 14:52:59 DEBUG frontend:116 - order Screen
+2018-04-28 14:57:58 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-28 14:57:58 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-28 14:57:58 DEBUG frontend:116 - order Screen
+2018-04-28 14:58:37 DEBUG frontend:94 - Not logged in popup
+2018-04-28 14:58:37 DEBUG frontend:93 - Rapport Screen
+2018-04-28 14:59:00 DEBUG frontend:94 - Not logged in popup
+2018-04-28 14:59:00 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:01:54 DEBUG frontend:94 - Not logged in popup
+2018-04-28 15:01:54 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:01:57 DEBUG frontend:79 - User login screen
+2018-04-28 15:02:01 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:02:48 DEBUG frontend:93 - Not logged in popup
+2018-04-28 15:02:48 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:02:51 DEBUG frontend:79 - User login screen
+2018-04-28 15:02:54 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:14:22 DEBUG frontend:93 - Not logged in popup
+2018-04-28 15:14:22 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:14:25 DEBUG frontend:79 - User login screen
+2018-04-28 15:14:29 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:15:06 DEBUG frontend:79 - User login screen
+2018-04-28 15:15:11 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:17:36 DEBUG frontend:93 - Not logged in popup
+2018-04-28 15:17:36 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:17:38 DEBUG frontend:79 - User login screen
+2018-04-28 15:17:42 DEBUG frontend:93 - Rapport Screen
+2018-04-28 15:21:27 DEBUG frontend:79 - User login screen
+2018-04-28 15:21:30 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:38:37 DEBUG frontend:93 - Not logged in popup
+2018-04-28 16:38:37 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:39:28 DEBUG frontend:93 - Not logged in popup
+2018-04-28 16:39:28 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:40:44 DEBUG frontend:93 - Not logged in popup
+2018-04-28 16:40:44 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:41:48 DEBUG frontend:93 - Not logged in popup
+2018-04-28 16:41:48 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:42:54 DEBUG frontend:93 - Not logged in popup
+2018-04-28 16:42:54 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:43:08 DEBUG frontend:79 - User login screen
+2018-04-28 16:43:15 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:45:12 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:46:35 DEBUG frontend:93 - Not logged in popup
+2018-04-28 16:46:35 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:46:37 DEBUG frontend:79 - User login screen
+2018-04-28 16:46:42 DEBUG frontend:93 - Rapport Screen
+2018-04-28 16:51:12 DEBUG frontend:79 - User login screen
+2018-04-28 16:51:16 DEBUG frontend:93 - Rapport Screen
+2018-04-28 17:05:47 DEBUG frontend:79 - User login screen
+2018-04-28 17:05:54 DEBUG frontend:93 - Rapport Screen

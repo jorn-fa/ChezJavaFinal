@@ -24,7 +24,7 @@ public class PdfTotalByWaiter {
     private static final int leftRightMargin = 50;
 
 
-    private static final String pdfBackdrop = "results/tables/backdrop.pdf";
+    private static final String pdfBackdrop = "src/main/resources/tables/backdrop.pdf";
 
     public static void totalWaiter(String destination, Ober ober) throws IOException, DocumentException {
         PdfBackdrop.createPDF();

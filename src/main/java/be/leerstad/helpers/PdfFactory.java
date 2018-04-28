@@ -10,18 +10,41 @@ import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.HashMap;
 
 public class PdfFactory {
 
     private static Logger logger = Logger.getLogger(PdfFactory.class.getName());
+    private static String waar = System.getProperty("user.dir")+"-src-main-resources-tables-";
 
 //todo  wissen
-    private static final String pdfDestination = "results/tables/simple_table1.pdf";
-    private static final String pdfDestination2 = "results/tables/simple_table2.pdf";
-    private static final String pdfDestination3 = "results/tables/simple_table3.pdf";
-    private static final String pdfDestination4 = "results/tables/simple_table4.pdf";
+    private static final String pdfDestination = waar + File.separator + "simple_table1.pdf";
+    private static final String pdfDestination2 = waar + File.separator + "simple_table2.pdf";
+    private static final String pdfDestination3 = waar + File.separator + "simple_table3.pdf";
+    private static final String pdfDestination4 = waar + File.separator + "simple_table4.pdf";
+
+
+    public PdfFactory(){
+
+
+        //path maken indien niet existerend
+        Path location = Paths.get(waar.replace("-",File.separator) );
+
+        if (!Files.exists(location)){
+            try {
+                Files.createDirectories(location);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
+
 
 
     /**

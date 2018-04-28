@@ -16,7 +16,7 @@ import java.util.*;
 public class Piechart {
 
     private static final String piechartLocation = "src/main/resources/images/piechart.jpg";
-    private static final String tempDestination = "results/tables/temp.pdf";
+    private static final String tempDestination = "src/main/resources/tables/temp.pdf";
 
     public static void generatePiechart() throws IOException, DocumentException {
 

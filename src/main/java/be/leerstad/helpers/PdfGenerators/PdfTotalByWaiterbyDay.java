@@ -21,7 +21,7 @@ public class PdfTotalByWaiterbyDay {
     private static int leftRightMargin = 50;
     private static int totalSum;  //rekenwaarde overzicht per datum
 
-    private static final String pdfBackdrop = "results/tables/backdrop.pdf";
+    private static final String pdfBackdrop = "src/main/resources/tables/backdrop.pdf";
     private static HashMap<Integer, String> waiters = new WaiterDAOImpl().waiterList();
     private static List<Consumption> beveragelijst = new BeveragesDAOImpl().pricelijst();
 

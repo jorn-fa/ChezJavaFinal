@@ -30,7 +30,7 @@ public class RapportController implements Initializable {
     private Label fullNameField;
 
     @FXML
-    private Date today = Date.valueOf(LocalDate.now());
+    private Date today ;
 
     @FXML
     private DatePicker datePicker;
@@ -47,7 +47,6 @@ public class RapportController implements Initializable {
         today= Date.valueOf(LocalDate.now());
         Cafe.getInstance().loadProps();
 
-
         if(isIngelogd==false){showalert();}
     }
 
@@ -59,7 +58,7 @@ public class RapportController implements Initializable {
     }
 
     @FXML
-    private void getByDay(ActionEvent event) throws IOException, DocumentException {
+    private void getByDay() throws IOException, DocumentException {
         LocalDate localDate = datePicker.getValue();
         PdfFactory.GetPDFbyType("totalbywaiterssortedbyday", Cafe.getInstance().totalSortedProp,localDate);
         System.out.println("ja");
@@ -67,17 +66,17 @@ public class RapportController implements Initializable {
     }
 
     @FXML
-    private void totalByWaiter(ActionEvent event) throws IOException, DocumentException {
+    private void totalByWaiter() throws IOException, DocumentException {
         PdfFactory.GetPDFbyType("totalwaiter", Cafe.getInstance().totalWaiterProp, Cafe.getInstance().getOber());
     }
 
     @FXML
-    private void top3(ActionEvent event) throws IOException, DocumentException {
+    private void top3() throws IOException, DocumentException {
         PdfFactory.GetPDFbyType("topWaiterPieChart", Cafe.getInstance().TopWaiterPie);
     }
 
     @FXML
-    private void totalSalesForAllWaiters(ActionEvent event) throws IOException, DocumentException {
+    private void totalSalesForAllWaiters() throws IOException, DocumentException {
         PdfFactory.GetPDFbyType("totalwaiters", Cafe.getInstance().totalWaitersProp);
     }
 

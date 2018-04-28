@@ -13,7 +13,7 @@ public class PdfBackdrop {
 
     private PdfBackdrop(){}
 
-    private static final String pdfBackdrop = "results/tables/backdrop.pdf";
+    private static final String pdfBackdrop = "src/main/resources/tables/backdrop.pdf";
     private static final String IMAGE = "src/main/resources/images/chez.jpg";
 
     public static void createPDF() throws IOException, DocumentException {

@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 public class PdfTotalByWaiters {
 
-    private static final String pdfBackdrop = "results/tables/backdrop.pdf";
+    private static final String pdfBackdrop = "src/main/resources/tables/backdrop.pdf";
     private static final int top = 842;  //hoogte A4 formaat itext - rekenwaarde
     private static final int right = 595; //breedte ^
     private static final int leftRightMargin = 50;

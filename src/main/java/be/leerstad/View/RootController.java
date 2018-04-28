@@ -82,7 +82,7 @@ public class RootController implements Initializable{
 
 
     @FXML
-    public void RapportAction(ActionEvent event) throws IOException
+    public void RapportAction() throws IOException
     {
         Parent parent = FXMLLoader.load(getClass().getResource("/view/Rapport.fxml"));
         Scene rapportScene = new Scene(parent);
@@ -101,7 +101,7 @@ public class RootController implements Initializable{
         int tafelNummer=0;
 
         try {
-            tafelNummer = Integer.valueOf(btn.getId().toString().substring(5));
+            tafelNummer = Integer.valueOf(btn.getId().substring(5));
         } catch (NumberFormatException e) {
             log.debug("Something went wrong with fx:id on button");
         }

@@ -17,7 +17,7 @@ public class PdfPiechartTop3 {
     private final static int leftRightMargin = 50;
 
 
-    private static final String pdfBackdrop = "results/tables/backdrop.pdf";
+    private static final String pdfBackdrop = "src/main/resources/tables/backdrop.pdf";
     private static final String piechartLocation = "src/main/resources/images/piechart.jpg";
 
     public static void topWaiterPieChart(String destination) throws IOException, DocumentException {
