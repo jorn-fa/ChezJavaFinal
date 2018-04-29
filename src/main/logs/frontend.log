@@ -1079,3 +1079,116 @@
 2018-04-28 16:51:16 DEBUG frontend:93 - Rapport Screen
 2018-04-28 17:05:47 DEBUG frontend:79 - User login screen
 2018-04-28 17:05:54 DEBUG frontend:93 - Rapport Screen
+2018-04-29 15:15:47 DEBUG frontend:79 - User login screen
+2018-04-29 15:16:01 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-29 15:16:01 DEBUG frontend:264 - Call current tabel name
+2018-04-29 15:16:02 DEBUG frontend:116 - order Screen
+2018-04-29 15:35:54 DEBUG frontend:88 - tafel wisselen naar tafel:5
+2018-04-29 15:35:55 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-29 15:35:55 DEBUG frontend:116 - order Screen
+2018-04-29 15:35:59 DEBUG frontend:79 - User login screen
+2018-04-29 15:36:11 DEBUG frontend:88 - tafel wisselen naar tafel:5
+2018-04-29 15:36:11 DEBUG frontend:264 - Call current tabel name
+2018-04-29 15:36:12 DEBUG frontend:116 - order Screen
+2018-04-29 15:50:57 DEBUG frontend:283 - reeds gevuld door andere ober
+2018-04-29 15:50:57 DEBUG frontend:283 - reeds gevuld door andere ober
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 1
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:57 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:50:57 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:50:58 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:58 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:50:58 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:50:58 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:50:58 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:50:58 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:50:58 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:50:58 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:40 DEBUG frontend:283 - reeds gevuld door andere ober
+2018-04-29 15:51:40 DEBUG frontend:283 - reeds gevuld door andere ober
+2018-04-29 15:51:40 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:40 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:40 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:40 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 1
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:51:41 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:51:41 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:29 DEBUG frontend:283 - reeds gevuld door andere ober
+2018-04-29 15:52:29 DEBUG frontend:283 - reeds gevuld door andere ober
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:29 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:29 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:1
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:52:29 DEBUG frontend:166 - On exit - serial table: 1
+2018-04-29 15:52:29 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:52:29 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:52:29 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:52:29 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:29 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:30 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:30 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:30 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:30 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-29 15:52:30 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-29 15:52:30 DEBUG frontend:88 - tafel wisselen naar tafel:2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 2
+2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 3

@@ -1,6 +1,7 @@
 package be.leerstad.helpers;
 
 import be.leerstad.Tafel;
+import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,6 +18,7 @@ public class DeSerializer {
     private String waar = ob.getWaar().toString();
     private long count = 0;
     private String fileNames[];
+    private static Logger logger = Logger.getLogger(DeSerializer.class.getName());
 
 
     private void wisser()
@@ -27,7 +29,7 @@ public class DeSerializer {
                 File file = new File(waar + File.separator + "Tafel." + teller);
 
                 if (file.delete()) {
-                    System.err.println(file.getName() + " is deleted!");
+                    logger.debug(file.getName() + " is deleted!");
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -37,23 +39,31 @@ public class DeSerializer {
 
     public Tafel[] giveTafel(Tafel[] tafellijst){
 
+        //path maken indien niet existerend
+
+        if (!Files.exists(Paths.get(waar))){
+            try {
+                Files.createDirectories(Paths.get(waar));
+            } catch (IOException e) {
+                logger.debug("File directory did not exist");
+            }
+        }
+
         try (Stream<Path> files = Files.list(Paths.get(waar))) {
             count=files.count();
-
-
             if (count>0){
                 //grab file names
                 fileNames=new File(waar).list();
             }
             }
          catch (IOException e) {
-            e.printStackTrace();
+            logger.debug("No files in directory");
         }
 
         for(long fileteller=count;fileteller>0;fileteller--){
 
             Tafel temp;
-            boolean magWissen=false;
+
 
             if (fileNames != null) {
                 try (
@@ -73,41 +83,10 @@ public class DeSerializer {
                     e.printStackTrace ();
                 }
             }
-
-
-
-
-
         }
 
         wisser();
 
         return tafellijst;
-
-
-    }
-
-    public static void main(String[] args) {
-        DeSerializer ds = new DeSerializer();
-        Tafel een = new Tafel("test1");
-        Tafel twee = new Tafel("test2");
-        Tafel drie = new Tafel("3");
-        Tafel vier = new Tafel("test4");
-        Tafel[] lijst = new Tafel[]{een,twee,drie,vier};
-
-        for (Tafel tafel:lijst) {
-            System.out.println(tafel.getNaam() + " hasorders: " + tafel.hasOrders() ) ;
-
-        }
-
-        lijst=ds.giveTafel(lijst);
-        System.out.println("----");
-
-        for (Tafel tafel:lijst) {
-            System.out.println(tafel.getNaam() + " hasorders: " + tafel.hasOrders() ) ;
-
-        }
-
-
     }
 }

@@ -48,6 +48,7 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
         hasOrders=true;
     }
 
+
     public boolean hasPaid(){
         hasOrders=false;
         order.clearOrder();
@@ -60,17 +61,6 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
     }
 
     public ObservableList<Consumption> getFXLijstForPayment(){return  FXCollections.observableArrayList(order.getLijstForPayment());}
-
-
-    public void afdrukken() {
-        List<Consumption> Orders = order.getLijstForPayment();
-        for (int i = 0; i < Orders.size(); i++) {
-
-            System.out.println(Orders.get(i).toString());
-        }
-    }
-
-
 
 
     @Override
@@ -94,10 +84,7 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Tafel{");
-        sb.append(naam.toLowerCase() + "}");
-        return sb.toString();
+        return "Tafel{" + naam.toLowerCase() + "}";
     }
 
 

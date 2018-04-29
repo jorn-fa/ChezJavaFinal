@@ -103,9 +103,7 @@ public final class Ober implements Comparable<Ober> , java.io.Serializable{
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append( "Ober{" +  "naam='" + naam + '\'' + ", voornaam='" + voornaam + "\'}");
-        return sb.toString();
+        return ("Ober{" + "naam='" + naam + '\'' + ", voornaam='" + voornaam + "\'}");
     }
 
 
