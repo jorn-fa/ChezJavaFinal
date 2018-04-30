@@ -21,6 +21,8 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -40,7 +42,7 @@ public class Cafe extends Application {
     private static Cafe instance;
     public Cafe(){this(null);instance=this;}
     public PdfFactory pdfFactory = new PdfFactory();
-    private DeSerializer ds = new DeSerializer();
+    private DeSerializer deSerializer = new DeSerializer();
 
 
 
@@ -51,12 +53,12 @@ public class Cafe extends Application {
 
     private Ober currentWaiter;
 
-    Tafel tafel1 = new Tafel("1");
-    Tafel tafel2 = new Tafel("2");
-    Tafel tafel3 = new Tafel("3");
-    Tafel tafel4 = new Tafel("4");
-    Tafel tafel5 = new Tafel("5");
-    Tafel tafel6 = new Tafel("6");
+    private Tafel tafel1 = new Tafel("1");
+    private Tafel tafel2 = new Tafel("2");
+    private Tafel tafel3 = new Tafel("3");
+    private Tafel tafel4 = new Tafel("4");
+    private Tafel tafel5 = new Tafel("5");
+    private Tafel tafel6 = new Tafel("6");
 
     private Tafel[] tafels = new Tafel[]{tafel1,tafel2,tafel3,tafel4,tafel5,tafel6};
 
@@ -132,14 +134,7 @@ public class Cafe extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        tafels = ds.giveTafel(tafels);
-
-        for (Tafel tafel:
-                tafels
-             ) {
-            System.out.println(tafel.hasOrders());
-
-        }
+        tafels = deSerializer.giveTafel(tafels);
 
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Chez Java");
@@ -154,6 +149,7 @@ public class Cafe extends Application {
     public void stop()
     {
         wegSchrijven();
+        frontlogger.debug("system shutdown on: " + LocalDateTime.now());
 
     }
 
@@ -161,7 +157,7 @@ public class Cafe extends Application {
         ObjectToSerialize ob = new ObjectToSerialize();
 
         for (int teller = 0; teller<tafels.length;teller++)
-            if (tafels[teller].hasOrders()&&isIngelogd()){
+            if (tafels[teller].hasOrders()){
                 ob.Serialize(tafels[teller]);
                 frontlogger.debug("On exit - serial table: " + (teller+1));
             }
@@ -176,13 +172,7 @@ public class Cafe extends Application {
 
             rootLayout = (AnchorPane) loader.load();          // Show the scene containing the root layout.
 
-            Clock clock;
-            clock = new Clock(Color.BLACK.brighter(), Color.TRANSPARENT);
-            clock.setLayoutX(1000);
-            clock.setLayoutY(700);
-            clock.getTransforms().add(new Scale(0.4f, 0.4f, 0, 0));
 
-            rootLayout.getChildren().add(clock);
             scene1 = new Scene(rootLayout);
 
             primaryStage.setScene(scene1);
@@ -190,7 +180,7 @@ public class Cafe extends Application {
 
 
             try {
-                if (DbaseConnection.isAlive()==false){showalert();}
+                if (!DbaseConnection.isAlive()){showalert();}
             } catch (Exception e) {
                 dbaseLogger.error("Dbase not connected");
 
@@ -309,6 +299,12 @@ public class Cafe extends Application {
     {
         WaiterDAOImpl waiterDAOImpl = new WaiterDAOImpl();
         //waiterDAOImpl.
+    }
+
+    public void mailFile(String location,String titel)
+    {
+        Email email = new Email();
+        email.sendMail(location,titel);
     }
 
 

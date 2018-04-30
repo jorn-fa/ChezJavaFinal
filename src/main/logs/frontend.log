@@ -1192,3 +1192,294 @@
 2018-04-29 15:52:30 DEBUG frontend:88 - tafel wisselen naar tafel:2
 2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 2
 2018-04-29 15:52:30 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-30 12:22:13 DEBUG frontend:216 - DBASE NOT CONNECTED
+2018-04-30 12:22:29 DEBUG frontend:79 - User login screen
+2018-04-30 12:22:34 DEBUG frontend:93 - Rapport Screen
+2018-04-30 12:26:46 DEBUG frontend:79 - User login screen
+2018-04-30 12:26:51 DEBUG frontend:93 - Rapport Screen
+2018-04-30 12:34:07 DEBUG frontend:79 - User login screen
+2018-04-30 12:34:13 DEBUG frontend:93 - Rapport Screen
+2018-04-30 12:37:53 DEBUG frontend:101 - Not logged in popup
+2018-04-30 12:37:53 DEBUG frontend:93 - Rapport Screen
+2018-04-30 12:37:54 DEBUG frontend:79 - User login screen
+2018-04-30 12:38:02 DEBUG frontend:93 - Rapport Screen
+2018-04-30 12:40:52 DEBUG frontend:79 - User login screen
+2018-04-30 12:40:55 DEBUG frontend:93 - Rapport Screen
+2018-04-30 12:44:35 DEBUG frontend:79 - User login screen
+2018-04-30 12:44:39 DEBUG frontend:93 - Rapport Screen
+2018-04-30 12:55:45 DEBUG frontend:79 - User login screen
+2018-04-30 12:55:49 DEBUG frontend:79 - User login screen
+2018-04-30 12:55:50 DEBUG frontend:79 - User login screen
+2018-04-30 12:56:17 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-30 12:56:17 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-30 12:56:17 DEBUG frontend:116 - order Screen
+2018-04-30 12:56:21 DEBUG frontend:88 - tafel wisselen naar tafel:6
+2018-04-30 12:56:21 DEBUG frontend:260 - oproepen order window zonder ingelogd te zijn
+2018-04-30 12:56:21 DEBUG frontend:116 - order Screen
+2018-04-30 12:56:29 DEBUG frontend:79 - User login screen
+2018-04-30 12:56:32 DEBUG frontend:283 - reeds gevuld door andere ober
+2018-04-30 12:56:33 DEBUG frontend:88 - tafel wisselen naar tafel:6
+2018-04-30 12:56:33 DEBUG frontend:264 - Call current tabel name
+2018-04-30 12:56:33 DEBUG frontend:116 - order Screen
+2018-04-30 12:56:35 DEBUG frontend:88 - tafel wisselen naar tafel:5
+2018-04-30 12:56:35 DEBUG frontend:264 - Call current tabel name
+2018-04-30 12:56:35 DEBUG frontend:116 - order Screen
+2018-04-30 12:58:54 DEBUG frontend:79 - User login screen
+2018-04-30 12:58:58 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-30 12:58:58 DEBUG frontend:264 - Call current tabel name
+2018-04-30 12:58:58 DEBUG frontend:116 - order Screen
+2018-04-30 12:59:03 DEBUG frontend:138 - Add: cola 1
+2018-04-30 12:59:06 DEBUG frontend:166 - On exit - serial table: 4
+2018-04-30 13:00:16 DEBUG frontend:79 - User login screen
+2018-04-30 13:00:22 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-30 13:00:22 DEBUG frontend:264 - Call current tabel name
+2018-04-30 13:00:22 DEBUG frontend:116 - order Screen
+2018-04-30 13:00:27 DEBUG frontend:138 - Add: cola 1
+2018-04-30 13:00:28 DEBUG frontend:302 - Payment button pressed
+2018-04-30 13:00:28 DEBUG frontend:165 - afrekenen
+2018-04-30 13:00:32 DEBUG frontend:138 - Add: cola 1
+2018-04-30 13:00:34 DEBUG frontend:166 - On exit - serial table: 3
+2018-04-30 13:38:34 DEBUG frontend:79 - User login screen
+2018-04-30 13:38:39 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-30 13:38:39 DEBUG frontend:264 - Call current tabel name
+2018-04-30 13:38:39 DEBUG frontend:116 - order Screen
+2018-04-30 13:42:14 DEBUG frontend:79 - User login screen
+2018-04-30 13:42:19 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-30 13:42:19 DEBUG frontend:263 - Call current tabel name
+2018-04-30 13:42:19 DEBUG frontend:116 - order Screen
+2018-04-30 13:42:22 DEBUG frontend:138 - Add: cola 1
+2018-04-30 13:42:25 DEBUG frontend:165 - On exit - serial table: 4
+2018-04-30 13:45:18 DEBUG frontend:79 - User login screen
+2018-04-30 13:45:24 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-30 13:45:24 DEBUG frontend:263 - Call current tabel name
+2018-04-30 13:45:24 DEBUG frontend:116 - order Screen
+2018-04-30 13:45:28 DEBUG frontend:138 - Add: cola 1
+2018-04-30 13:45:28 DEBUG frontend:301 - Payment button pressed
+2018-04-30 13:45:28 DEBUG frontend:165 - afrekenen
+2018-04-30 13:45:37 DEBUG frontend:79 - User login screen
+2018-04-30 13:45:41 DEBUG frontend:88 - tafel wisselen naar tafel:4
+2018-04-30 13:45:41 DEBUG frontend:263 - Call current tabel name
+2018-04-30 13:45:42 DEBUG frontend:116 - order Screen
+2018-04-30 13:45:44 DEBUG frontend:138 - Add: cola 1
+2018-04-30 13:45:45 DEBUG frontend:165 - On exit - serial table: 4
+2018-04-30 13:45:50 DEBUG frontend:165 - On exit - serial table: 4
+2018-04-30 13:45:57 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-30 13:45:57 DEBUG frontend:259 - oproepen order window zonder ingelogd te zijn
+2018-04-30 13:45:57 DEBUG frontend:116 - order Screen
+2018-04-30 13:46:02 DEBUG frontend:79 - User login screen
+2018-04-30 13:46:06 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-30 13:46:06 DEBUG frontend:263 - Call current tabel name
+2018-04-30 13:46:06 DEBUG frontend:116 - order Screen
+2018-04-30 13:46:09 DEBUG frontend:138 - Add: cola 1
+2018-04-30 13:46:12 DEBUG frontend:165 - On exit - serial table: 3
+2018-04-30 13:46:12 DEBUG frontend:165 - On exit - serial table: 4
+2018-04-30 13:46:22 DEBUG frontend:79 - User login screen
+2018-04-30 13:46:26 DEBUG frontend:88 - tafel wisselen naar tafel:3
+2018-04-30 13:46:26 DEBUG frontend:263 - Call current tabel name
+2018-04-30 13:46:26 DEBUG frontend:116 - order Screen
+2018-04-30 13:46:27 DEBUG frontend:301 - Payment button pressed
+2018-04-30 13:46:27 DEBUG frontend:165 - On exit - serial table: 4
+2018-04-30 13:46:27 DEBUG frontend:165 - afrekenen
+2018-04-30 13:46:28 DEBUG frontend:165 - On exit - serial table: 4
+2018-04-30 13:46:37 DEBUG frontend:165 - On exit - serial table: 4
+2018-04-30 13:49:03 DEBUG frontend:161 - On exit - serial table: 4
+2018-04-30 13:49:03 DEBUG frontend:151 - system shutdown on: 2018-04-30
+2018-04-30 13:49:59 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 13:49:59 DEBUG frontend:152 - system shutdown on: 2018-04-30T13:49:59.902
+2018-04-30 13:51:05 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 13:51:05 DEBUG frontend:152 - system shutdown on: 2018-04-30T13:51:05.875
+2018-04-30 13:53:59 DEBUG frontend:79 - User login screen
+2018-04-30 13:54:05 DEBUG frontend:79 - User login screen
+2018-04-30 13:54:07 DEBUG frontend:93 - Rapport Screen
+2018-04-30 13:54:10 DEBUG frontend:90 - tafel wisselen naar tafel:1
+2018-04-30 13:54:11 DEBUG frontend:260 - Call current tabel name
+2018-04-30 13:54:11 DEBUG frontend:116 - order Screen
+2018-04-30 13:54:13 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 13:54:13 DEBUG frontend:152 - system shutdown on: 2018-04-30T13:54:13.420
+2018-04-30 13:55:01 DEBUG frontend:90 - tafel wisselen naar tafel:4
+2018-04-30 13:55:01 DEBUG frontend:250 - oproepen order window zonder ingelogd te zijn
+2018-04-30 13:55:01 DEBUG frontend:116 - order Screen
+2018-04-30 13:55:03 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 13:55:03 DEBUG frontend:152 - system shutdown on: 2018-04-30T13:55:03.909
+2018-04-30 13:57:25 DEBUG frontend:79 - User login screen
+2018-04-30 13:57:38 DEBUG frontend:90 - tafel wisselen naar tafel:1
+2018-04-30 13:57:38 DEBUG frontend:180 - list cleared before reload
+2018-04-30 13:57:38 DEBUG frontend:254 - Call current tabel name
+2018-04-30 13:57:38 DEBUG frontend:116 - order Screen
+2018-04-30 13:57:45 DEBUG frontend:137 - Add: cola 1
+2018-04-30 13:57:46 DEBUG frontend:292 - Payment button pressed
+2018-04-30 13:57:46 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 13:57:46 DEBUG frontend:164 - afrekenen
+2018-04-30 13:57:47 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 13:57:47 DEBUG frontend:152 - system shutdown on: 2018-04-30T13:57:47.658
+2018-04-30 13:59:43 DEBUG frontend:90 - tafel wisselen naar tafel:1
+2018-04-30 13:59:43 DEBUG frontend:181 - list cleared before reload
+2018-04-30 13:59:43 DEBUG frontend:250 - oproepen order window zonder ingelogd te zijn
+2018-04-30 13:59:43 DEBUG frontend:116 - order Screen
+2018-04-30 13:59:47 DEBUG frontend:79 - User login screen
+2018-04-30 13:59:51 DEBUG frontend:90 - tafel wisselen naar tafel:1
+2018-04-30 13:59:51 DEBUG frontend:181 - list cleared before reload
+2018-04-30 13:59:51 DEBUG frontend:254 - Call current tabel name
+2018-04-30 13:59:51 DEBUG frontend:116 - order Screen
+2018-04-30 14:01:24 DEBUG frontend:79 - User login screen
+2018-04-30 14:01:26 DEBUG frontend:90 - tafel wisselen naar tafel:3
+2018-04-30 14:01:26 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:01:26 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:01:27 DEBUG frontend:116 - order Screen
+2018-04-30 14:01:35 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:01:35 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:01:35.490
+2018-04-30 14:05:54 DEBUG frontend:90 - tafel wisselen naar tafel:3
+2018-04-30 14:05:54 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:05:54 DEBUG frontend:250 - oproepen order window zonder ingelogd te zijn
+2018-04-30 14:05:54 DEBUG frontend:116 - order Screen
+2018-04-30 14:06:00 DEBUG frontend:79 - User login screen
+2018-04-30 14:06:03 DEBUG frontend:90 - tafel wisselen naar tafel:3
+2018-04-30 14:06:03 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:06:03 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:06:03 DEBUG frontend:116 - order Screen
+2018-04-30 14:08:30 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:08:30 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:08:30.270
+2018-04-30 14:36:20 DEBUG frontend:79 - User login screen
+2018-04-30 14:36:26 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:36:26 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:36:26 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:36:26 DEBUG frontend:116 - order Screen
+2018-04-30 14:36:31 DEBUG frontend:138 - Add: cola 5
+2018-04-30 14:36:33 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:36:33 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:36:33 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:36:33.835
+2018-04-30 14:36:44 DEBUG frontend:90 - tafel wisselen naar tafel:3
+2018-04-30 14:36:44 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:36:44 DEBUG frontend:250 - oproepen order window zonder ingelogd te zijn
+2018-04-30 14:36:44 DEBUG frontend:116 - order Screen
+2018-04-30 14:36:48 DEBUG frontend:79 - User login screen
+2018-04-30 14:36:54 DEBUG frontend:90 - tafel wisselen naar tafel:3
+2018-04-30 14:36:54 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:36:54 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:36:54 DEBUG frontend:116 - order Screen
+2018-04-30 14:37:03 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:37:03 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:37:03 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:37:03.234
+2018-04-30 14:37:08 DEBUG frontend:79 - User login screen
+2018-04-30 14:37:12 DEBUG frontend:90 - tafel wisselen naar tafel:3
+2018-04-30 14:37:12 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:37:12 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:37:13 DEBUG frontend:116 - order Screen
+2018-04-30 14:37:15 DEBUG frontend:292 - Payment button pressed
+2018-04-30 14:37:15 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:37:15 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:37:15 DEBUG frontend:165 - afrekenen
+2018-04-30 14:40:16 DEBUG frontend:292 - Payment button pressed
+2018-04-30 14:40:16 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:40:16 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:40:16 DEBUG frontend:165 - afrekenen
+2018-04-30 14:40:29 DEBUG frontend:292 - Payment button pressed
+2018-04-30 14:40:29 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:40:29 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:40:29 DEBUG frontend:165 - afrekenen
+2018-04-30 14:40:40 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:40:40 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:40:40 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:40:40 DEBUG frontend:116 - order Screen
+2018-04-30 14:40:44 DEBUG frontend:138 - Add: cola 5
+2018-04-30 14:40:46 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:40:46 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:40:46 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:40:46.663
+2018-04-30 14:40:58 DEBUG frontend:162 - On exit - serial table: 4
+2018-04-30 14:40:58 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:40:58 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:40:58.177
+2018-04-30 14:41:07 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:41:07 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:41:07 DEBUG frontend:250 - oproepen order window zonder ingelogd te zijn
+2018-04-30 14:41:08 DEBUG frontend:116 - order Screen
+2018-04-30 14:41:10 DEBUG frontend:79 - User login screen
+2018-04-30 14:41:14 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:41:14 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:41:14 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:41:15 DEBUG frontend:116 - order Screen
+2018-04-30 14:42:09 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:42:09.840
+2018-04-30 14:42:23 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:42:23 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:42:23 DEBUG frontend:250 - oproepen order window zonder ingelogd te zijn
+2018-04-30 14:42:23 DEBUG frontend:116 - order Screen
+2018-04-30 14:42:26 DEBUG frontend:79 - User login screen
+2018-04-30 14:42:30 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:42:30 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:42:30 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:42:30 DEBUG frontend:116 - order Screen
+2018-04-30 14:42:34 DEBUG frontend:292 - Payment button pressed
+2018-04-30 14:42:34 DEBUG frontend:165 - afrekenen
+2018-04-30 14:42:37 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:42:37.179
+2018-04-30 14:43:00 DEBUG frontend:79 - User login screen
+2018-04-30 14:43:04 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:43:04 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:43:04 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:43:05 DEBUG frontend:116 - order Screen
+2018-04-30 14:43:08 DEBUG frontend:138 - Add: cola 5
+2018-04-30 14:43:12 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:43:12 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:43:12.100
+2018-04-30 14:43:41 DEBUG frontend:79 - User login screen
+2018-04-30 14:43:46 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:43:46 DEBUG frontend:181 - list cleared before reload
+2018-04-30 14:43:46 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:43:46 DEBUG frontend:116 - order Screen
+2018-04-30 14:43:58 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:43:58 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:43:58.597
+2018-04-30 14:45:08 DEBUG frontend:79 - User login screen
+2018-04-30 14:45:12 DEBUG frontend:90 - tafel wisselen naar tafel:1
+2018-04-30 14:45:12 DEBUG frontend:182 - list cleared before reload
+2018-04-30 14:45:12 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:45:12 DEBUG frontend:116 - order Screen
+2018-04-30 14:45:22 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:45:22 DEBUG frontend:182 - list cleared before reload
+2018-04-30 14:45:22 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:45:22 DEBUG frontend:116 - order Screen
+2018-04-30 14:46:56 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:46:56 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:46:56.703
+2018-04-30 14:48:02 DEBUG frontend:79 - User login screen
+2018-04-30 14:48:08 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:48:08 DEBUG frontend:182 - list cleared before reload
+2018-04-30 14:48:08 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:48:08 DEBUG frontend:116 - order Screen
+2018-04-30 14:51:50 DEBUG frontend:79 - User login screen
+2018-04-30 14:51:53 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:51:53 DEBUG frontend:182 - list cleared before reload
+2018-04-30 14:51:53 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:51:53 DEBUG frontend:116 - order Screen
+2018-04-30 14:52:06 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:52:06.811
+2018-04-30 14:52:39 DEBUG frontend:79 - User login screen
+2018-04-30 14:53:12 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:53:12 DEBUG frontend:183 - list cleared before reload
+2018-04-30 14:53:12 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:53:12 DEBUG frontend:116 - order Screen
+2018-04-30 14:53:16 DEBUG frontend:138 - Add: cola 5
+2018-04-30 14:53:40 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:53:40 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:53:40.658
+2018-04-30 14:53:49 DEBUG frontend:79 - User login screen
+2018-04-30 14:53:54 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:53:54 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:53:54.414
+2018-04-30 14:54:04 DEBUG frontend:79 - User login screen
+2018-04-30 14:54:07 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:54:07 DEBUG frontend:183 - list cleared before reload
+2018-04-30 14:54:07 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:54:07 DEBUG frontend:116 - order Screen
+2018-04-30 14:54:30 DEBUG frontend:162 - On exit - serial table: 5
+2018-04-30 14:54:30 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:54:30.612
+2018-04-30 14:55:02 DEBUG frontend:79 - User login screen
+2018-04-30 14:55:07 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 14:55:07 DEBUG frontend:184 - list cleared before reload
+2018-04-30 14:55:07 DEBUG frontend:254 - Call current tabel name
+2018-04-30 14:55:07 DEBUG frontend:116 - order Screen
+2018-04-30 14:55:11 DEBUG frontend:158 - Remove: cola -6
+2018-04-30 14:55:15 DEBUG frontend:292 - Payment button pressed
+2018-04-30 14:55:15 DEBUG frontend:168 - afrekenen
+2018-04-30 14:55:34 DEBUG frontend:152 - system shutdown on: 2018-04-30T14:55:34.210
+2018-04-30 15:02:37 DEBUG frontend:79 - User login screen
+2018-04-30 15:02:41 DEBUG frontend:90 - tafel wisselen naar tafel:5
+2018-04-30 15:02:41 DEBUG frontend:185 - list cleared before reload
+2018-04-30 15:02:41 DEBUG frontend:254 - Call current tabel name
+2018-04-30 15:02:41 DEBUG frontend:116 - order Screen
+2018-04-30 15:02:45 DEBUG frontend:138 - Add: cola 5
+2018-04-30 15:02:49 DEBUG frontend:292 - Payment button pressed
+2018-04-30 15:02:49 DEBUG frontend:169 - afrekenen
+2018-04-30 15:03:07 DEBUG frontend:152 - system shutdown on: 2018-04-30T15:03:07.109

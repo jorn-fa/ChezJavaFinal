@@ -109,25 +109,4 @@ public class PdfFactory {
 }
 
 
-
-    public static void main(String[] args) throws IOException, DocumentException {
-
-        LocalDate datum = LocalDate.of(2017, 12, 21);
-        File file = new File(pdfDestination);
-        Ober ober = new Ober(1, "peeters", "wout");
-
-        file.getParentFile().mkdirs();
-
-
-        PdfFactory.GetPDFbyType("totalwaiter", pdfDestination, ober );
-
-
-        PdfFactory.GetPDFbyType("totalwaiters", pdfDestination2);
-        PdfFactory.GetPDFbyType("totalByWaitersSortedByday",pdfDestination3,datum);
-        PdfFactory.GetPDFbyType("topWaiterPieChart",pdfDestination4);
-
-
-    }
-
-
 }

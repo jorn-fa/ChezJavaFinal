@@ -1,4 +1,4 @@
-package be.leerstad;
+package be.leerstad.helpers;
 
 import org.apache.log4j.Logger;
 
@@ -16,11 +16,10 @@ import java.util.Properties;
 
 public class Email {
 	
-	//private static Logger log = Logger.getLogger (Email.class);
-    private static Logger log = Logger.getLogger("email");
+	    private static Logger log = Logger.getLogger("email");
 	
 
-	public boolean sendMail (String file, String fileName) {
+	public boolean sendMail (String file, String titel) {
 		
 		boolean sent = false;
 		final String userName;
@@ -59,7 +58,7 @@ public class Email {
 			MimeMessage message = new MimeMessage (session);
 			message.setFrom (new InternetAddress (from));
 			message.addRecipient (Message.RecipientType.TO, new InternetAddress (to));
-			message.setSubject ("Report " + fileName);
+			message.setSubject ("Report " + titel);
 			
 			BodyPart messageBodyPart = new MimeBodyPart ();
 			messageBodyPart.setText ("Dear  \n\nIn attachment you'll find the requested report  \n\nKind Regards \n\nPeter Hardeel ");
@@ -87,7 +86,7 @@ public class Email {
 		} catch (MessagingException mex) {
 			log.error (mex);
 		}
-        log.debug("mail sent");
+        log.debug("mail sent with titel" + titel);
 		return sent;
 	}
 	

@@ -1,4 +1,4 @@
-package be.leerstad;
+package be.leerstad.helpers;
 
 /**
  *

@@ -2,14 +2,15 @@ package be.leerstad.View;
 
 import be.leerstad.Cafe;
 import be.leerstad.Consumption;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.*;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.apache.log4j.Logger;
 
@@ -22,7 +23,7 @@ public class OrdersController implements Initializable {
     public OrdersController() {    }
 
     private static Logger log = Logger.getLogger("frontend");
-    Consumption consumption;
+    private Consumption consumption;
 
     private boolean isIngelogd;
 
@@ -118,8 +119,7 @@ public class OrdersController implements Initializable {
             log.debug("opgevangen leeg invoerveld");
             qtyField.setText("0");        }
 
-        if(Double.valueOf(qtyField.getText())>0){ return true;}
-        return false;
+        return Double.valueOf(qtyField.getText()) > 0;
     }
 
 
@@ -142,14 +142,18 @@ public class OrdersController implements Initializable {
     }
 
     @FXML
-    private void removeConsumtionAction(ActionEvent event) throws  NumberFormatException{
+    private void removeConsumtionAction() throws  NumberFormatException{
 
 
-        if (isIngelogd){
+        //todo beveiliging inbouwen tegen niets geselecteerd
+        consumption = new Consumption(1, "cola", 2.4d);
+        consumption.aantal=0;
+        if (isIngelogd&&Cafe.getInstance().currentTafel.hasOrders()){
 
             if (verifyQty()) {
 
                 //omzetten van add naar remove -> positief naar negatief getal
+                System.out.println(qtyField.getText());
                 consumption.aantal-=Integer.valueOf(qtyField.getText())*2;
 
                 log.debug("Remove: " + consumption.getNaam() + " " + consumption.getAantal());
@@ -159,7 +163,7 @@ public class OrdersController implements Initializable {
     }
 
     @FXML
-    private void afrekenAction(ActionEvent event)throws NumberFormatException
+    private void afrekenAction()throws NumberFormatException
     {
         Cafe.getInstance().afrekenen();
         log.debug("afrekenen");
@@ -178,13 +182,7 @@ public class OrdersController implements Initializable {
             consumptionName.setText(consumption.getNaam());
 
         } else {
-            System.out.println("in de null van consumption");
-            //NaamLabel.setText("");
-            //NaamLabel.setText(consumption.getNaam());
-            //qtyLabel.setText(String.valueOf(consumption.getAantal()));
-            //consumptionName.setText(consumption.getNaam());
-
-
+            log.debug("list cleared before reload");
         }
 
     }

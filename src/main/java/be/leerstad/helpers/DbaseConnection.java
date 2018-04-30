@@ -56,7 +56,6 @@ public class DbaseConnection {
         inlezen();
 
         try {
-
             DriverManager.registerDriver(new Driver());
             return DriverManager.getConnection(url, username, password);
 
@@ -64,8 +63,6 @@ public class DbaseConnection {
 
             logger.error("error connection to database: " );
             throw new RuntimeException("Error connecting to the database", ex);
-
-
         }
 
     }
@@ -78,7 +75,7 @@ public class DbaseConnection {
             getConnection();
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.debug("Database is not running, check connection");
         }
 
         return false;
