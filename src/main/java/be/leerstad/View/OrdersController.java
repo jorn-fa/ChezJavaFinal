@@ -9,10 +9,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.apache.log4j.Logger;
 
@@ -70,7 +67,11 @@ public class OrdersController implements Initializable {
     public OrdersController() {}
 
     private ObservableList<Consumption> getConsumptionData() {
-        return FXCollections.observableArrayList(Cafe.getInstance().getBeverageList());
+        return FXCollections.observableArrayList(Cafe.getInstance().getBeverageList()).sorted();
+    }
+
+    private ObservableList<Consumption> getbesteldData() {
+        return FXCollections.observableArrayList(Cafe.getInstance().currentTafel.getLijstForPayment()).sorted();
     }
 
     private StringProperty convertToStringProperty(String naam){
@@ -86,8 +87,11 @@ public class OrdersController implements Initializable {
         consumptionQtyColumn.setCellValueFactory((cellData -> convertToStringProperty(String.valueOf(cellData.getValue().getPrijs()))));
 
         //direct inladen bestelde items
-        besteldData.setItems(Cafe.getInstance().currentTafel.getFXLijstForPayment());
-        besteldList = Cafe.getInstance().currentTafel.getFXLijstForPayment();
+        //besteldData.setItems(Cafe.getInstance().currentTafel.getFXLijstForPayment().sorted());
+        besteldData.setItems(getbesteldData());
+        besteldList = getbesteldData();
+        //besteldList = Cafe.getInstance().currentTafel.getFXLijstForPayment();
+
 
 
         besteldName.setCellValueFactory(new PropertyValueFactory<>("naam"));
@@ -123,43 +127,70 @@ public class OrdersController implements Initializable {
     }
 
 
+    private void showAlert(){
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.setTitle("No Selection");
+        alert.setHeaderText("No Consumtion selected");
+        alert.setContentText("Please select a person in the table.");
+
+        alert.showAndWait();
+    }
+
 
     @FXML
     private void addConsumtionAction(ActionEvent event) throws IOException {
 
-        //todo aanpassen naar geselecteerde consumptie
-        consumption = new Consumption(1, "cola", 2.4d);
 
-        consumption.aantal=Integer.valueOf(qtyField.getText());
 
-        if (isIngelogd) {
+        consumption = consumtionTable.getSelectionModel().getSelectedItem();
 
-            if (verifyQty()) {
-                log.debug("Add: " + consumption.getNaam() + " " + consumption.getAantal());
-                Cafe.getInstance().currentTafel.addConsumption(consumption, Cafe.getInstance().getOber());
+        if (consumption==null){
+
+            showAlert();
+        }
+
+        else {
+            consumption.aantal = Integer.valueOf(qtyField.getText());
+
+            if (isIngelogd) {
+
+                if (verifyQty()) {
+                    log.debug("Add: " + consumption.getNaam() + " " + consumption.getAantal());
+                    Cafe.getInstance().currentTafel.addConsumption(consumption, Cafe.getInstance().getOber());
+
+                }
             }
         }
+        //todo dit is niet snel genoeg
+        besteldData.setItems(getbesteldData());
+        besteldData.refresh();
     }
 
     @FXML
     private void removeConsumtionAction() throws  NumberFormatException{
 
+        consumption = consumtionTable.getSelectionModel().getSelectedItem();
 
-        //todo beveiliging inbouwen tegen niets geselecteerd
-        consumption = new Consumption(1, "cola", 2.4d);
-        consumption.aantal=0;
-        if (isIngelogd&&Cafe.getInstance().currentTafel.hasOrders()){
+        if (consumption==null){
+            showAlert();
+        }
+        else {
+            consumption.aantal = 0;
+            if (isIngelogd && Cafe.getInstance().currentTafel.hasOrders()) {
 
-            if (verifyQty()) {
+                if (verifyQty()) {
 
-                //omzetten van add naar remove -> positief naar negatief getal
-                System.out.println(qtyField.getText());
-                consumption.aantal-=Integer.valueOf(qtyField.getText())*2;
+                    //omzetten van add naar remove -> positief naar negatief getal
+                    System.out.println(qtyField.getText());
+                    consumption.aantal -= Integer.valueOf(qtyField.getText()) ;                   
+                    log.debug("Remove: " + consumption.getNaam() + " " + consumption.getAantal());
+                    Cafe.getInstance().currentTafel.addConsumption(consumption, Cafe.getInstance().getOber());
 
-                log.debug("Remove: " + consumption.getNaam() + " " + consumption.getAantal());
-                Cafe.getInstance().currentTafel.addConsumption(consumption, Cafe.getInstance().getOber());
+                }
             }
         }
+        besteldData.setItems(getbesteldData());
+        besteldData.refresh();
     }
 
     @FXML

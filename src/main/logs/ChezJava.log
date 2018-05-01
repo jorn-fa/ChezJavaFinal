@@ -10227,3 +10227,2368 @@
 2018-05-01 17:35:40 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
 2018-05-01 17:35:40 DEBUG Tafel:38 - Check if table has items
 2018-05-01 17:35:40 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 20:51:52 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 20:51:52 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 20:51:52 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 20:51:52 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 20:51:52 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 20:51:52 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 20:51:52 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 20:51:52 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 20:51:52 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 20:51:52 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 20:51:52 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 20:51:52 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 20:51:52 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:53 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:53 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:53 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:51:57 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:51:57 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:51:57 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:51:57 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:51:57 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:51:57 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:04 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 20:52:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:13 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 20:52:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:13 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 20:52:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:13 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 20:52:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 20:52:58 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 20:52:58 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 20:52:58 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 20:52:58 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 20:52:58 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 20:52:58 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 20:52:58 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 20:52:58 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 20:52:58 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 20:52:58 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 20:52:58 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 20:52:58 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 20:52:58 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 20:52:58 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:52:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:05 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:53:05 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:53:05 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:53:05 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:53:05 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:53:05 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:15 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:15 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 20:53:15 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:15 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:15 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 20:53:15 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:15 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 20:53:15 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:53:15 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:30 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 20:54:30 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 20:54:30 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 20:54:30 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 20:54:30 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 20:54:30 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 20:54:30 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 20:54:30 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 20:54:30 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 20:54:30 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 20:54:30 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 20:54:30 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 20:54:30 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 20:54:30 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 20:54:30 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:35 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:54:35 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:54:35 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:54:35 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:54:35 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:54:35 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:46 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:46 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 20:54:46 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:46 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:46 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 20:54:46 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:46 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 20:54:46 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:54:46 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:34 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 20:56:34 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 20:56:34 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 20:56:34 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 20:56:34 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 20:56:34 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 20:56:34 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 20:56:34 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 20:56:34 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 20:56:34 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 20:56:34 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 20:56:34 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 20:56:34 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 20:56:34 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 20:56:34 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:35 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:41 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:56:41 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 20:56:41 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:56:41 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 20:56:41 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:56:41 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:42 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:50 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 20:56:54 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:55 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 20:56:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:55 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 20:56:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:55 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 20:56:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 20:56:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:47 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:03:47 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:03:47 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:03:47 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:03:47 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:03:47 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:03:47 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:03:47 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:03:47 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:03:47 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:03:47 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:03:47 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:03:47 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:03:47 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:03:47 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:03:52 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:03:52 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:03:52 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:03:52 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:03:52 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:52 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:03:58 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:04:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:03 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:04:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:03 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:04:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:03 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:04:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:22 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:04:22 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:04:22 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:04:22 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:04:22 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:04:22 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:04:22 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:04:22 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:04:22 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:04:22 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:04:22 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:04:22 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:04:22 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:04:22 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:04:22 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:04:27 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:04:27 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:04:27 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:04:27 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:04:27 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:27 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:36 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:04:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:43 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:04:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:43 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:04:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:43 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:04:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:04:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:49 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:06:49 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:06:49 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:06:49 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:06:49 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:06:49 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:06:49 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:06:49 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:06:49 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:06:49 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:06:49 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:06:49 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:06:49 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:06:49 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:06:49 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:06:56 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:06:56 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:06:56 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:06:56 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:06:56 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:06:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:17 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:17 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:07:17 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:17 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:17 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:07:17 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:17 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:07:17 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:17 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:07:51 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:07:51 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:07:51 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:07:51 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:07:51 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:07:51 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:07:51 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:07:51 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:07:51 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:07:51 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:07:51 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:07:51 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:07:51 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:07:51 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:51 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:56 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:07:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:56 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:07:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:56 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:07:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:07:56 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:07 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:09:07 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:09:07 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:09:07 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:09:07 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:09:07 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:09:07 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:09:07 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:09:07 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:09:07 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:09:07 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:09:07 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:09:07 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:09:07 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:09:07 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:08 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:09:13 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:09:13 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:09:13 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:13 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:13 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:13 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:18 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:09:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:18 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:09:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:18 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:09:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:09:36 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:09:36 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:09:36 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:09:36 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:09:36 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:09:36 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:09:36 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:09:36 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:09:36 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:09:36 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:09:36 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:09:36 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:09:36 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:09:36 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:36 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:09:44 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:09:44 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:09:44 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:09:44 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:44 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:44 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:50 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:50 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:09:54 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:54 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:09:54 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:54 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:54 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:09:54 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:54 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:09:54 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:09:54 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:04 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:12:04 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:12:04 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:12:04 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:12:04 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:12:04 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:12:04 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:12:04 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:12:04 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:12:04 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:12:04 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:12:04 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:12:04 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:12:04 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:12:04 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:05 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:12:09 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:12:09 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:12:09 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:12:09 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:12:09 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:09 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:17 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:17 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:12:21 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:21 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:12:21 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:21 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:21 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:12:21 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:21 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:12:21 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:12:21 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:47 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:13:47 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:13:47 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:13:47 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:13:47 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:13:47 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:13:47 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:13:47 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:13:47 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:13:47 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:13:47 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:13:47 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:13:47 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:13:47 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:13:47 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:48 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:55 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:13:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:55 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:13:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:55 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:13:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:13:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:23 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:14:23 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:14:23 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:14:23 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:14:23 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:14:23 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:14:23 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:14:23 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:14:23 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:14:23 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:14:23 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:14:23 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:14:23 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:14:23 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:14:23 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:31 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:14:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:31 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:14:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:31 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:14:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:31 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:57 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:14:57 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:14:57 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:14:57 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:14:57 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:14:57 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:14:57 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:14:57 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:14:57 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:14:57 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:14:57 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:14:57 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:14:57 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:14:57 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:14:57 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:14:58 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:15:18 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:15:18 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:15:18 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:15:18 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:15:18 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:25 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:15:34 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:34 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:15:34 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:34 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:34 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:15:34 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:34 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:15:34 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:15:34 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:10 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:21:10 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:21:10 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:21:10 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:21:10 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:21:10 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:21:10 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:21:10 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:21:10 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:21:10 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:21:10 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:21:10 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:21:10 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:21:10 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:21:10 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:11 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:15 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:21:15 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:21:15 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:21:15 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:21:15 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:21:15 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:20 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:21:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:24 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:21:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:24 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:21:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:24 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:21:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:21:24 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:17 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:22:17 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:22:17 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:22:17 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:22:17 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:22:17 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:22:17 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:22:17 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:22:17 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:22:17 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:22:17 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:22:17 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:22:17 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:22:18 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:22:18 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:24 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:22:24 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:22:24 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:22:24 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:22:24 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:22:24 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:30 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:33 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:35 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:36 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:36 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:38 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:39 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:47 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:52 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:54 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:22:59 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:22:59 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:23:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:23:03 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:23:12 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:23:12 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:23:12 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:23:12 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:23:12 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:23:12 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:23:12 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:23:12 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:23:12 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:23:59 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:23:59 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:23:59 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:23:59 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:23:59 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:23:59 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:23:59 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:23:59 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:23:59 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:23:59 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:23:59 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:23:59 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:23:59 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:23:59 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:23:59 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:00 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:24:03 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:24:03 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:24:03 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:24:03 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:24:03 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:10 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:10 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:24:16 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:24:19 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:24:20 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:20 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:24:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:23 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:24:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:23 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:24:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:23 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:24:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:24:23 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:13 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:25:13 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:25:13 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:25:13 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:25:13 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:25:13 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:25:13 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:25:13 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:25:13 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:25:13 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:25:13 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:25:13 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:25:13 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:25:13 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:25:13 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:14 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:25:18 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:25:18 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:25:18 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:18 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:18 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:18 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:25 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:25 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:25:32 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:32 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:25:32 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:32 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:32 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:25:32 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:32 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:25:32 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:32 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:42 DEBUG Tafel:28 - created : Tafel{1}
+2018-05-01 21:25:42 INFO  Tafel:29 - created : Tafel{1}
+2018-05-01 21:25:42 DEBUG Tafel:28 - created : Tafel{2}
+2018-05-01 21:25:42 INFO  Tafel:29 - created : Tafel{2}
+2018-05-01 21:25:42 DEBUG Tafel:28 - created : Tafel{3}
+2018-05-01 21:25:42 INFO  Tafel:29 - created : Tafel{3}
+2018-05-01 21:25:42 DEBUG Tafel:28 - created : Tafel{4}
+2018-05-01 21:25:42 INFO  Tafel:29 - created : Tafel{4}
+2018-05-01 21:25:42 DEBUG Tafel:28 - created : Tafel{5}
+2018-05-01 21:25:42 INFO  Tafel:29 - created : Tafel{5}
+2018-05-01 21:25:42 DEBUG Tafel:28 - created : Tafel{6}
+2018-05-01 21:25:42 INFO  Tafel:29 - created : Tafel{6}
+2018-05-01 21:25:42 DEBUG DeSerializer:32 - Tafel.1 is deleted!
+2018-05-01 21:25:42 DEBUG DeSerializer:32 - Tafel.3 is deleted!
+2018-05-01 21:25:42 DEBUG DeSerializer:32 - Tafel.4 is deleted!
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:43 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Ober:43 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:25:47 INFO  Ober:44 - created : Ober{naam='peters', voornaam='wout'}
+2018-05-01 21:25:47 DEBUG Ober:35 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:25:47 INFO  Ober:36 - created : Ober{naam='Peters', voornaam='Wout'}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Cola'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Leffe'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Koffie'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Cola-Light'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Whisky'; prijs= 12,00; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Thee'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Spa'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Westmalle'; prijs= 3,00; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Hoegaarden'; prijs= 2,70; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Duvel'; prijs= 3,20; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Stella'; prijs= 2,20; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Chocomelk'; prijs= 2,50; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Tonic'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Latte'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Fanta'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Sprite'; prijs= 2,40; aantal=0}
+2018-05-01 21:25:47 DEBUG Consumption:55 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:47 INFO  Consumption:56 - created : Consumption{naam='Minute Maid'; prijs= 2,80; aantal=0}
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:47 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:55 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:25:55 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:25:57 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:25:59 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:26:03 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:03 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:26:06 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:06 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:26:12 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:12 DEBUG Tafel:49 - add consumption to table order
+2018-05-01 21:26:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:16 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.1
+2018-05-01 21:26:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:16 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.3
+2018-05-01 21:26:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:16 INFO  Tafel:46 - Serialized data is saved in C:\javaprojects\ChezJavaFinal\src\main\resources\serialize\Tafel.4
+2018-05-01 21:26:16 DEBUG Tafel:38 - Check if table has items
+2018-05-01 21:26:16 DEBUG Tafel:38 - Check if table has items
