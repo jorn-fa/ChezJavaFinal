@@ -37,7 +37,9 @@ public class Order implements java.io.Serializable{
     return false;
     }
 
-
+    public int getWaiterID(){
+        return lijst.get(0).getWaiterID();
+    }
 
 }
 

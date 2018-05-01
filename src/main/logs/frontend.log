@@ -1855,3 +1855,246 @@
 2018-05-01 12:31:49 DEBUG frontend:116 - order Screen
 2018-05-01 12:31:54 DEBUG frontend:158 - On exit - serial table: 5
 2018-05-01 12:31:54 DEBUG frontend:148 - system shutdown on: 2018-05-01T12:31:54.371
+2018-05-01 14:10:31 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:10:31 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:10:31.325
+2018-05-01 14:10:41 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:10:41 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:10:41.144
+2018-05-01 14:16:34 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:16:34 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:16:34.797
+2018-05-01 14:16:46 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:16:46 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:16:46.599
+2018-05-01 14:19:31 DEBUG frontend:84 - tafel wisselen naar tafel:1
+2018-05-01 14:19:31 DEBUG frontend:240 - oproepen order window zonder ingelogd te zijn
+2018-05-01 14:19:32 DEBUG frontend:150 - order Screen
+2018-05-01 14:19:33 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:19:33 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:19:33.769
+2018-05-01 14:19:48 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:19:48 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:19:48.505
+2018-05-01 14:22:21 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:22:21 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:22:21.209
+2018-05-01 14:22:29 DEBUG frontend:84 - tafel wisselen naar tafel:1
+2018-05-01 14:22:30 DEBUG frontend:240 - oproepen order window zonder ingelogd te zijn
+2018-05-01 14:22:30 DEBUG frontend:151 - order Screen
+2018-05-01 14:22:33 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:22:33 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:22:33.988
+2018-05-01 14:29:27 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:29:27 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:29:27.715
+2018-05-01 14:29:50 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:29:50 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:29:50.336
+2018-05-01 14:34:51 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:34:52 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:34:52.001
+2018-05-01 14:37:18 DEBUG frontend:152 - On exit - serial table: 5
+2018-05-01 14:37:18 DEBUG frontend:142 - system shutdown on: 2018-05-01T14:37:18.378
+2018-05-01 14:41:08 DEBUG frontend:154 - On exit - serial table: 5
+2018-05-01 14:41:08 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:41:08.844
+2018-05-01 14:41:39 DEBUG frontend:154 - On exit - serial table: 5
+2018-05-01 14:41:39 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:41:39.598
+2018-05-01 14:48:43 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:48:43.656
+2018-05-01 14:50:02 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:50:02.534
+2018-05-01 14:53:27 DEBUG frontend:106 - User login screen
+2018-05-01 14:53:41 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:53:41.474
+2018-05-01 14:54:55 DEBUG frontend:110 - User login screen
+2018-05-01 14:55:05 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:55:05.386
+2018-05-01 14:58:15 DEBUG frontend:112 - User login screen
+2018-05-01 14:58:20 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:58:20.232
+2018-05-01 14:58:37 DEBUG frontend:112 - User login screen
+2018-05-01 14:58:43 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:58:43.593
+2018-05-01 14:58:56 DEBUG frontend:112 - User login screen
+2018-05-01 14:59:00 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:59:00.545
+2018-05-01 14:59:52 DEBUG frontend:110 - User login screen
+2018-05-01 14:59:56 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 14:59:56 DEBUG frontend:246 - Call current tabel name
+2018-05-01 14:59:56 DEBUG frontend:147 - order Screen
+2018-05-01 14:59:59 DEBUG frontend:144 - system shutdown on: 2018-05-01T14:59:59.156
+2018-05-01 15:05:42 DEBUG frontend:132 - User login screen
+2018-05-01 15:05:52 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:05:52.372
+2018-05-01 15:06:10 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:06:10.262
+2018-05-01 15:06:48 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:06:48.229
+2018-05-01 15:07:14 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:07:14.413
+2018-05-01 15:08:49 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:08:49.355
+2018-05-01 15:08:58 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:08:58.577
+2018-05-01 15:09:10 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:09:10.346
+2018-05-01 15:09:54 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:09:54.253
+2018-05-01 15:12:06 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 15:12:06 DEBUG frontend:242 - oproepen order window zonder ingelogd te zijn
+2018-05-01 15:12:06 DEBUG frontend:172 - order Screen
+2018-05-01 15:12:08 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:12:08.287
+2018-05-01 15:14:55 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:14:55.409
+2018-05-01 15:15:59 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:15:59.462
+2018-05-01 15:20:06 DEBUG frontend:144 - system shutdown on: 2018-05-01T15:20:06.510
+2018-05-01 16:11:56 DEBUG frontend:144 - system shutdown on: 2018-05-01T16:11:56.590
+2018-05-01 16:13:08 DEBUG frontend:144 - system shutdown on: 2018-05-01T16:13:08.274
+2018-05-01 16:13:50 DEBUG frontend:144 - system shutdown on: 2018-05-01T16:13:50.814
+2018-05-01 16:17:49 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 16:17:49 DEBUG frontend:242 - oproepen order window zonder ingelogd te zijn
+2018-05-01 16:17:49 DEBUG frontend:185 - order Screen
+2018-05-01 16:17:51 DEBUG frontend:144 - system shutdown on: 2018-05-01T16:17:51.642
+2018-05-01 16:36:45 DEBUG frontend:144 - system shutdown on: 2018-05-01T16:36:45.231
+2018-05-01 16:59:23 DEBUG frontend:148 - User login screen
+2018-05-01 16:59:50 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 16:59:50 DEBUG frontend:246 - Call current tabel name
+2018-05-01 16:59:50 DEBUG frontend:185 - order Screen
+2018-05-01 16:59:52 DEBUG frontend:144 - system shutdown on: 2018-05-01T16:59:52.224
+2018-05-01 17:00:03 DEBUG frontend:148 - User login screen
+2018-05-01 17:00:07 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 17:00:07 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:00:07 DEBUG frontend:185 - order Screen
+2018-05-01 17:00:10 DEBUG frontend:138 - Add: cola 1
+2018-05-01 17:00:12 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 17:00:12 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:00:12 DEBUG frontend:185 - order Screen
+2018-05-01 17:00:15 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:00:15 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:00:15.216
+2018-05-01 17:00:38 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:00:38 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:00:38.655
+2018-05-01 17:03:15 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:03:15.825
+2018-05-01 17:03:59 DEBUG frontend:151 - User login screen
+2018-05-01 17:04:03 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 17:04:03 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:04:04 DEBUG frontend:188 - order Screen
+2018-05-01 17:04:06 DEBUG frontend:138 - Add: cola 1
+2018-05-01 17:04:09 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:04:09 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:04:09.400
+2018-05-01 17:04:20 DEBUG frontend:151 - User login screen
+2018-05-01 17:04:26 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:04:26 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:04:26.387
+2018-05-01 17:04:52 DEBUG frontend:150 - User login screen
+2018-05-01 17:04:56 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 17:04:56 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:04:56 DEBUG frontend:187 - order Screen
+2018-05-01 17:04:59 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:04:59 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:04:59.025
+2018-05-01 17:05:25 DEBUG frontend:150 - User login screen
+2018-05-01 17:05:29 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:05:29 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:05:29.616
+2018-05-01 17:06:50 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:06:50 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:06:50.952
+2018-05-01 17:07:12 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:07:12 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:07:12.920
+2018-05-01 17:07:36 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:07:36 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:07:36.207
+2018-05-01 17:08:13 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:08:13 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:08:13.231
+2018-05-01 17:08:32 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:08:32 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:08:32.756
+2018-05-01 17:11:50 DEBUG frontend:158 - User login screen
+2018-05-01 17:11:54 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 17:11:54 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:11:54 DEBUG frontend:195 - order Screen
+2018-05-01 17:11:57 DEBUG frontend:138 - Add: cola 1
+2018-05-01 17:11:59 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:11:59 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:11:59.662
+2018-05-01 17:12:06 DEBUG frontend:110 - inlezen zonder ingelogd 
+2018-05-01 17:12:09 DEBUG frontend:158 - User login screen
+2018-05-01 17:12:16 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:12:16 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:12:16.551
+2018-05-01 17:17:06 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:17:20 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:17:20 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:17:20.863
+2018-05-01 17:19:13 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:19:22 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:19:22 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:19:22.243
+2018-05-01 17:19:55 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:20:00 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:20:00 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:20:00.399
+2018-05-01 17:20:15 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:20:28 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:20:28 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:20:28.646
+2018-05-01 17:20:32 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:20:39 DEBUG frontend:156 - User login screen
+2018-05-01 17:20:44 DEBUG frontend:156 - User login screen
+2018-05-01 17:20:45 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:20:51 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:20:51 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:20:51.370
+2018-05-01 17:22:08 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:23:39 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:23:39 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:23:39.101
+2018-05-01 17:23:45 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:25:28 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:25:28 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:25:28.393
+2018-05-01 17:25:34 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:25:42 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:25:42 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:25:42.885
+2018-05-01 17:26:07 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:26:13 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:26:13 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:26:13.193
+2018-05-01 17:26:20 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:26:31 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:26:31 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:26:31.187
+2018-05-01 17:27:01 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:27:12 DEBUG frontend:156 - User login screen
+2018-05-01 17:27:13 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:27:13 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:27:13.712
+2018-05-01 17:27:18 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:27:22 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:27:22 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:27:22.123
+2018-05-01 17:27:37 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:27:41 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:27:41 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:27:41.323
+2018-05-01 17:28:13 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:28:57 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:28:57 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:28:57.910
+2018-05-01 17:29:01 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:29:19 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:29:19 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:29:19.660
+2018-05-01 17:29:23 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:29:27 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:29:27 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:29:27.850
+2018-05-01 17:30:18 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:30:18 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:30:18 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:30:18 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:30:18 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:30:18 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:30:25 DEBUG frontend:156 - User login screen
+2018-05-01 17:30:30 DEBUG frontend:154 - On exit - serial table: 1
+2018-05-01 17:30:31 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:30:31.005
+2018-05-01 17:31:27 DEBUG frontend:86 - tafel wisselen naar tafel:4
+2018-05-01 17:31:27 DEBUG frontend:242 - oproepen order window zonder ingelogd te zijn
+2018-05-01 17:31:27 DEBUG frontend:199 - order Screen
+2018-05-01 17:31:31 DEBUG frontend:162 - User login screen
+2018-05-01 17:31:34 DEBUG frontend:86 - tafel wisselen naar tafel:4
+2018-05-01 17:31:34 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:31:35 DEBUG frontend:199 - order Screen
+2018-05-01 17:31:37 DEBUG frontend:138 - Add: cola 1
+2018-05-01 17:31:39 DEBUG frontend:154 - On exit - serial table: 4
+2018-05-01 17:31:39 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:31:39.488
+2018-05-01 17:31:46 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:31:56 DEBUG frontend:162 - User login screen
+2018-05-01 17:32:05 DEBUG frontend:162 - User login screen
+2018-05-01 17:32:06 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:32:13 DEBUG frontend:162 - User login screen
+2018-05-01 17:32:20 DEBUG frontend:264 - reeds gevuld door andere ober
+2018-05-01 17:32:22 DEBUG frontend:86 - tafel wisselen naar tafel:3
+2018-05-01 17:32:22 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:32:22 DEBUG frontend:199 - order Screen
+2018-05-01 17:32:25 DEBUG frontend:138 - Add: cola 1
+2018-05-01 17:32:27 DEBUG frontend:154 - On exit - serial table: 3
+2018-05-01 17:32:27 DEBUG frontend:154 - On exit - serial table: 4
+2018-05-01 17:32:27 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:32:27.916
+2018-05-01 17:32:31 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:32:31 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:32:32 DEBUG frontend:162 - User login screen
+2018-05-01 17:32:47 DEBUG frontend:162 - User login screen
+2018-05-01 17:32:47 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:32:47 DEBUG frontend:109 - inlezen zonder ingelogd 
+2018-05-01 17:32:49 DEBUG frontend:162 - User login screen
+2018-05-01 17:32:58 DEBUG frontend:264 - reeds gevuld door andere ober
+2018-05-01 17:33:34 DEBUG frontend:154 - On exit - serial table: 3
+2018-05-01 17:33:34 DEBUG frontend:154 - On exit - serial table: 4
+2018-05-01 17:33:34 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:33:34.778
+2018-05-01 17:34:37 DEBUG frontend:102 - inlezen zonder ingelogd 
+2018-05-01 17:34:37 DEBUG frontend:102 - inlezen zonder ingelogd 
+2018-05-01 17:34:38 DEBUG frontend:155 - User login screen
+2018-05-01 17:34:43 DEBUG frontend:154 - On exit - serial table: 3
+2018-05-01 17:34:43 DEBUG frontend:154 - On exit - serial table: 4
+2018-05-01 17:34:43 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:34:43.530
+2018-05-01 17:35:26 DEBUG frontend:98 - inlezen zonder ingelogd 
+2018-05-01 17:35:26 DEBUG frontend:98 - inlezen zonder ingelogd 
+2018-05-01 17:35:28 DEBUG frontend:151 - User login screen
+2018-05-01 17:35:32 DEBUG frontend:86 - tafel wisselen naar tafel:1
+2018-05-01 17:35:32 DEBUG frontend:246 - Call current tabel name
+2018-05-01 17:35:33 DEBUG frontend:188 - order Screen
+2018-05-01 17:35:40 DEBUG frontend:154 - On exit - serial table: 3
+2018-05-01 17:35:40 DEBUG frontend:154 - On exit - serial table: 4
+2018-05-01 17:35:40 DEBUG frontend:144 - system shutdown on: 2018-05-01T17:35:40.090

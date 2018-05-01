@@ -7,24 +7,18 @@ import be.leerstad.Database.WaiterDAOImpl;
 import be.leerstad.View.RootController;
 import be.leerstad.helpers.*;
 import javafx.application.Application;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.paint.Color;
-import javafx.scene.transform.Scale;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Properties;
 
@@ -62,7 +56,9 @@ public class Cafe extends Application {
 
     private Tafel[] tafels = new Tafel[]{tafel1,tafel2,tafel3,tafel4,tafel5,tafel6};
 
-
+    public Tafel[] getTafels() {
+        return tafels;
+    }
 
     public Tafel currentTafel = tafel1;
 

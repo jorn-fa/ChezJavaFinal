@@ -39,6 +39,9 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
         return hasOrders;
     }
 
+    public int getOberId(){
+        return order.getWaiterID();
+    }
 
 
     public void addConsumption(Consumption consumption, Ober ober) {

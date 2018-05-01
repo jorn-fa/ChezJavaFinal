@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.effect.*?>
@@ -127,7 +128,8 @@
          <children>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="214.0" layoutY="43.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <Circle fx:id="circle2" fill="DODGERBLUE" layoutX="115.0" layoutY="85.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="45.0" />
+                  <ImageView fx:id="table_2_IMg" fitHeight="150.0" fitWidth="150.0" layoutX="214.0" layoutY="43.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <image>
                         <Image url="/images/tafel_main_icon.png" />
                      </image>
@@ -136,7 +138,8 @@
             </AnchorPane>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="65.0" layoutY="18.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="0.0">
+                  <Circle fx:id="circle3" fill="DODGERBLUE" layoutX="115.0" layoutY="85.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="45.0" />
+                  <ImageView fx:id="table_3_IMg" fitHeight="150.0" fitWidth="150.0" layoutX="65.0" layoutY="18.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="0.0">
                      <image>
                         <Image url="@/images/tafel_main_icon.png" />
                      </image>
@@ -145,7 +148,8 @@
             </AnchorPane>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="228.0" layoutY="43.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+                  <Circle fx:id="circle4" fill="DODGERBLUE" layoutX="115.0" layoutY="85.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="53.0" />
+                  <ImageView fx:id="table_4_IMg" fitHeight="150.0" fitWidth="150.0" layoutX="228.0" layoutY="43.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
                      <image>
                         <Image url="@/images/tafel_main_icon.png" />
                      </image>
@@ -154,7 +158,8 @@
             </AnchorPane>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="28.0" layoutY="14.0" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="30.0">
+                  <Circle fx:id="circle5" fill="DODGERBLUE" layoutX="115.0" layoutY="85.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="45.0" />
+                  <ImageView fx:id="table_5_IMg" fitHeight="150.0" fitWidth="150.0" layoutX="28.0" layoutY="14.0" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="30.0">
                      <image>
                         <Image url="@/images/tafel_main_icon.png" />
                      </image>
@@ -163,7 +168,8 @@
             </AnchorPane>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="228.0" layoutY="14.0" AnchorPane.bottomAnchor="57.0" AnchorPane.rightAnchor="0.0">
+                  <Circle fx:id="circle6" fill="DODGERBLUE" layoutX="115.0" layoutY="85.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="45.0" />
+                  <ImageView fx:id="table_6_IMg" fitHeight="150.0" fitWidth="150.0" layoutX="228.0" layoutY="14.0" AnchorPane.bottomAnchor="58.0" AnchorPane.rightAnchor="0.0">
                      <image>
                         <Image url="@/images/tafel_main_icon.png" />
                      </image>
@@ -172,7 +178,8 @@
             </AnchorPane>
             <AnchorPane prefHeight="200.0" prefWidth="200.0">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="65.0" layoutY="19.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="0.0">
+                  <Circle fx:id="circle1" fill="DODGERBLUE" layoutX="105.0" layoutY="75.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="45.0" />
+                  <ImageView fx:id="table_1_IMg" fitHeight="150.0" fitWidth="150.0" layoutX="65.0" layoutY="19.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="0.0">
                      <image>
                         <Image url="@/images/tafel_main_icon.png" />
                      </image>

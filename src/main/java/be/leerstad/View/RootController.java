@@ -1,6 +1,7 @@
 package be.leerstad.View;
 
 import be.leerstad.Cafe;
+import be.leerstad.Tafel;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,13 +11,20 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.effect.Light;
+import javafx.scene.effect.Lighting;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class RootController implements Initializable{
@@ -31,19 +39,65 @@ public class RootController implements Initializable{
     public RootController(){}
     private Stage dialogStage;
 
-    @FXML
-    private Label firstNameField;
 
-    @FXML
-    private Label lastNameField;
 
     @FXML
     private Label fullNameField;
 
+    @FXML
+    private Circle circle1;
+
+    @FXML
+    private Circle circle2;
+
+    @FXML
+    private Circle circle3;
+
+    @FXML
+    private Circle circle4;
+
+    @FXML
+    private Circle circle5;
+
+    @FXML
+    private Circle circle6;
 
     @FXML
     private Pane pane;
     private AnchorPane homePane;
+
+
+    private void verifyColor(Circle circel){
+
+        circel.setVisible(false);
+        int aantalTafels=Cafe.getInstance().getTafels().length;
+        int circleId = 0;
+
+
+        try {
+            circleId = Integer.valueOf(circel.getId().substring(6));
+        } catch (NumberFormatException e) {
+            log.debug("Something went wrong with fx:id on circle");
+        }
+
+
+        Tafel[] tafels = Cafe.getInstance().getTafels();
+
+        for(int teller = 0;teller<aantalTafels;teller++) {
+            if(tafels[teller].hasOrders()&&teller==circleId-1) {
+                circel.setVisible(true);
+                circel.setFill(Color.RED);
+                try {
+                if (tafels[teller].getOberId() == Cafe.getInstance().getOber().getID()) {
+                    circel.setFill(Color.GREEN);}
+                }
+                catch (NullPointerException e) {
+                    log.debug("inlezen zonder ingelogd ");
+                }
+                }
+            }
+
+    }
 
 
     public void setDialogStage(Stage dialogStage) {
@@ -53,6 +107,21 @@ public class RootController implements Initializable{
     @FXML
     public void initialize(URL location, ResourceBundle resouces) {
         fullNameField.setText(Cafe.getInstance().getOberNaam());
+
+
+        verifyColor(circle1);
+        verifyColor(circle2);
+        verifyColor(circle3);
+        verifyColor(circle4);
+        verifyColor(circle5);
+        verifyColor(circle6);
+
+
+
+
+
+
+
 
 
     }
