@@ -2,6 +2,8 @@ package be.leerstad.View;
 
 import be.leerstad.Cafe;
 import be.leerstad.Consumption;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -20,23 +22,14 @@ import java.util.ResourceBundle;
 
 public class OrdersController implements Initializable {
 
-    public OrdersController() {    }
+
 
     private static Logger log = Logger.getLogger("frontend");
     private Consumption consumption;
 
     private boolean isIngelogd;
 
-    //overzicht van consumpties
 
-    private ObservableList<Consumption> consumptionlist = FXCollections.observableArrayList();
-
-    @FXML
-    private TableView<Consumption> consumptionData;
-    @FXML
-    private TableColumn<Consumption, String> consumptionName;
-    @FXML
-    private TableColumn<Consumption, Integer> consumptionQty;
 
     //ovezicht van bestelling
 
@@ -46,7 +39,17 @@ public class OrdersController implements Initializable {
     @FXML
     private TableColumn<Consumption, String> besteldName;
     @FXML
-    private TableColumn<Consumption, Integer> besteldQty;
+    private TableColumn<Consumption, String> besteldQty;
+
+
+    //overzicht van consumpties
+    @FXML
+    private TableView<Consumption> consumtionTable;
+    @FXML
+    private TableColumn<Consumption, String> consumptionNameColumn;
+    @FXML
+    private TableColumn<Consumption, String> consumptionQtyColumn;
+
 
 
 
@@ -64,34 +67,31 @@ public class OrdersController implements Initializable {
     private Label NaamLabel;
 
 
+    public OrdersController() {}
+
+    private ObservableList<Consumption> getConsumptionData() {
+        return FXCollections.observableArrayList(Cafe.getInstance().getBeverageList());
+    }
+
+    private StringProperty convertToStringProperty(String naam){
+        return new SimpleStringProperty(naam);
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        //todo aanpassen tafel lijst
-        consumptionData.setItems(Cafe.getInstance().getFXbeveragelist());
-        consumptionlist = Cafe.getInstance().getFXbeveragelist();
 
+        consumtionTable.setItems(getConsumptionData());
+        consumptionNameColumn.setCellValueFactory(cellData -> convertToStringProperty(cellData.getValue().getNaam()));
+        consumptionQtyColumn.setCellValueFactory((cellData -> convertToStringProperty(String.valueOf(cellData.getValue().getPrijs()))));
+
+        //direct inladen bestelde items
+        besteldData.setItems(Cafe.getInstance().currentTafel.getFXLijstForPayment());
         besteldList = Cafe.getInstance().currentTafel.getFXLijstForPayment();
 
 
-        //clear data
-        showConsumptionDetails(null);
-
-        consumptionName.setCellValueFactory(celldata -> celldata.getValue().getNaamProperty());
-        consumptionQty.setCellValueFactory(new PropertyValueFactory<>("prijs"));
-
-        besteldName.setCellValueFactory(celldata -> celldata.getValue().getNaamProperty());
+        besteldName.setCellValueFactory(new PropertyValueFactory<>("naam"));
         besteldQty.setCellValueFactory(new PropertyValueFactory<>("aantal"));
-
-
-
-        consumptionData.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> System.out.println(newValue.toString()));
-        besteldData.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> System.out.println(newValue.toString()));
-
-
-        consumption = consumptionData.getSelectionModel().getSelectedItem();
-
 
         tafelNaamLabel.setText(Cafe.getInstance().getTafelNaam());
         isIngelogd= Cafe.getInstance().isIngelogd();
@@ -179,7 +179,7 @@ public class OrdersController implements Initializable {
 
             NaamLabel.setText(consumption.getNaam());
             qtyLabel.setText(String.valueOf(consumption.getAantal()));
-            consumptionName.setText(consumption.getNaam());
+            consumptionNameColumn.setText(consumption.getNaam());
 
         } else {
             log.debug("list cleared before reload");

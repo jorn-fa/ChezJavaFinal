@@ -11,14 +11,26 @@
 
 <AnchorPane prefHeight="660.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.leerstad.View.OrdersController">
    <children>
+      <AnchorPane prefHeight="660.0" prefWidth="820.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="tafelNaamLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="354.0" layoutY="42.0" text="tafelNaam" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Label>
+            <Separator orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
+            <Separator AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
+            <Button contentDisplay="CENTER" layoutX="666.0" layoutY="594.0" mnemonicParsing="false" onAction="#afrekenAction" prefHeight="50.0" prefWidth="160.0" text="Afrekenen" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="40.0" />
+         </children>
+      </AnchorPane>
       <HBox prefHeight="660.0" prefWidth="820.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <AnchorPane prefHeight="200.0" prefWidth="410.0">
                <children>
-                  <TableView fx:id="consumptionData" editable="true" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="100.0">
+                  <TableView fx:id="consumtionTable" prefHeight="258.0" prefWidth="268.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="100.0">
                     <columns>
-                      <TableColumn fx:id="consumptionName" prefWidth="248.0" text="Name" />
-                      <TableColumn fx:id="consumptionQty" prefWidth="61.0" text="Prijs" />
+                      <TableColumn fx:id="consumptionNameColumn" prefWidth="254.0" text="Naam" />
+                      <TableColumn fx:id="consumptionQtyColumn" minWidth="0.0" prefWidth="55.0" text="Aantal" />
                     </columns>
                   </TableView>
                </children>
@@ -35,18 +47,6 @@
             </AnchorPane>
          </children>
       </HBox>
-      <AnchorPane prefHeight="660.0" prefWidth="820.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-         <children>
-            <Label fx:id="tafelNaamLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="354.0" layoutY="42.0" text="tafelNaam" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="40.0">
-               <font>
-                  <Font name="System Bold Italic" size="25.0" />
-               </font>
-            </Label>
-            <Separator orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
-            <Separator AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
-            <Button contentDisplay="CENTER" layoutX="666.0" layoutY="594.0" mnemonicParsing="false" onAction="#afrekenAction" prefHeight="50.0" prefWidth="160.0" text="Afrekenen" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="40.0" />
-         </children>
-      </AnchorPane>
       <AnchorPane layoutX="359.0" layoutY="100.0" prefHeight="460.0" prefWidth="101.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ddff1e" height="50.0" layoutX="26.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" width="50.0" AnchorPane.topAnchor="80.0" />

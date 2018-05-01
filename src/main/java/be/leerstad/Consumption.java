@@ -99,10 +99,7 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
         return naam;
     }
 
-    @FXML
-    public StringProperty getNaamProperty() {
-        return naamProperty;
-    }
+
 
     public double getPrijs() {return prijs;}
 

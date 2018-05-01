@@ -67,7 +67,7 @@ public class Cafe extends Application {
     public Tafel currentTafel = tafel1;
 
     private List<Consumption> beverageList = new ArrayList<>();
-    private ObservableList<Consumption> FXbeveragelist =  FXCollections.observableArrayList(beverageList);
+
 
     public List<Consumption> getBeverageList() {
         return beverageList;
@@ -100,11 +100,7 @@ public class Cafe extends Application {
     public Ober getOber(){return currentWaiter;}
 
 
-    //todo bybye
-    public ObservableList<Consumption> getFXbeveragelist() {
-        Collections.sort(beverageList);
-        return FXbeveragelist;
-    }
+
 
 
 
@@ -265,7 +261,6 @@ public class Cafe extends Application {
      {
          BeveragesDAOImpl beveragesDAO = new BeveragesDAOImpl();
          beverageList=beveragesDAO.pricelijst();
-         FXbeveragelist = FXCollections.observableList(beverageList);
 
          return true;
      }
