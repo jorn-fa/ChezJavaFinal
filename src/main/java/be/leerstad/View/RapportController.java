@@ -5,8 +5,11 @@ import be.leerstad.helpers.PdfFactory;
 import com.itextpdf.text.DocumentException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.DatePicker;
@@ -52,8 +55,14 @@ public class RapportController implements Initializable {
 
     @FXML
     private void goBack(ActionEvent event) throws IOException {
-        Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        window.close();
+                    Parent parent = FXMLLoader.load(getClass().getResource("/view/RootLayout.fxml"));
+            Scene rootScene = new Scene(parent);
+            Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setTitle("Chez-Java");
+            window.setScene(rootScene);
+
+
+
     }
 
     @FXML
@@ -97,6 +106,7 @@ public class RapportController implements Initializable {
 
         alert.showAndWait();
         log.debug("Not logged in popup");
+
 
     }
 

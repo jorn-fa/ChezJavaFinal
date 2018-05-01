@@ -9,11 +9,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.effect.Light;
-import javafx.scene.effect.Lighting;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
@@ -23,8 +21,6 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.ResourceBundle;
 
 public class RootController implements Initializable{
@@ -108,22 +104,12 @@ public class RootController implements Initializable{
     public void initialize(URL location, ResourceBundle resouces) {
         fullNameField.setText(Cafe.getInstance().getOberNaam());
 
-
         verifyColor(circle1);
         verifyColor(circle2);
         verifyColor(circle3);
         verifyColor(circle4);
         verifyColor(circle5);
         verifyColor(circle6);
-
-
-
-
-
-
-
-
-
     }
 
     public void setNode(Node node)
@@ -151,15 +137,31 @@ public class RootController implements Initializable{
 
 
     @FXML
-    public void RapportAction() throws IOException
+    public void RapportAction(ActionEvent event) throws IOException
     {
-        Parent parent = FXMLLoader.load(getClass().getResource("/view/Rapport.fxml"));
-        Scene rapportScene = new Scene(parent);
-        Stage window = new Stage();
-        window.setScene(rapportScene);
-        window.setTitle("Rapporten");
-        window.show();
-        log.debug("Rapport Screen");
+        if(isIngelogd()) {
+            Parent parent = FXMLLoader.load(getClass().getResource("/view/Rapport.fxml"));
+            Scene rapportScene = new Scene(parent);
+            //Stage window = new Stage();
+            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            window.setScene(rapportScene);
+            window.setTitle("Chez-Java : Rapporten");
+            window.show();
+            log.debug("Rapport Screen");
+        }
+        else
+        {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.initOwner(dialogStage);
+            alert.setTitle("User not logged in");
+            //alert.setHeaderText("Please log in");
+            alert.setContentText("Please log in before access is granted to the report section.\n\n");
+
+            alert.showAndWait();
+            log.debug("Not logged in popup");
+
+
+        }
     }
 
 
@@ -178,9 +180,12 @@ public class RootController implements Initializable{
         Cafe.getInstance().wisselTafel(tafelNummer);
         Parent parent = FXMLLoader.load(getClass().getResource("/view/Orders.fxml"));
         Scene orderScene = new Scene(parent);
-        Stage window = new Stage();
+        //Stage window = new Stage();
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
+
         window.setScene(orderScene);
-        window.setTitle("Orders");
+        window.setTitle("chez-java : Orders");
         window.show();
         log.debug("order Screen");
 

@@ -8,9 +8,14 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
@@ -87,10 +92,11 @@ public class OrdersController implements Initializable {
         consumptionQtyColumn.setCellValueFactory((cellData -> convertToStringProperty(String.valueOf(cellData.getValue().getPrijs()))));
 
         //direct inladen bestelde items
-        //besteldData.setItems(Cafe.getInstance().currentTafel.getFXLijstForPayment().sorted());
+
         besteldData.setItems(getbesteldData());
+        besteldData.setSelectionModel(null); //niet toelaten om te selecteren
         besteldList = getbesteldData();
-        //besteldList = Cafe.getInstance().currentTafel.getFXLijstForPayment();
+
 
 
 
@@ -112,6 +118,18 @@ public class OrdersController implements Initializable {
 
 
 
+    @FXML
+    private void goBack(ActionEvent event) throws IOException{
+
+
+        Parent parent = FXMLLoader.load(getClass().getResource("/view/RootLayout.fxml"));
+        Scene rootScene = new Scene(parent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setTitle("Chez-Java.");
+        window.setScene(rootScene);
+
+    }
+
 
 
 
@@ -129,10 +147,10 @@ public class OrdersController implements Initializable {
 
     private void showAlert(){
         Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle("No Selection");
-        alert.setHeaderText("No Consumtion selected");
-        alert.setContentText("Please select a person in the table.");
+        alert.setTitle("No Selection // not logged in");
 
+        alert.setContentText("Please select a consumtion in the table.\n\n");
+        if(!isIngelogd){alert.setContentText("Please log in to enable features.\n\n");}
         alert.showAndWait();
     }
 
@@ -181,8 +199,7 @@ public class OrdersController implements Initializable {
                 if (verifyQty()) {
 
                     //omzetten van add naar remove -> positief naar negatief getal
-                    System.out.println(qtyField.getText());
-                    consumption.aantal -= Integer.valueOf(qtyField.getText()) ;                   
+                    consumption.aantal -= Integer.valueOf(qtyField.getText()) ;
                     log.debug("Remove: " + consumption.getNaam() + " " + consumption.getAantal());
                     Cafe.getInstance().currentTafel.addConsumption(consumption, Cafe.getInstance().getOber());
 

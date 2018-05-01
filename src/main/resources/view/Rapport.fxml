@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.shape.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,9 +8,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.leerstad.View.RapportController">
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.leerstad.View.RapportController">
    <children>
-      <Button layoutX="838.0" layoutY="642.0" mnemonicParsing="false" onAction="#goBack" prefHeight="31.0" prefWidth="132.0" text="Go Back" />
+      <Button layoutX="838.0" layoutY="642.0" mnemonicParsing="false" onAction="#goBack" prefHeight="31.0" prefWidth="985.0" text="Go Back" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" />
       <DatePicker fx:id="datePicker" layoutX="124.0" layoutY="513.0" showWeekNumbers="true" />
       <Label layoutX="66.0" layoutY="517.0" prefHeight="17.0" prefWidth="50.0" text="On day:" />
       <Label layoutX="211.0" layoutY="104.0" prefHeight="17.0" prefWidth="66.0" text="Sale results" />
@@ -17,7 +18,6 @@
       <Label layoutX="70.0" layoutY="152.0" prefHeight="17.0" prefWidth="93.0" text="Total Sale Result" textAlignment="CENTER" />
       <Label fx:id="fullNameField" contentDisplay="CENTER" layoutX="463.0" layoutY="58.0" prefHeight="17.0" prefWidth="75.0" text="Not logged in" />
       <Button layoutX="338.0" layoutY="148.0" mnemonicParsing="false" onAction="#totalByWaiter" prefHeight="25.0" prefWidth="106.0" text="Generate" />
-      <Label layoutX="26.0" layoutY="649.0" text="Results will be generated on set preferences" />
       <Label layoutX="463.0" layoutY="333.0" text="Global Results" />
       <Label layoutX="66.0" layoutY="405.0" text="Top 3  -&gt; Waiters:" />
       <Button layoutX="338.0" layoutY="401.0" mnemonicParsing="false" onAction="#top3" prefHeight="25.0" prefWidth="106.0" text="Generate" />
@@ -28,5 +28,10 @@
       <Button fx:id="mailOnDay" layoutX="485.0" layoutY="514.0" mnemonicParsing="false" onAction="#mailRapport" prefHeight="25.0" prefWidth="106.0" text="Mail" />
       <Button fx:id="mailTop3" layoutX="485.0" layoutY="402.0" mnemonicParsing="false" onAction="#mailRapport" prefHeight="25.0" prefWidth="106.0" text="Mail" />
       <Button fx:id="mailTotalWaiter" layoutX="485.0" layoutY="459.0" mnemonicParsing="false" onAction="#mailRapport" prefHeight="25.0" prefWidth="106.0" text="Mail" />
+      <ImageView fitHeight="557.0" fitWidth="487.0" layoutX="684.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/images/logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
