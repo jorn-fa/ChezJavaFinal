@@ -86,4 +86,11 @@
 
     </dependencies>
 
+    <developers>
+        <developer>
+            <id>Hiel Jorn</id>
+        </developer>
+
+    </developers>
+
 </project>

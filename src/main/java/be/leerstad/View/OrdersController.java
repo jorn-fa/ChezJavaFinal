@@ -20,6 +20,7 @@ import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.net.URL;
+import java.text.NumberFormat;
 import java.util.ResourceBundle;
 
 public class OrdersController implements Initializable {
@@ -59,10 +60,10 @@ public class OrdersController implements Initializable {
     private Label tafelNaamLabel;
 
     @FXML
-    private Label qtyLabel;
+    private TextField qtyField;
 
     @FXML
-    private TextField qtyField;
+    private Button totaalID;
 
 
     @FXML
@@ -86,12 +87,14 @@ public class OrdersController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        updateTotaal();
 
         naamLabel.setText(Cafe.getInstance().getOberNaam());
 
         consumtionTable.setItems(getConsumptionData());
         consumptionNameColumn.setCellValueFactory(cellData -> convertToStringProperty(cellData.getValue().getNaam()));
         consumptionQtyColumn.setCellValueFactory((cellData -> convertToStringProperty(String.valueOf(cellData.getValue().getPrijs()))));
+
 
         //direct inladen bestelde items
 
@@ -158,7 +161,7 @@ public class OrdersController implements Initializable {
 
 
     @FXML
-    private void addConsumtionAction(ActionEvent event) throws IOException {
+    private void addConsumtionAction() throws IOException {
 
 
 
@@ -181,9 +184,9 @@ public class OrdersController implements Initializable {
                 }
             }
         }
-        //todo dit is niet snel genoeg
         besteldData.setItems(getbesteldData());
         besteldData.refresh();
+        updateTotaal();
     }
 
     @FXML
@@ -210,6 +213,7 @@ public class OrdersController implements Initializable {
         }
         besteldData.setItems(getbesteldData());
         besteldData.refresh();
+        updateTotaal();
     }
 
     @FXML
@@ -220,12 +224,24 @@ public class OrdersController implements Initializable {
             log.debug("afrekenen");
             besteldData.setItems(getbesteldData());
             besteldData.refresh();
+            updateTotaal();
 
         }
         else
         {
             log.debug("Afrekenen zonder ingelogd te zijn");
         }
+    }
+
+    private void updateTotaal()
+    {
+        double totaal = Cafe.getInstance().currentTafel.getTotalPrice();
+
+        //max 2 getallen na komma
+        NumberFormat numberformat = NumberFormat.getInstance();
+        numberformat.setMaximumFractionDigits(2);
+
+        totaalID.setText("Afrekenen= " + numberformat.format(totaal) + "€");
     }
 
 

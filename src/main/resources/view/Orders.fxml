@@ -61,7 +61,7 @@
                         <TextField fx:id="qtyField" alignment="CENTER" layoutX="31.0" layoutY="183.0" prefHeight="25.0" prefWidth="40.0" promptText="qty" text="0" />
                      </children>
                   </AnchorPane>
-                  <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#afrekenAction" prefHeight="50.0" prefWidth="160.0" text="Afrekenen" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="40.0" />
+                  <Button fx:id="totaalID" contentDisplay="CENTER" mnemonicParsing="false" onAction="#afrekenAction" prefHeight="50.0" prefWidth="160.0" text="Afrekenen" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="40.0" />
                   <Button fx:id="goBackButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#goBack" prefHeight="50.0" prefWidth="160.0" text="Go Back" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="250.0" />
                </children>
             </AnchorPane>

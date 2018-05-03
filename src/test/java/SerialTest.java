@@ -30,9 +30,7 @@ public class SerialTest {
             try {
                 File file = new File(waar + File.separator + "Tafel." + teller);
 
-                if (file.delete()) {
-                    System.err.println(file.getName() + " is deleted!");
-                }
+                file.delete();
             } catch (Exception e) {
                 e.printStackTrace();
             }

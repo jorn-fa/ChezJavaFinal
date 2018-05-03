@@ -58,6 +58,10 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
         return true;
     }
 
+    public double getTotalPrice(){
+        return order.getTotalPrice();
+    }
+
 
     public List<Consumption> getLijstForPayment(){
         return order.getLijstForPayment();
