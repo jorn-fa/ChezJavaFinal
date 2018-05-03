@@ -3070,3 +3070,10 @@
 2018-05-03 22:12:22 DEBUG frontend:190 - order Screen
 2018-05-03 22:12:31 DEBUG frontend:154 - On exit - serial table: 2
 2018-05-03 22:12:31 DEBUG frontend:144 - system shutdown on: 2018-05-03T22:12:31.885
+2018-05-03 22:16:13 DEBUG frontend:91 - inlezen zonder ingelogd 
+2018-05-03 22:16:17 DEBUG frontend:134 - User login screen
+2018-05-03 22:16:21 DEBUG frontend:86 - tafel wisselen naar tafel:2
+2018-05-03 22:16:21 DEBUG frontend:246 - Call current tabel name
+2018-05-03 22:16:21 DEBUG frontend:190 - order Screen
+2018-05-03 22:16:23 DEBUG frontend:154 - On exit - serial table: 2
+2018-05-03 22:16:23 DEBUG frontend:144 - system shutdown on: 2018-05-03T22:16:23.397

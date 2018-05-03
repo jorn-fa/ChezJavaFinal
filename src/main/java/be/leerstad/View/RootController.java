@@ -95,10 +95,10 @@ public class RootController implements Initializable{
 
     }
 
-
+/*
     public void setDialogStage(Stage dialogStage) {
         this.dialogStage = dialogStage;
-    }
+    }*/
 
     @FXML
     public void initialize(URL location, ResourceBundle resouces) {
