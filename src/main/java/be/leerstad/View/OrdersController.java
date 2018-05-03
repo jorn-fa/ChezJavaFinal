@@ -66,7 +66,7 @@ public class OrdersController implements Initializable {
 
 
     @FXML
-    private Label NaamLabel;
+    private Label naamLabel;
 
 
     public OrdersController() {}
@@ -86,6 +86,8 @@ public class OrdersController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+
+        naamLabel.setText(Cafe.getInstance().getOberNaam());
 
         consumtionTable.setItems(getConsumptionData());
         consumptionNameColumn.setCellValueFactory(cellData -> convertToStringProperty(cellData.getValue().getNaam()));
@@ -213,19 +215,28 @@ public class OrdersController implements Initializable {
     @FXML
     private void afrekenAction()throws NumberFormatException
     {
-        Cafe.getInstance().afrekenen();
-        log.debug("afrekenen");
+        if (Cafe.getInstance().getOber()!=null) {
+            Cafe.getInstance().afrekenen();
+            log.debug("afrekenen");
+            besteldData.setItems(getbesteldData());
+            besteldData.refresh();
+
+        }
+        else
+        {
+            log.debug("Afrekenen zonder ingelogd te zijn");
+        }
     }
 
 
-
+/*
     @FXML
     private void showConsumptionDetails(Consumption consumption) {
 
         if (consumption != null) {
             // Fill the labels with info from the person object.
 
-            NaamLabel.setText(consumption.getNaam());
+            naamLabel.setText(consumption.getNaam());
             qtyLabel.setText(String.valueOf(consumption.getAantal()));
             consumptionNameColumn.setText(consumption.getNaam());
 
@@ -233,7 +244,7 @@ public class OrdersController implements Initializable {
             log.debug("list cleared before reload");
         }
 
-    }
+    }*/
 
 
 

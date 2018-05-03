@@ -277,12 +277,19 @@ public class Cafe extends Application {
 
     public void afrekenen()
     {
-        OrdersDAOImpl ordersDAOimpl = new OrdersDAOImpl();
-        ordersDAOimpl.writeOrder(currentTafel.getLijstForPayment());
-        dbaseLogger.debug("Order write procedure started");
-        frontlogger.debug("Payment button pressed");
-        currentTafel.hasPaid();
-        wegSchrijven();
+        if (currentWaiter.getID()==currentTafel.getOberId()) {
+            OrdersDAOImpl ordersDAOimpl = new OrdersDAOImpl();
+            ordersDAOimpl.writeOrder(currentTafel.getLijstForPayment());
+            dbaseLogger.debug("Order write procedure started");
+            frontlogger.debug("Payment button pressed");
+            currentTafel.hasPaid();
+            wegSchrijven();
+        }
+        else
+        {
+            frontlogger.debug("Wrong waiter on order payment");
+        }
+
     }
 
 
