@@ -19,7 +19,9 @@ import org.apache.log4j.Logger;
 
 import java.awt.*;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.sql.Date;
 import java.time.LocalDate;
@@ -36,9 +38,6 @@ public class RapportController implements Initializable {
     private Label fullNameField;
 
     @FXML
-    private Date today;
-
-    @FXML
     private DatePicker datePicker;
 
 
@@ -46,7 +45,7 @@ public class RapportController implements Initializable {
     public void initialize(URL location, ResourceBundle resouces) {
         fullNameField.setText(Cafe.getInstance().getOberNaam());
         isIngelogd = Cafe.getInstance().isIngelogd();
-        today = Date.valueOf(LocalDate.now());
+        Date today = Date.valueOf(LocalDate.now());
         Cafe.getInstance().loadProps();
 
         if (!isIngelogd) {showalert();}
@@ -71,7 +70,14 @@ public class RapportController implements Initializable {
         if (localDate==null){
             localDate = LocalDate.now();log.debug("Forgot to enter date on selection");
         }
-        PdfFactory.GetPDFbyType("totalbywaiterssortedbyday", Cafe.getInstance().totalSortedProp, localDate);
+
+        try {
+            PdfFactory.GetPDFbyType("totalbywaiterssortedbyday", Cafe.getInstance().totalSortedProp, localDate);
+        } catch (IOException e) {
+           log.debug("File in use by other process");
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        }
         showPdf(Cafe.getInstance().totalSortedProp);
 
     }
@@ -161,6 +167,7 @@ public class RapportController implements Initializable {
             } catch (IOException ex) {
                 log.debug("no application registered for PDFs");
             }
+
         }
     }
 

@@ -9,7 +9,9 @@ import com.itextpdf.text.pdf.*;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.List;
@@ -19,7 +21,7 @@ public class PdfTotalByWaiterbyDay {
     private static int top = 842;  //hoogte A4 formaat itext - rekenwaarde
     private static int right = 595; //breedte ^
     private static int leftRightMargin = 50;
-    private static int totalSum;  //rekenwaarde overzicht per datum
+    private static double totalSum=0;  //rekenwaarde overzicht per datum
 
     private static final String pdfBackdrop = "src/main/resources/tables/backdrop.pdf";
     private static HashMap<Integer, String> waiters = new WaiterDAOImpl().waiterList();
@@ -31,11 +33,12 @@ public class PdfTotalByWaiterbyDay {
 
     private PdfTotalByWaiterbyDay(){};
 
-    public static void totalByWaitersSortedByday(String destination, LocalDate localDate) throws IOException, DocumentException {
+    public static void totalByWaitersSortedByday(String destination, LocalDate localDate) throws IOException, DocumentException  {
         List<Consumption> lijst = rapportDaoImpl.printByDay(localDate);
 
         PdfBackdrop.createPDF();
         PdfReader pdfReader = new PdfReader(pdfBackdrop);
+
         PdfStamper pdfStamper = new PdfStamper(pdfReader, new FileOutputStream(destination));
         int columnCount = 4;
 
@@ -77,7 +80,7 @@ public class PdfTotalByWaiterbyDay {
         for (int teller = 0; teller < lijst.size(); teller++) {
 
             table.addCell(waiters.get(lijst.get(teller).getWaiterID())); //naam
-            table.addCell(beveragelijst.get(lijst.get(teller).getBeverageId()).getNaam());
+            table.addCell(beveragelijst.get(lijst.get(teller).getBeverageId()-1).getNaam());
             int aantal = lijst.get(teller).getAantal();
 
             PdfPCell right = new PdfPCell(new Phrase(Integer.toString(aantal)));
@@ -86,7 +89,7 @@ public class PdfTotalByWaiterbyDay {
             table.addCell(right);
             DecimalFormat df = new DecimalFormat("##.### €");
 
-            double getal = beveragelijst.get(lijst.get(teller).getBeverageId()).getPrijs() * aantal;
+            double getal = beveragelijst.get(lijst.get(teller).getBeverageId()-1).getPrijs() * aantal;
             totalSum += getal;
 
             String afdrukGetal = df.format(getal);
@@ -97,8 +100,12 @@ public class PdfTotalByWaiterbyDay {
         }
 
 
-        String text = "Sales by waiter -> Sorted on date = " + localDate.toString();
-        String text2 = "Total sale on day = " + Double.valueOf(totalSum) + " €.";
+        
+
+        NumberFormat numberformat = NumberFormat.getInstance();
+        numberformat.setMaximumFractionDigits(2);
+        String text = "Sales by waiters -> Sorted on date = " + localDate.toString();
+        String text2 = "Total sale on day = " + numberformat.format(totalSum) + " €.";
         PdfContentByte canvas = pdfStamper.getOverContent(1);
         ColumnText.showTextAligned(canvas, 50, new Phrase(text), leftRightMargin, top - 200, 0);
         ColumnText.showTextAligned(canvas, 50, new Phrase(text2), leftRightMargin, top - 230, 0);
@@ -136,5 +143,6 @@ public class PdfTotalByWaiterbyDay {
             rijteller -= maxPerPagina;
         }
         pdfStamper.close();
+        totalSum=0;//reset
     }
 }

@@ -22,7 +22,7 @@ public class RapportDaoImpl implements RapportDAO {
     public List printByDay(LocalDate datum) {
 
         Date searchDate = Date.valueOf(datum);
-        //public Consumption(int orderNummer, int beverageID, int aantal, int waiterID)
+
         List<Consumption> lijst = new ArrayList<>();
 
         SQL = "select * from orders where date = '"+ searchDate + "'" ;

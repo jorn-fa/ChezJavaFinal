@@ -23,6 +23,8 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
     private static Logger logger = Logger.getLogger(Tafel.class.getName());
 
 
+
+
     public Tafel(String naam) {
         this.naam = naam;
         logger.debug("created : " + this.toString());
@@ -32,6 +34,10 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
 
     public String getNaam() {
         return naam;
+    }
+
+    public List<Consumption> getLijstForPayment(){
+        return order.getLijstForPayment();
     }
 
     public boolean hasOrders() {
@@ -61,13 +67,6 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
     public double getTotalPrice(){
         return order.getTotalPrice();
     }
-
-
-    public List<Consumption> getLijstForPayment(){
-        return order.getLijstForPayment();
-    }
-
-    public ObservableList<Consumption> getFXLijstForPayment(){return  FXCollections.observableArrayList(order.getLijstForPayment());}
 
 
     @Override

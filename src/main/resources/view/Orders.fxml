@@ -36,7 +36,7 @@
                   <TableView fx:id="consumtionTable" prefHeight="258.0" prefWidth="268.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="100.0">
                     <columns>
                       <TableColumn fx:id="consumptionNameColumn" prefWidth="427.0" text="Naam" />
-                      <TableColumn fx:id="consumptionQtyColumn" minWidth="0.0" prefWidth="72.0" text="Aantal" />
+                      <TableColumn fx:id="consumptionQtyColumn" minWidth="0.0" prefWidth="72.0" text="Prijs" />
                     </columns>
                   </TableView>
                   <Label fx:id="naamLabel" layoutX="179.0" layoutY="645.0" text="Please Log in" />

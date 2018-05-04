@@ -32,18 +32,18 @@ public class Cafe extends Application {
 
     private   String Naam;
     private boolean ingelogd;
-
     private static Cafe instance;
-    public Cafe(){this(null);instance=this;}
-    public PdfFactory pdfFactory = new PdfFactory();
     private DeSerializer deSerializer = new DeSerializer();
 
+    //pdf locaties
+    public String totalWaiterProp;
+    public String totalWaitersProp;
+    public String totalSortedProp;
+    public String TopWaiterPie;
 
 
-    public Cafe(String naam)
-    {
-        this.Naam=naam;
-    }
+    public Cafe(){this(null);instance=this;}
+    public Cafe(String naam) { this.Naam=naam; }
 
     private Ober currentWaiter;
 
@@ -54,46 +54,113 @@ public class Cafe extends Application {
     private Tafel tafel5 = new Tafel("5");
     private Tafel tafel6 = new Tafel("6");
 
-    private Tafel[] tafels = new Tafel[]{tafel1,tafel2,tafel3,tafel4,tafel5,tafel6};
-
-    public Tafel[] getTafels() {
-        return tafels;
-    }
-
     public Tafel currentTafel = tafel1;
+
+    private Tafel[] tafels = new Tafel[]{tafel1,tafel2,tafel3,tafel4,tafel5,tafel6};
 
     private List<Consumption> beverageList = new ArrayList<>();
 
-
-    public List<Consumption> getBeverageList() {
-        return beverageList;
-    }
 
     private Stage primaryStage;
 
     private AnchorPane rootLayout;
     private Scene scene1;
 
-    public String totalWaiterProp;
-    public String totalWaitersProp;
-    public String totalSortedProp;
-    public String TopWaiterPie;
+    //region getters
 
+    public static Cafe getInstance(){return instance;}
+    public Ober getOber(){return currentWaiter;}
+    public Tafel[] getTafels() {return tafels; }
+    public List<Consumption> getBeverageList() {return beverageList;}
+    public String getOberNaam(){
+        if (currentWaiter != null) {
+            return currentWaiter.getVoornaam() + " " + currentWaiter.getNaam();
+        }
+        return "please log in.";
+    }
+    public boolean isIngelogd(){return ingelogd;}
 
-    public void wisselTafel(int getal){
+    public String getTafelNaam() {
+
+        if (currentWaiter == null) {
+            frontlogger.debug("oproepen order window zonder ingelogd te zijn");
+            return "Not Logged In";
+        }
+
+        frontlogger.debug("Call current tabel name");
+        return "Current table: " + currentTafel.getNaam();
+    }
+    //endregion
+    //------------------------------
+
+    //region mainapp start / stop
+    //------------------------------
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        tafels = deSerializer.giveTafel(tafels);
+
+        this.primaryStage = primaryStage;
+        this.primaryStage.setTitle("Chez Java");
+        this.primaryStage.setResizable(true);
+        this.primaryStage.setWidth(1200);
+        this.primaryStage.setHeight(700);
+        this.primaryStage.setResizable(false);
+        initRootLayout(currentWaiter);
+    }
+
+    @Override
+    public void stop()
+    {
+        wegSchrijven();
+        frontlogger.debug("system shutdown on: " + LocalDateTime.now());
+    }
+    //endregion
+    //------------------------------
+
+    //region javaFX
+    public void initRootLayout(Ober ober) {
         try {
-            currentTafel=tafels[getal-1];
-            frontlogger.debug("tafel wisselen naar tafel:" + getal);
-        } catch (IndexOutOfBoundsException e) {
-            frontlogger.debug("tafelnummer is niet bestaande");
+            // Load root layout from fxml file.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/view/RootLayout.fxml"));
+            RootController controller= loader.getController();
+
+            rootLayout =  loader.load();          // Show the scene containing the root layout.
+
+            scene1 = new Scene(rootLayout);
+
+            primaryStage.setScene(scene1);
+            primaryStage.show();
+
+            try {
+                if (!DbaseConnection.isAlive()){showalert();}
+            } catch (Exception e) {
+                dbaseLogger.error("Dbase not connected");
+
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
+    @FXML
+    private void showalert() {
 
-    public static Cafe getInstance(){return instance;}
+        Alert alert = new Alert(Alert.AlertType.WARNING);
 
+        alert.setTitle("Database error");
+        alert.setHeaderText("Please check database connection ");
+        alert.setContentText("Please connect to database and restart app");
 
-    public Ober getOber(){return currentWaiter;}
+        alert.showAndWait();
+        dbaseLogger.debug("DBASE NOT CONNECTED");
+        frontlogger.debug("DBASE NOT CONNECTED");
+
+    }
+
+    //endregion
+    //------------------------------
 
 
 
@@ -122,83 +189,6 @@ public class Cafe extends Application {
 
     }
 
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-
-        tafels = deSerializer.giveTafel(tafels);
-
-        this.primaryStage = primaryStage;
-        this.primaryStage.setTitle("Chez Java");
-        this.primaryStage.setResizable(true);
-        this.primaryStage.setWidth(1200);
-        this.primaryStage.setHeight(700);
-        this.primaryStage.setResizable(false);
-        initRootLayout(currentWaiter);
-    }
-
-    @Override
-    public void stop()
-    {
-        wegSchrijven();
-        frontlogger.debug("system shutdown on: " + LocalDateTime.now());
-
-    }
-
-    public void wegSchrijven(){
-        ObjectToSerialize ob = new ObjectToSerialize();
-
-        for (int teller = 0; teller<tafels.length;teller++)
-            if (tafels[teller].hasOrders()){
-                ob.Serialize(tafels[teller]);
-                frontlogger.debug("On exit - serial table: " + (teller+1));
-            }
-    }
-
-    public void initRootLayout(Ober ober) {
-        try {
-            // Load root layout from fxml file.
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/view/RootLayout.fxml"));
-            RootController controller= loader.getController();
-
-            rootLayout = (AnchorPane) loader.load();          // Show the scene containing the root layout.
-
-
-            scene1 = new Scene(rootLayout);
-
-            primaryStage.setScene(scene1);
-            primaryStage.show();
-
-
-            try {
-                if (!DbaseConnection.isAlive()){showalert();}
-            } catch (Exception e) {
-                dbaseLogger.error("Dbase not connected");
-
-            }
-
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    @FXML
-    private void showalert() {
-
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-
-        alert.setTitle("Database error");
-        alert.setHeaderText("Please check database connection ");
-        alert.setContentText("Please connect to database and restart app");
-
-        alert.showAndWait();
-        dbaseLogger.debug("DBASE NOT CONNECTED");
-        frontlogger.debug("DBASE NOT CONNECTED");
-
-    }
-
     public boolean inloggen(Ober ober)
     {
 
@@ -214,7 +204,7 @@ public class Cafe extends Application {
         return false;
     }
 
-    public boolean isIngelogd(){return ingelogd;}
+
 
     public boolean uitloggen()
     {
@@ -224,30 +214,6 @@ public class Cafe extends Application {
             return true;}
         return false;
     }
-
-
-
-    public String getOberNaam(){
-        if (currentWaiter != null) {
-            return currentWaiter.getVoornaam() + " " + currentWaiter.getNaam();
-        }
-        return "please log in.";
-
-    }
-
-
-    public String getTafelNaam() {
-
-        if (currentWaiter == null) {
-            frontlogger.debug("oproepen order window zonder ingelogd te zijn");
-            return "Not Logged In";
-        }
-
-        frontlogger.debug("Call current tabel name");
-        return "Current table: " + currentTafel.getNaam();
-    }
-
-
 
     public boolean fillBeverageList()
     {
@@ -266,6 +232,15 @@ public class Cafe extends Application {
         }
 
      return false;
+    }
+
+    public void wisselTafel(int getal){
+        try {
+            currentTafel=tafels[getal-1];
+            frontlogger.debug("tafel wisselen naar tafel:" + getal);
+        } catch (IndexOutOfBoundsException e) {
+            frontlogger.debug("tafelnummer is niet bestaande");
+        }
     }
 
 
@@ -292,12 +267,17 @@ public class Cafe extends Application {
 
     }
 
+    public void wegSchrijven(){
+        ObjectToSerialize ob = new ObjectToSerialize();
 
-    public void getbyday()
-    {
-        WaiterDAOImpl waiterDAOImpl = new WaiterDAOImpl();
-        //waiterDAOImpl.
+        for (int teller = 0; teller<tafels.length;teller++)
+            if (tafels[teller].hasOrders()){
+                ob.Serialize(tafels[teller]);
+                frontlogger.debug("On exit - serial table: " + (teller+1));
+            }
     }
+
+
 
     public void mailFile(String location,String titel)
     {

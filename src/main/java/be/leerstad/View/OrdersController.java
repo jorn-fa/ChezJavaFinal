@@ -96,6 +96,7 @@ public class OrdersController implements Initializable {
         consumptionQtyColumn.setCellValueFactory((cellData -> convertToStringProperty(String.valueOf(cellData.getValue().getPrijs()))));
 
 
+
         //direct inladen bestelde items
 
         besteldData.setItems(getbesteldData());

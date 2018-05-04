@@ -21,11 +21,6 @@ public class PdfFactory {
     private static Logger logger = Logger.getLogger(PdfFactory.class.getName());
     private static String waar = System.getProperty("user.dir")+"-src-main-resources-tables-";
 
-//todo  wissen
-    private static final String pdfDestination = waar + File.separator + "simple_table1.pdf";
-    private static final String pdfDestination2 = waar + File.separator + "simple_table2.pdf";
-    private static final String pdfDestination3 = waar + File.separator + "simple_table3.pdf";
-    private static final String pdfDestination4 = waar + File.separator + "simple_table4.pdf";
 
 
     public PdfFactory(){

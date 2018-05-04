@@ -18,12 +18,6 @@ public final class Ober implements Comparable<Ober> , java.io.Serializable{
     private int oberID;
     private final String naam;
     private final String voornaam;
-
-
-
-
-
-
     private static Logger logger = Logger.getLogger(Ober.class.getName());
 
     public Ober(){this(0,null,null);}
@@ -68,11 +62,6 @@ public final class Ober implements Comparable<Ober> , java.io.Serializable{
     public int getID() {
         return oberID;
     }
-
-    //voorzien naar uitbreiding toe - niet direct in opdracht
-
-
-
 
     @Override
     public final boolean equals(Object o) {

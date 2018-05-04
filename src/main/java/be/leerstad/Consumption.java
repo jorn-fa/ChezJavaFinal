@@ -22,13 +22,10 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
 
     private final int beverageId;
     private final String naam;
-    private transient StringProperty naamProperty;
     private double prijs;
     private int orderNummer;
     private int waiterID;
     public int aantal;
-    //private transient IntegerProperty aantalProperty;
-
     private static Logger logger = Logger.getLogger(Consumption.class.getName());
 
 
@@ -36,9 +33,7 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
     public Consumption(int beverageId, int aantal, int waiterID){
         this.beverageId = beverageId;
         this.naam = null;
-        this.naamProperty= null;
         this.aantal = aantal;
-        //this.aantalProperty=new SimpleIntegerProperty(aantal);
         this.prijs = 0 ;
         this.orderNummer=0;
         this.waiterID=waiterID;
@@ -47,7 +42,6 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
     public Consumption(int beverageId, String naam, double prijs ) {
         this.beverageId = beverageId;
         this.naam = naam;
-        this.naamProperty=new SimpleStringProperty(naam);
         this.prijs = prijs ;
         this.orderNummer=0;
         this.waiterID=0;
@@ -60,9 +54,7 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
     public Consumption(int beverageId, String naam, double prijs, int aantal) {
         this.beverageId = beverageId;
         this.naam = naam;
-        this.naamProperty=new SimpleStringProperty(naam);
         this.aantal = aantal;
-        //this.aantalProperty=new SimpleIntegerProperty(aantal);
         this.prijs = prijs ;
         this.orderNummer=0;
         this.waiterID=0;
@@ -77,10 +69,8 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
         this.orderNummer=orderNummer;
         this.beverageId=beverageID;
         this.aantal=aantal;
-        //this.aantalProperty=new SimpleIntegerProperty(aantal);
         this.waiterID=waiterID;
         this.naam=null;
-        naamProperty=null;
         this.prijs=0d;
 
         logger.debug("created : " + this.toString());
@@ -107,10 +97,7 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
         this.prijs = prijs;
     }
 
-    public int getOrderNummer() {
-        return orderNummer;
-    }
-    public void withOrderNummer(int nummer){this.orderNummer=nummer;}
+
 
     public int getWaiterID() {
         return waiterID;
@@ -124,14 +111,6 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
         return aantal;
     }
 
-    /*
-    @FXML
-    public IntegerProperty getAantalProperty(){
-        return  aantalProperty;
-    }*/
-
-
-    public void setAantal(int aantal) {this.aantal = aantal;}
 
     public void changeAantal(int getal){
         aantal += getal;
@@ -168,7 +147,6 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
     public String toString() {
         StringBuilder sb = new StringBuilder();
         DecimalFormat df = new DecimalFormat("#0.00");
-        char a = df.getDecimalFormatSymbols().getDecimalSeparator();
         if (naam!=null) {
             sb.append("Consumption{");
             sb.append("naam='" + naam + '\'');
