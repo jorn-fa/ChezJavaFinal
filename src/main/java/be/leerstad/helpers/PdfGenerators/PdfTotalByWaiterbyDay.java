@@ -100,7 +100,7 @@ public class PdfTotalByWaiterbyDay {
         }
 
 
-        
+
 
         NumberFormat numberformat = NumberFormat.getInstance();
         numberformat.setMaximumFractionDigits(2);
