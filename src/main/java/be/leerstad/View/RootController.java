@@ -36,7 +36,6 @@ public class RootController implements Initializable{
     private Stage dialogStage;
 
 
-
     @FXML
     private Label fullNameField;
 
@@ -95,10 +94,6 @@ public class RootController implements Initializable{
 
     }
 
-/*
-    public void setDialogStage(Stage dialogStage) {
-        this.dialogStage = dialogStage;
-    }*/
 
     @FXML
     public void initialize(URL location, ResourceBundle resouces) {
@@ -112,11 +107,7 @@ public class RootController implements Initializable{
         verifyColor(circle6);
     }
 
-    public void setNode(Node node)
-    {
-        pane.getChildren().clear();
-        pane.getChildren().add((Node)node);
-    }
+
 
 
 

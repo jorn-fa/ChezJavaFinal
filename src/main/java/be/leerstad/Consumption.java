@@ -79,17 +79,14 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
     }
 
 
-
+    //region getters + setters
     public int getBeverageId() {
         return beverageId;
     }
 
-
     public String getNaam() {
         return naam;
     }
-
-
 
     public double getPrijs() {return prijs;}
 
@@ -97,26 +94,27 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
         this.prijs = prijs;
     }
 
-
-
     public int getWaiterID() {
         return waiterID;
-    }
-
-    public void AddWaiterID(int waiterID) {
-        this.waiterID = waiterID;
     }
 
     public int getAantal() {
         return aantal;
     }
 
+    public double getTotaal(){return aantal * prijs;}
+
+
+    //endregion
+
 
     public void changeAantal(int getal){
         aantal += getal;
     }
 
-    public double getTotaal(){return aantal * prijs;}
+    public void AddWaiterID(int waiterID) {
+        this.waiterID = waiterID;
+    }
 
     @Override
     public boolean equals(Object o) {

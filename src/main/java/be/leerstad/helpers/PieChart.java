@@ -13,7 +13,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class PieChart {
+public final class PieChart {
 
     private static final String destination = "results/tables/piechart.jpg";
     private static final String pdfDestination3 = "results/tables/temp.pdf";

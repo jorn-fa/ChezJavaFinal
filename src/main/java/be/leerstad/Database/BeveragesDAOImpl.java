@@ -14,8 +14,7 @@ import java.util.List;
 
 public class BeveragesDAOImpl implements BeveragesDAO {
 
-    Logger logger = Logger.getLogger("dbase");
-
+    private Logger logger = Logger.getLogger("dbase");
 
 
     @Override
@@ -47,7 +46,7 @@ public class BeveragesDAOImpl implements BeveragesDAO {
     @Override
     public HashMap priceList() {
         Connection connection = DbaseConnection.getConnection();
-        HashMap<Integer, Double> pricelist = new HashMap<Integer, Double>();
+        HashMap<Integer, Double> pricelist = new HashMap<>();
 
         List<Consumption> lijst = new ArrayList<>();
 

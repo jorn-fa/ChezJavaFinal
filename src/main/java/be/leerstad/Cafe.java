@@ -23,14 +23,14 @@ import java.util.List;
 import java.util.Properties;
 
 
-public class Cafe extends Application {
+public final class Cafe extends Application {
 
     private static Logger frontlogger = Logger.getLogger("frontend");
     static Logger dbaseLogger = Logger.getLogger("dbase");
 
 
 
-    private   String Naam;
+    private String Naam;
     private boolean ingelogd;
     private static Cafe instance;
     private DeSerializer deSerializer = new DeSerializer();
@@ -244,12 +244,6 @@ public class Cafe extends Application {
     }
 
 
-    public void addConsumption(Consumption consumption)
-    {
-        currentTafel.addConsumption(consumption, currentWaiter);
-    }
-
-
     public void afrekenen()
     {
         if (currentWaiter.getID()==currentTafel.getOberId()) {
@@ -267,7 +261,7 @@ public class Cafe extends Application {
 
     }
 
-    public void wegSchrijven(){
+    private void wegSchrijven(){
         ObjectToSerialize ob = new ObjectToSerialize();
 
         for (int teller = 0; teller<tafels.length;teller++)

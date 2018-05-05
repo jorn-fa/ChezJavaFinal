@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Order implements java.io.Serializable{
+public final class Order implements java.io.Serializable{
 
     private List<Consumption> lijst = new ArrayList<>();
 
@@ -27,14 +27,13 @@ public class Order implements java.io.Serializable{
 
     public double getTotalPrice(){
 
-        return lijst.stream().mapToDouble(i -> i.getTotaal()).sum();
+        return lijst.stream().mapToDouble(Consumption::getTotaal).sum();
     }
 
     public boolean clearOrder()
     {
-    lijst.clear();
-    if (lijst.size()==00){return true;}
-    return false;
+        lijst.clear();
+        return lijst.size() == 00;
     }
 
     public int getWaiterID(){

@@ -16,7 +16,7 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.HashMap;
 
-public class PdfFactory {
+public final class PdfFactory {
 
     private static Logger logger = Logger.getLogger(PdfFactory.class.getName());
     private static String waar = System.getProperty("user.dir")+"-src-main-resources-tables-";

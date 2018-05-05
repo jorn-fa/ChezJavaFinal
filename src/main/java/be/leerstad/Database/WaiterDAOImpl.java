@@ -15,8 +15,8 @@ import java.util.Set;
 
 public class WaiterDAOImpl implements WaiterDAO {
 
-    Connection connection = DbaseConnection.getConnection();
-    Logger logger = Logger.getLogger("dbase");
+    private Connection connection = DbaseConnection.getConnection();
+    private Logger logger = Logger.getLogger("dbase");
 
 
     @Override
@@ -75,30 +75,4 @@ public class WaiterDAOImpl implements WaiterDAO {
         return null;
     }
 
-    public static void main(String[] args) {
-        WaiterDAOImpl a= new WaiterDAOImpl();
-
-
-            HashMap<Integer, String> list = new HashMap<Integer, String>();
-            list=a.waiterList();
-            Set set2 = list.entrySet();
-            Iterator iterator2 = set2.iterator();
-
-            while(iterator2.hasNext()) {
-                Map.Entry mentry2 = (Map.Entry)iterator2.next();
-                System.out.print("Key is: "+mentry2.getKey() + " & Value is: ");
-                System.out.println(mentry2.getValue());
-            }
-
-            Ober een = new Ober(1,"jorn","peters","pwd");
-            Ober temp = a.compareOber(een);
-
-        try {
-            System.out.println(temp.getID());
-        } catch (Exception e) {
-            System.out.println("waiter not found");
-        }
-
-
-    }
 }

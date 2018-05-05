@@ -70,9 +70,7 @@ public final class Ober implements Comparable<Ober> , java.io.Serializable{
 
         Ober ober = (Ober) o;
 
-        if (oberID != ober.oberID) return false;
-        if (!naam.equals(ober.naam)) return false;
-        return voornaam.equals(ober.voornaam);
+        return oberID == ober.oberID && naam.equals(ober.naam) && voornaam.equals(ober.voornaam);
     }
 
     @Override
@@ -86,7 +84,6 @@ public final class Ober implements Comparable<Ober> , java.io.Serializable{
     public int compareTo(Ober ober) {
         return Comparator.comparing(Ober::getNaam)
                 .thenComparing(Ober::getVoornaam)
-                //.thenComparing(Ober::getID)
                 .compare(this,ober);
     }
 

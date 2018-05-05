@@ -12,7 +12,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
 
-public class DeSerializer {
+public final class DeSerializer {
 
     private ObjectToSerialize ob = new ObjectToSerialize();
     private String waar = ob.getWaar().toString();

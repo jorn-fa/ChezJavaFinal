@@ -3409,3 +3409,114 @@
 2018-05-05 00:16:53 DEBUG frontend:150 - Rapport Screen
 2018-05-05 00:16:54 DEBUG frontend:71 - Forgot to enter date on selection
 2018-05-05 00:17:08 DEBUG frontend:115 - system shutdown on: 2018-05-05T00:17:08.361
+2018-05-05 00:27:28 DEBUG frontend:134 - User login screen
+2018-05-05 00:27:30 DEBUG frontend:150 - Rapport Screen
+2018-05-05 00:27:31 DEBUG frontend:71 - Forgot to enter date on selection
+2018-05-05 00:27:39 DEBUG frontend:115 - system shutdown on: 2018-05-05T00:27:39.129
+2018-05-05 14:14:04 DEBUG frontend:134 - User login screen
+2018-05-05 14:14:09 DEBUG frontend:240 - tafel wisselen naar tafel:5
+2018-05-05 14:14:09 DEBUG frontend:90 - Call current tabel name
+2018-05-05 14:14:09 DEBUG frontend:190 - order Screen
+2018-05-05 14:14:59 DEBUG frontend:182 - Add: Leffe 1
+2018-05-05 14:15:01 DEBUG frontend:259 - Payment button pressed
+2018-05-05 14:15:01 DEBUG frontend:225 - afrekenen
+2018-05-05 14:15:03 DEBUG frontend:150 - Rapport Screen
+2018-05-05 14:15:04 DEBUG frontend:71 - Forgot to enter date on selection
+2018-05-05 14:15:22 DEBUG frontend:240 - tafel wisselen naar tafel:4
+2018-05-05 14:15:22 DEBUG frontend:90 - Call current tabel name
+2018-05-05 14:15:22 DEBUG frontend:190 - order Screen
+2018-05-05 14:15:26 DEBUG frontend:182 - Add: Leffe 5
+2018-05-05 14:15:31 DEBUG frontend:182 - Add: Minute Maid 4
+2018-05-05 14:15:32 DEBUG frontend:259 - Payment button pressed
+2018-05-05 14:15:32 DEBUG frontend:225 - afrekenen
+2018-05-05 14:15:35 DEBUG frontend:150 - Rapport Screen
+2018-05-05 14:15:36 DEBUG frontend:71 - Forgot to enter date on selection
+2018-05-05 14:15:57 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:15:57.858
+2018-05-05 14:18:40 DEBUG frontend:240 - tafel wisselen naar tafel:4
+2018-05-05 14:18:40 DEBUG frontend:86 - oproepen order window zonder ingelogd te zijn
+2018-05-05 14:18:40 DEBUG frontend:190 - order Screen
+2018-05-05 14:18:42 DEBUG frontend:134 - User login screen
+2018-05-05 14:18:47 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 14:18:47 DEBUG frontend:90 - Call current tabel name
+2018-05-05 14:18:47 DEBUG frontend:190 - order Screen
+2018-05-05 14:18:52 DEBUG frontend:182 - Add: Sprite 1
+2018-05-05 14:18:57 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:18:57 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:18:57.967
+2018-05-05 14:19:05 DEBUG frontend:91 - inlezen zonder ingelogd 
+2018-05-05 14:19:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 14:19:07 DEBUG frontend:86 - oproepen order window zonder ingelogd te zijn
+2018-05-05 14:19:07 DEBUG frontend:190 - order Screen
+2018-05-05 14:19:10 DEBUG frontend:91 - inlezen zonder ingelogd 
+2018-05-05 14:19:10 DEBUG frontend:134 - User login screen
+2018-05-05 14:19:45 DEBUG frontend:134 - User login screen
+2018-05-05 14:19:45 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:19:45 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:19:45.948
+2018-05-05 14:28:04 DEBUG frontend:91 - inlezen zonder ingelogd 
+2018-05-05 14:28:06 DEBUG frontend:134 - User login screen
+2018-05-05 14:28:10 DEBUG frontend:134 - User login screen
+2018-05-05 14:28:11 DEBUG frontend:91 - inlezen zonder ingelogd 
+2018-05-05 14:28:12 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:28:12 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:28:12.958
+2018-05-05 14:41:56 DEBUG frontend:91 - inlezen zonder ingelogd 
+2018-05-05 14:41:58 DEBUG frontend:134 - User login screen
+2018-05-05 14:42:02 DEBUG frontend:134 - User login screen
+2018-05-05 14:42:03 DEBUG frontend:91 - inlezen zonder ingelogd 
+2018-05-05 14:42:04 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:42:04 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:42:04.268
+2018-05-05 14:43:15 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 14:43:18 DEBUG frontend:125 - User login screen
+2018-05-05 14:43:21 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:43:21 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:43:21.270
+2018-05-05 14:43:25 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 14:43:27 DEBUG frontend:125 - User login screen
+2018-05-05 14:43:30 DEBUG frontend:141 - Rapport Screen
+2018-05-05 14:43:32 DEBUG frontend:240 - tafel wisselen naar tafel:4
+2018-05-05 14:43:32 DEBUG frontend:90 - Call current tabel name
+2018-05-05 14:43:32 DEBUG frontend:181 - order Screen
+2018-05-05 14:43:35 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:43:35 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:43:35.124
+2018-05-05 14:48:39 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 14:48:41 DEBUG frontend:125 - User login screen
+2018-05-05 14:48:45 DEBUG frontend:141 - Rapport Screen
+2018-05-05 14:48:46 DEBUG frontend:71 - Forgot to enter date on selection
+2018-05-05 14:48:54 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:48:54 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:48:54.507
+2018-05-05 14:58:20 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 14:58:22 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 14:58:22 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:58:22.429
+2018-05-05 14:59:06 DEBUG frontend:125 - User login screen
+2018-05-05 14:59:09 DEBUG frontend:240 - tafel wisselen naar tafel:4
+2018-05-05 14:59:09 DEBUG frontend:90 - Call current tabel name
+2018-05-05 14:59:09 DEBUG frontend:181 - order Screen
+2018-05-05 14:59:13 DEBUG frontend:182 - Add: Spa 1
+2018-05-05 14:59:19 DEBUG frontend:270 - On exit - serial table: 4
+2018-05-05 14:59:19 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:59:19.154
+2018-05-05 14:59:23 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 14:59:25 DEBUG frontend:270 - On exit - serial table: 4
+2018-05-05 14:59:25 DEBUG frontend:115 - system shutdown on: 2018-05-05T14:59:25.197
+2018-05-05 15:01:06 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 15:01:07 DEBUG frontend:240 - tafel wisselen naar tafel:4
+2018-05-05 15:01:07 DEBUG frontend:86 - oproepen order window zonder ingelogd te zijn
+2018-05-05 15:01:07 DEBUG frontend:181 - order Screen
+2018-05-05 15:01:10 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 15:01:11 DEBUG frontend:125 - User login screen
+2018-05-05 15:01:14 DEBUG frontend:240 - tafel wisselen naar tafel:4
+2018-05-05 15:01:14 DEBUG frontend:90 - Call current tabel name
+2018-05-05 15:01:14 DEBUG frontend:181 - order Screen
+2018-05-05 15:01:16 DEBUG frontend:141 - Rapport Screen
+2018-05-05 15:01:17 DEBUG frontend:71 - Forgot to enter date on selection
+2018-05-05 15:01:25 DEBUG frontend:270 - On exit - serial table: 4
+2018-05-05 15:01:25 DEBUG frontend:115 - system shutdown on: 2018-05-05T15:01:25.297
+2018-05-05 15:05:11 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 15:05:14 DEBUG frontend:125 - User login screen
+2018-05-05 15:05:17 DEBUG frontend:125 - User login screen
+2018-05-05 15:05:18 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 15:05:19 DEBUG frontend:240 - tafel wisselen naar tafel:4
+2018-05-05 15:05:19 DEBUG frontend:86 - oproepen order window zonder ingelogd te zijn
+2018-05-05 15:05:19 DEBUG frontend:181 - order Screen
+2018-05-05 15:05:20 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 15:23:12 DEBUG frontend:270 - On exit - serial table: 4
+2018-05-05 15:23:12 DEBUG frontend:115 - system shutdown on: 2018-05-05T15:23:12.723
+2018-05-05 15:27:42 DEBUG frontend:90 - inlezen zonder ingelogd 
+2018-05-05 15:27:45 DEBUG frontend:270 - On exit - serial table: 4
+2018-05-05 15:27:45 DEBUG frontend:115 - system shutdown on: 2018-05-05T15:27:45.316

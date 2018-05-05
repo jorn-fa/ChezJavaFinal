@@ -14,7 +14,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 
-public class Email {
+public final class Email {
 	
 	    private static Logger log = Logger.getLogger("email");
 	

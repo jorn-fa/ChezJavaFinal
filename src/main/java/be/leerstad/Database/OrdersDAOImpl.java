@@ -14,11 +14,11 @@ import java.util.List;
 
 public class OrdersDAOImpl implements Serializable , OrdersDAO {
 
-    Logger logger = Logger.getLogger("dbase");
+    private Logger logger = Logger.getLogger("dbase");
 
-    Connection connection = DbaseConnection.getConnection();
+    private Connection connection = DbaseConnection.getConnection();
 
-    String SQL = "insert into orders(orderNumber, beverageID, qty, date, waiterID) values (?,?,?,?,?)";
+    private String SQL = "insert into orders(orderNumber, beverageID, qty, date, waiterID) values (?,?,?,?,?)";
 
 
     @Override
@@ -46,8 +46,6 @@ public class OrdersDAOImpl implements Serializable , OrdersDAO {
 
         }
         }
-
-
 
 
     @Override
@@ -131,15 +129,6 @@ public class OrdersDAOImpl implements Serializable , OrdersDAO {
         return lijst;
     }
 
-    public static void main(String[] args) {
-        Order order = new Order();
-        Consumption consumptie1 = new Consumption(1,"Cola", 2.40, 1 );
-        consumptie1.AddWaiterID(4);
-        order.addConsumption(consumptie1);
-        List<Consumption> lijst =order.getLijstForPayment();
-        OrdersDAOImpl test= new OrdersDAOImpl();
-        test.writeOrder(lijst);
 
-    }
 
 }

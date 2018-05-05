@@ -12,9 +12,9 @@ import java.util.List;
 
 public class RapportDaoImpl implements RapportDAO {
 
-    Logger logger = Logger.getLogger("dbase");
-    Connection connection = DbaseConnection.getConnection();
-    String SQL;
+    private Logger logger = Logger.getLogger("dbase");
+    private Connection connection = DbaseConnection.getConnection();
+    private String SQL;
 
 
 
@@ -90,14 +90,5 @@ public class RapportDaoImpl implements RapportDAO {
 
     }
 
-    public static void main(String[] args) {
-        RapportDaoImpl a = new RapportDaoImpl();
-        LocalDate date = LocalDate.of(2017,12,21);
 
-        System.out.println(date);
-        a.printByDay(date);
-        System.out.println("---");
-        Ober ober=new Ober(1,"wout","peters");
-        System.out.println(a.giveSaleResult(ober));
-    }
 }

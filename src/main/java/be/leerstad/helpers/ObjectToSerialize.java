@@ -11,7 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class ObjectToSerialize {
+public final class ObjectToSerialize {
 
     private static Logger logger = Logger.getLogger(Tafel.class.getName());
 

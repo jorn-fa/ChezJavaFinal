@@ -27,10 +27,6 @@ public class LoginController {
     @FXML
     private PasswordField passwordField;
 
-    private String first;
-    private String name;
-    private String pwd;
-
     private Stage dialogStage;
 
     public LoginController(){}
@@ -38,9 +34,7 @@ public class LoginController {
     @FXML
     private void initialize() {  }
 
-    public void setDialogStage(Stage dialogStage) {
-        this.dialogStage = dialogStage;
-    }
+
 
     @FXML
     private void handleCancel(ActionEvent event) throws IOException {
@@ -60,11 +54,11 @@ public class LoginController {
     @FXML
     private void logIn(ActionEvent event) throws IOException {
         if (isInputValid()) {
-            first=firstNameField.getText();
-            name=lastNameField.getText();
-            pwd=passwordField.getText();
+            String first = firstNameField.getText();
+            String name = lastNameField.getText();
+            String pwd = passwordField.getText();
 
-            Ober ober=new Ober(0,name,first,pwd);
+            Ober ober=new Ober(0, name, first, pwd);
             Cafe.getInstance().inloggen(ober);
             goBack(event);
         }

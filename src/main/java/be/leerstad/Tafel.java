@@ -32,6 +32,7 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
     }
 
 
+    //region getters + setters
     public String getNaam() {
         return naam;
     }
@@ -40,15 +41,21 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
         return order.getLijstForPayment();
     }
 
-    public boolean hasOrders() {
-        logger.debug("Check if table has items");
-        return hasOrders;
+    public double getTotalPrice(){
+        return order.getTotalPrice();
     }
 
     public int getOberId(){
         return order.getWaiterID();
     }
 
+    //endregion
+
+
+    public boolean hasOrders() {
+        logger.debug("Check if table has items");
+        return hasOrders;
+    }
 
     public void addConsumption(Consumption consumption, Ober ober) {
         consumption.AddWaiterID(ober.getID());
@@ -62,10 +69,6 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
         hasOrders=false;
         order.clearOrder();
         return true;
-    }
-
-    public double getTotalPrice(){
-        return order.getTotalPrice();
     }
 
 
@@ -92,6 +95,5 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
     public String toString() {
         return "Tafel{" + naam.toLowerCase() + "}";
     }
-
 
 }

@@ -11,9 +11,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 
-public class DbaseConnection {
+public final class DbaseConnection {
 
-    static Logger logger = Logger.getLogger("dbase");
+    private static Logger logger = Logger.getLogger("dbase");
     private final static String fileName = "dbase.properties";
     private final static String directory = System.getProperty("user.dir") + "/src/main/resources/".replace("/", File.separator);
 
