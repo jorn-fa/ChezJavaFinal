@@ -45,7 +45,7 @@ public class ConsumptionTest {
                 .withPrefabValues(Consumption.class, consumptie1,consumptie2)
                 //test limiteren wegens geen controle's te voorzien op velden en javaFX onderdelen
                 .withNonnullFields("beverageId","naam")
-                .withIgnoredFields("prijs", "aantal", "orderNummer", "waiterID","naamProperty")
+                .withIgnoredFields("prijs", "aantal", "orderNummer", "waiterID")
                 .verify();
     }
 

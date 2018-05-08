@@ -1,6 +1,7 @@
 package be.leerstad.View;
 
 import be.leerstad.Cafe;
+import be.leerstad.Database.OrdersDAOImpl;
 import be.leerstad.helpers.PdfFactory;
 import com.itextpdf.text.DocumentException;
 import javafx.event.ActionEvent;
@@ -10,22 +11,24 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Button;
-import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import javafx.util.Callback;
 import org.apache.log4j.Logger;
 
-import java.awt.*;
+;
+import java.awt.Desktop;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.sql.Date;
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
+import java.util.Set;
 
 public class RapportController implements Initializable {
 
@@ -33,6 +36,8 @@ public class RapportController implements Initializable {
 
     private boolean isIngelogd;
     private Stage dialogStage;
+
+    private Set<Date> orderDatums;
 
     @FXML
     private Label fullNameField;
@@ -47,8 +52,15 @@ public class RapportController implements Initializable {
         isIngelogd = Cafe.getInstance().isIngelogd();
         Date today = Date.valueOf(LocalDate.now());
         Cafe.getInstance().loadProps();
+        orderDatums =getOrderDatums();
 
         if (!isIngelogd) {showalert();}
+
+        datePicker.setDayCellFactory(dayCellFactory);
+        datePicker.setShowWeekNumbers(true);
+        datePicker.setValue(LocalDate.now());
+
+
     }
 
 
@@ -179,4 +191,57 @@ public class RapportController implements Initializable {
             log.debug("Something went wrong with mail command");
         }
     }
+
+    // Create a day cell factory
+
+    Callback<DatePicker, DateCell> dayCellFactory = new Callback<DatePicker, DateCell>() {
+        public DateCell call(final DatePicker datePicker) {
+            return new DateCell() {
+                @Override
+
+                public void updateItem(LocalDate item, boolean empty)
+
+                { // Must call super
+                    super.updateItem(item, empty);
+                    // Show Weekends in red text color
+
+                    DayOfWeek day = DayOfWeek.from(item);
+
+
+
+                    if (day == DayOfWeek.SATURDAY || day == DayOfWeek.SUNDAY) {
+                        this.setTextFill(Color.RED);
+
+                    }
+                    //disable after today
+                    if (item.isAfter(LocalDate.now())) {
+                        setDisable(true);
+                    }
+                    this.setVisible(false);
+
+                    for(Date date : orderDatums){
+                        if (item.equals(date.toLocalDate())){setVisible(true);}
+                    }
+                    }
+                };
+                }
+            };
+
+
+
+    private Set<Date>getOrderDatums()
+    {
+        OrdersDAOImpl ordersDAO = new OrdersDAOImpl();
+
+        return ordersDAO.dateList();
+
+    }
+
+    /*private void dataVullen(){
+    for (Date date : orderDatums()) {
+        if (item.equals(date)) {
+            this.setTextFill(Color.GREEN);
+        }
+        }*/
+
 }

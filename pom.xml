@@ -80,7 +80,19 @@
             <version>1.0.13</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.testfx/testfx-junit -->
+        <dependency>
+            <groupId>org.testfx</groupId>
+            <artifactId>testfx-junit</artifactId>
+            <version>LATEST</version>
+            <scope>test</scope>
+        </dependency>
 
+        <dependency>
+            <groupId>org.loadui</groupId>
+            <artifactId>testFx</artifactId>
+            <version>3.1.2</version>
+        </dependency>
 
 
 

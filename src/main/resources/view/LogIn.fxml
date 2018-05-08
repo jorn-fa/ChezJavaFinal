@@ -29,12 +29,12 @@
             </Rectangle>
             <HBox layoutX="16.0" layoutY="183.0" prefHeight="40.0" prefWidth="319.0">
                <children>
-                  <Button mnemonicParsing="true" onAction="#logIn" prefHeight="30.0" prefWidth="100.0" text="_Login">
+                  <Button mnemonicParsing="true" fx:id="loginButton" onAction="#logIn" prefHeight="30.0" prefWidth="100.0" text="_Login">
                      <HBox.margin>
                         <Insets left="50.0" right="10.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#handleCancel" prefHeight="30.0" prefWidth="100.0" text="Cancel">
+                  <Button mnemonicParsing="false" onAction="#handleCancel" fx:id="cancelButton" prefHeight="30.0" prefWidth="100.0" text="Cancel">
                      <HBox.margin>
                         <Insets left="10.0" top="10.0" />
                      </HBox.margin>

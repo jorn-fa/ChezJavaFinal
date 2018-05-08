@@ -1,5 +1,6 @@
 package be.leerstad.Database;
 
+import be.leerstad.Cafe;
 import be.leerstad.Consumption;
 import be.leerstad.Ober;
 import be.leerstad.Order;
@@ -10,7 +11,9 @@ import java.io.Serializable;
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class OrdersDAOImpl implements Serializable , OrdersDAO {
 
@@ -129,6 +132,30 @@ public class OrdersDAOImpl implements Serializable , OrdersDAO {
         return lijst;
     }
 
+    @Override
+    public Set<Date> dateList() {
+        Connection connection = DbaseConnection.getConnection();
 
+        Set<Date> lijst = new HashSet<>();
 
+        String SQL = "select date from orders where waiterid=" + "\"" + Cafe.getInstance().getOber().getID() + "\"" ;
+
+        try (
+                PreparedStatement pStatement = connection.prepareStatement(SQL);
+                ResultSet resultSet = pStatement.executeQuery()) {
+
+            while (resultSet.next()) {
+                Date datum = (resultSet.getDate(1));
+                lijst.add(datum);
+
+            }
+        } catch (SQLException e) {
+            logger.error("something went wrong with Orderlist");
+            throw new IllegalArgumentException("check sql");
+        }
+        logger.debug("Opvragen orderlist");
+        System.out.println(lijst);
+
+        return lijst;
+    }
 }

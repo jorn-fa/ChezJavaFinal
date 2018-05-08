@@ -3520,3 +3520,211 @@
 2018-05-05 15:27:42 DEBUG frontend:90 - inlezen zonder ingelogd 
 2018-05-05 15:27:45 DEBUG frontend:270 - On exit - serial table: 4
 2018-05-05 15:27:45 DEBUG frontend:115 - system shutdown on: 2018-05-05T15:27:45.316
+2018-05-05 16:45:41 DEBUG frontend:230 - reeds gevuld door andere ober
+2018-05-05 16:45:41 DEBUG frontend:230 - reeds gevuld door andere ober
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:41 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:41.698
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:41 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:41.745
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:1
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 1
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:41 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:41.838
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:41 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:41.901
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:41 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:41.932
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:45:41 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:41 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:41.963
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:41 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:45:42 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:45:42 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:42 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:42.009
+2018-05-05 16:45:42 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:45:42 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:45:42 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:45:42 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:45:42 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:45:42.041
+2018-05-05 16:46:06 DEBUG frontend:230 - reeds gevuld door andere ober
+2018-05-05 16:46:06 DEBUG frontend:230 - reeds gevuld door andere ober
+2018-05-05 16:46:06 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:06 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:06 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:06.996
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:07 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:07.012
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:1
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 1
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:07 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:07.074
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:07 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:07.152
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:07 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:07.215
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:07 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:07.262
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:07 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:07.402
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:3
+2018-05-05 16:46:07 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 2
+2018-05-05 16:46:07 DEBUG frontend:270 - On exit - serial table: 3
+2018-05-05 16:46:07 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:46:07.434
+2018-05-05 16:57:02 DEBUG frontend:125 - User login screen
+2018-05-05 16:57:06 DEBUG frontend:240 - tafel wisselen naar tafel:2
+2018-05-05 16:57:06 DEBUG frontend:90 - Call current tabel name
+2018-05-05 16:57:06 DEBUG frontend:181 - order Screen
+2018-05-05 16:57:08 DEBUG frontend:125 - User login screen
+2018-05-05 16:57:09 DEBUG frontend:125 - User login screen
+2018-05-05 16:57:13 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:57:13.728
+2018-05-05 16:57:34 DEBUG frontend:125 - User login screen
+2018-05-05 16:57:44 DEBUG frontend:115 - system shutdown on: 2018-05-05T16:57:44.421
+2018-05-05 17:05:56 DEBUG frontend:125 - User login screen
+2018-05-05 17:05:58 DEBUG frontend:125 - User login screen
+2018-05-05 17:06:03 DEBUG frontend:115 - system shutdown on: 2018-05-05T17:06:03.278
+2018-05-08 23:24:32 DEBUG frontend:152 - Not logged in popup
+2018-05-08 23:24:33 DEBUG frontend:115 - system shutdown on: 2018-05-08T23:24:33.432
+2018-05-08 23:26:25 DEBUG frontend:125 - User login screen
+2018-05-08 23:26:27 DEBUG frontend:141 - Rapport Screen
+2018-05-08 23:26:36 DEBUG frontend:115 - system shutdown on: 2018-05-08T23:26:36.150
+2018-05-08 23:26:52 DEBUG frontend:125 - User login screen
+2018-05-08 23:26:56 DEBUG frontend:141 - Rapport Screen
+2018-05-08 23:27:03 DEBUG frontend:115 - system shutdown on: 2018-05-08T23:27:03.170
+2018-05-08 23:30:03 DEBUG frontend:152 - Not logged in popup
+2018-05-08 23:30:04 DEBUG frontend:125 - User login screen
+2018-05-08 23:30:46 DEBUG frontend:141 - Rapport Screen
+2018-05-08 23:31:36 DEBUG frontend:115 - system shutdown on: 2018-05-08T23:31:36.641
+2018-05-08 23:57:56 DEBUG frontend:125 - User login screen
+2018-05-08 23:57:59 DEBUG frontend:141 - Rapport Screen
+2018-05-08 23:59:06 DEBUG frontend:125 - User login screen
+2018-05-08 23:59:09 DEBUG frontend:141 - Rapport Screen
+2018-05-08 23:59:40 DEBUG frontend:152 - Not logged in popup
+2018-05-08 23:59:41 DEBUG frontend:125 - User login screen
+2018-05-08 23:59:44 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:00:19 DEBUG frontend:125 - User login screen
+2018-05-09 00:00:23 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:00:32 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:00:32.381
+2018-05-09 00:09:55 DEBUG frontend:125 - User login screen
+2018-05-09 00:09:58 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:10:04 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:10:04.501
+2018-05-09 00:15:00 DEBUG frontend:125 - User login screen
+2018-05-09 00:15:04 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:17:01 DEBUG frontend:125 - User login screen
+2018-05-09 00:17:06 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:17:15 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:17:15.654
+2018-05-09 00:18:17 DEBUG frontend:125 - User login screen
+2018-05-09 00:18:24 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:18:28 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:18:28.243
+2018-05-09 00:23:34 DEBUG frontend:125 - User login screen
+2018-05-09 00:23:37 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:23:40 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:23:40.624
+2018-05-09 00:25:30 DEBUG frontend:152 - Not logged in popup
+2018-05-09 00:25:31 DEBUG frontend:125 - User login screen
+2018-05-09 00:25:33 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:25:38 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:25:38.024
+2018-05-09 00:26:29 DEBUG frontend:152 - Not logged in popup
+2018-05-09 00:26:30 DEBUG frontend:125 - User login screen
+2018-05-09 00:26:33 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:27:33 DEBUG frontend:152 - Not logged in popup
+2018-05-09 00:27:34 DEBUG frontend:125 - User login screen
+2018-05-09 00:27:37 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:27:52 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:27:52.879
+2018-05-09 00:29:33 DEBUG frontend:152 - Not logged in popup
+2018-05-09 00:29:34 DEBUG frontend:125 - User login screen
+2018-05-09 00:29:38 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:29:49 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:29:49.183
+2018-05-09 00:32:00 DEBUG frontend:125 - User login screen
+2018-05-09 00:32:04 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:32:13 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:32:13.366
+2018-05-09 00:35:08 DEBUG frontend:125 - User login screen
+2018-05-09 00:35:12 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:35:19 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:35:19.070
+2018-05-09 00:37:44 DEBUG frontend:125 - User login screen
+2018-05-09 00:37:47 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:37:59 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:37:59.174
+2018-05-09 00:42:46 DEBUG frontend:125 - User login screen
+2018-05-09 00:42:52 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:42:57 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:42:57.093
+2018-05-09 00:45:30 DEBUG frontend:125 - User login screen
+2018-05-09 00:45:35 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:45:45 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:45:45.473
+2018-05-09 00:46:01 DEBUG frontend:125 - User login screen
+2018-05-09 00:46:03 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:46:09 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:46:09.988
+2018-05-09 00:46:55 DEBUG frontend:125 - User login screen
+2018-05-09 00:46:57 DEBUG frontend:240 - tafel wisselen naar tafel:5
+2018-05-09 00:46:57 DEBUG frontend:90 - Call current tabel name
+2018-05-09 00:46:57 DEBUG frontend:181 - order Screen
+2018-05-09 00:47:00 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:49:16 DEBUG frontend:125 - User login screen
+2018-05-09 00:49:21 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:49:33 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:49:33.799
+2018-05-09 00:50:02 DEBUG frontend:152 - Not logged in popup
+2018-05-09 00:50:02 DEBUG frontend:125 - User login screen
+2018-05-09 00:50:06 DEBUG frontend:240 - tafel wisselen naar tafel:5
+2018-05-09 00:50:06 DEBUG frontend:90 - Call current tabel name
+2018-05-09 00:50:06 DEBUG frontend:181 - order Screen
+2018-05-09 00:50:08 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:50:47 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:50:47.071
+2018-05-09 00:50:54 DEBUG frontend:125 - User login screen
+2018-05-09 00:50:58 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:51:14 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:51:14.204
+2018-05-09 00:51:41 DEBUG frontend:125 - User login screen
+2018-05-09 00:51:44 DEBUG frontend:240 - tafel wisselen naar tafel:5
+2018-05-09 00:51:44 DEBUG frontend:90 - Call current tabel name
+2018-05-09 00:51:44 DEBUG frontend:181 - order Screen
+2018-05-09 00:51:46 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:51:57 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:51:57.352
+2018-05-09 00:55:38 DEBUG frontend:125 - User login screen
+2018-05-09 00:55:40 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:55:50 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:55:50.420
+2018-05-09 00:56:35 DEBUG frontend:125 - User login screen
+2018-05-09 00:56:40 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:56:49 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:56:49.206
+2018-05-09 00:57:06 DEBUG frontend:152 - Not logged in popup
+2018-05-09 00:57:07 DEBUG frontend:125 - User login screen
+2018-05-09 00:57:11 DEBUG frontend:141 - Rapport Screen
+2018-05-09 00:57:21 DEBUG frontend:115 - system shutdown on: 2018-05-09T00:57:21.107
+2018-05-09 01:01:03 DEBUG frontend:152 - Not logged in popup
+2018-05-09 01:01:04 DEBUG frontend:125 - User login screen
+2018-05-09 01:01:07 DEBUG frontend:141 - Rapport Screen
+2018-05-09 01:05:21 DEBUG frontend:125 - User login screen
+2018-05-09 01:05:25 DEBUG frontend:141 - Rapport Screen
+2018-05-09 01:06:00 DEBUG frontend:115 - system shutdown on: 2018-05-09T01:06:00.331
+2018-05-09 01:08:18 DEBUG frontend:125 - User login screen
+2018-05-09 01:08:22 DEBUG frontend:141 - Rapport Screen
+2018-05-09 01:08:48 DEBUG frontend:115 - system shutdown on: 2018-05-09T01:08:48.145
