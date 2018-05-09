@@ -18,15 +18,16 @@ public final class DeSerializer {
     private String waar = ob.getWaar().toString();
     private long count = 0;
     private String fileNames[];
-    private static Logger logger = Logger.getLogger(DeSerializer.class.getName());
+    //private static Logger logger = Logger.getLogger(DeSerializer.class.getName());
+    private static Logger logger = Logger.getLogger("chezjava");
 
 
-    private void wisser()
+    public void wisTafel(Tafel tafel)
     {
 
-        for (int teller=1;teller<10;teller++) {
+
             try {
-                File file = new File(waar + File.separator + "Tafel." + teller);
+                File file = new File(waar + File.separator + "Tafel." + tafel.getNaam());
 
                 if (file.delete()) {
                     logger.debug(file.getName() + " is deleted!");
@@ -34,7 +35,7 @@ public final class DeSerializer {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }
+
     }
 
     public Tafel[] giveTafel(Tafel[] tafellijst){
@@ -85,7 +86,7 @@ public final class DeSerializer {
             }
         }
 
-        wisser();
+
 
 
         return tafellijst;

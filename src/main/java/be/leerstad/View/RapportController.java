@@ -192,7 +192,7 @@ public class RapportController implements Initializable {
         }
     }
 
-    // Create a day cell factory
+    // Create a day cell factory --> S.
 
     Callback<DatePicker, DateCell> dayCellFactory = new Callback<DatePicker, DateCell>() {
         public DateCell call(final DatePicker datePicker) {
@@ -203,25 +203,21 @@ public class RapportController implements Initializable {
 
                 { // Must call super
                     super.updateItem(item, empty);
-                    // Show Weekends in red text color
+                    // weekends
 
                     DayOfWeek day = DayOfWeek.from(item);
 
-
-
                     if (day == DayOfWeek.SATURDAY || day == DayOfWeek.SUNDAY) {
                         this.setTextFill(Color.RED);
-
                     }
-                    //disable after today
+                    //toekomst is niet selecteerbaar + niet zichtbaar
                     if (item.isAfter(LocalDate.now())) {
                         setDisable(true);
                     }
                     this.setVisible(false);
 
                     for(Date date : orderDatums){
-                        if (item.equals(date.toLocalDate())){setVisible(true);}
-                    }
+                        if (item.equals(date.toLocalDate())){setVisible(true);}                    }
                     }
                 };
                 }
@@ -233,15 +229,11 @@ public class RapportController implements Initializable {
     {
         OrdersDAOImpl ordersDAO = new OrdersDAOImpl();
 
+
         return ordersDAO.dateList();
 
     }
 
-    /*private void dataVullen(){
-    for (Date date : orderDatums()) {
-        if (item.equals(date)) {
-            this.setTextFill(Color.GREEN);
-        }
-        }*/
+
 
 }

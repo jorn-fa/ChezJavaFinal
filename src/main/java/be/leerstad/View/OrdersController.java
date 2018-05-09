@@ -15,6 +15,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
 
@@ -69,6 +70,9 @@ public class OrdersController implements Initializable {
     @FXML
     private Label naamLabel;
 
+    @FXML
+    private AnchorPane WaiterActions;
+
 
     public OrdersController() {}
 
@@ -90,6 +94,7 @@ public class OrdersController implements Initializable {
         updateTotaal();
 
         naamLabel.setText(Cafe.getInstance().getOberNaam());
+
 
         consumtionTable.setItems(getConsumptionData());
         consumptionNameColumn.setCellValueFactory(cellData -> convertToStringProperty(cellData.getValue().getNaam()));
@@ -119,6 +124,8 @@ public class OrdersController implements Initializable {
                 qtyField.setText(oldValue);
             }
         });
+
+        checkSameWaiter();
 
     }
 
@@ -185,6 +192,7 @@ public class OrdersController implements Initializable {
                 }
             }
         }
+        Cafe.getInstance().wegSchrijvenTafel();
         besteldData.setItems(getbesteldData());
         besteldData.refresh();
         updateTotaal();
@@ -212,6 +220,7 @@ public class OrdersController implements Initializable {
                 }
             }
         }
+        Cafe.getInstance().wegSchrijvenTafel();
         besteldData.setItems(getbesteldData());
         besteldData.refresh();
         updateTotaal();
@@ -245,27 +254,19 @@ public class OrdersController implements Initializable {
         totaalID.setText("Afrekenen= " + numberformat.format(totaal) + "€");
     }
 
+    private void checkSameWaiter(){
 
-/*
-    @FXML
-    private void showConsumptionDetails(Consumption consumption) {
-
-        if (consumption != null) {
-            // Fill the labels with info from the person object.
-
-            naamLabel.setText(consumption.getNaam());
-            qtyLabel.setText(String.valueOf(consumption.getAantal()));
-            consumptionNameColumn.setText(consumption.getNaam());
-
-        } else {
-            log.debug("list cleared before reload");
+        if(!isIngelogd){WaiterActions.setVisible(false);
+        totaalID.setVisible(false);
+        log.info("access orders while not logged in");
         }
 
-    }*/
-
-
-
-
+        if(isIngelogd&&Cafe.getInstance().currentTafel.getOberId()!= Cafe.getInstance().getOber().getID()){
+            log.info("ingelogd als verkeerde ober");
+            WaiterActions.setVisible(false);
+            totaalID.setVisible(false);
+        }
+    }
 
 }
 

@@ -14,7 +14,7 @@ import java.util.List;
  * @since 1.0
  */
 
-public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
+public final class Tafel  implements Comparable<Tafel>, java.io.Serializable {
 
 
     private final String naam;
@@ -58,10 +58,19 @@ public final class Tafel implements Comparable<Tafel>, java.io.Serializable {
     }
 
     public void addConsumption(Consumption consumption, Ober ober) {
-        consumption.AddWaiterID(ober.getID());
-        logger.debug("add consumption to table order");
-        order.addConsumption(consumption);
-        hasOrders=true;
+
+
+            consumption.AddWaiterID(ober.getID());
+            logger.debug("add consumption to table order");
+            order.addConsumption(consumption);
+            hasOrders = true;
+            //orders negatief zetten indien de eerste order gewist wordt
+            if (order.getOrderSize() == 0) {
+                hasOrders = false;
+            }
+
+
+
     }
 
 

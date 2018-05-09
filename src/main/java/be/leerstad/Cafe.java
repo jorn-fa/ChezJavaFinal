@@ -253,6 +253,7 @@ public final class Cafe extends Application {
             frontlogger.debug("Payment button pressed");
             currentTafel.hasPaid();
             wegSchrijven();
+            deSerializer.wisTafel(currentTafel);
         }
         else
         {
@@ -269,6 +270,15 @@ public final class Cafe extends Application {
                 ob.Serialize(tafels[teller]);
                 frontlogger.debug("On exit - serial table: " + (teller+1));
             }
+    }
+
+    public void wegSchrijvenTafel(){
+        ObjectToSerialize ob = new ObjectToSerialize();
+        try {
+            ob.Serialize(currentTafel);
+        } catch (Exception e) {
+            frontlogger.debug("Failure on write file");
+        }
     }
 
 

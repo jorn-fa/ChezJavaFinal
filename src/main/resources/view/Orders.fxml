@@ -51,7 +51,7 @@
                         <TableColumn fx:id="besteldQty" prefWidth="72.0" text="Aantal" />
                      </columns>
                   </TableView>
-                  <AnchorPane layoutX="-45.0" layoutY="-25.0" prefHeight="460.0" prefWidth="101.0" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="100.0">
+                  <AnchorPane fx:id="WaiterActions" layoutX="-45.0" layoutY="-25.0" prefHeight="460.0" prefWidth="101.0" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="100.0">
                      <children>
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ddff1e" height="50.0" layoutX="26.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" width="50.0" AnchorPane.topAnchor="80.0" />
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ddff1e" height="50.0" layoutX="26.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="50.0" AnchorPane.topAnchor="170.0" />

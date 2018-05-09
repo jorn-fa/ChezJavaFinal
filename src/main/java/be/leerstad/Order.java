@@ -11,6 +11,7 @@ public final class Order implements java.io.Serializable{
     public List<Consumption> getLijstForPayment() { return Collections.unmodifiableList(lijst); }
 
 
+
     public void addConsumption(Consumption consumption)
     {
         if (lijst.contains(consumption)){
@@ -38,6 +39,10 @@ public final class Order implements java.io.Serializable{
 
     public int getWaiterID(){
         return lijst.get(0).getWaiterID();
+    }
+
+    protected int getOrderSize(){
+        return lijst.size();
     }
 
 }
