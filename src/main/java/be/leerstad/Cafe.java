@@ -27,6 +27,7 @@ public final class Cafe extends Application  {
 
     private static Logger frontlogger = Logger.getLogger("frontend");
     static Logger dbaseLogger = Logger.getLogger("dbase");
+    static Logger chezJavaLogger = Logger.getLogger("ChezJava");
 
 
 
@@ -43,7 +44,7 @@ public final class Cafe extends Application  {
 
 
     public Cafe(){this(null);instance=this;}
-    public Cafe(String naam) { this.Naam=naam; }
+    public Cafe(String naam) { this.Naam=naam; chezJavaLogger.info("cafe created with name " + naam); }
 
     private Ober currentWaiter;
 

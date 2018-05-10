@@ -8,7 +8,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
         //logwisser weghalen -> naam zorgt ervoor dat hij eerst wordt uitgevoerd
 
-        _1LogWisser.class,
+        _1_Logtest.class,
         DbaseConnectiontest.class,
         ConsumptionTest.class,
         OberTest.class,

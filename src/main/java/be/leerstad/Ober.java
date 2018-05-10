@@ -20,7 +20,7 @@ public final class Ober implements Comparable<Ober> , java.io.Serializable{
     private final String voornaam;
     private static Logger logger = Logger.getLogger(Ober.class.getName());
 
-    public Ober(){this(0,null,null);}
+    //public Ober(){this(0,null,null);}
 
     public Ober(int Id, String naam, String voornaaam) {
         this.oberID =Id;
