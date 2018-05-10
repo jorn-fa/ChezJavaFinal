@@ -154,7 +154,6 @@ public class OrdersDAOImpl implements Serializable , OrdersDAO {
             throw new IllegalArgumentException("check sql");
         }
         logger.debug("Opvragen orderlist");
-        System.out.println(lijst);
 
         return lijst;
     }

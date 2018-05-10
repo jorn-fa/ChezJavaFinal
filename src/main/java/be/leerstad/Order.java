@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public final class Order implements java.io.Serializable{
+public final class Order  implements java.io.Serializable{
 
     private List<Consumption> lijst = new ArrayList<>();
 
@@ -37,7 +37,10 @@ public final class Order implements java.io.Serializable{
         return lijst.size() == 00;
     }
 
-    public int getWaiterID(){
+    public Integer getWaiterID(){
+
+        if (lijst.isEmpty()){return null;}
+
         return lijst.get(0).getWaiterID();
     }
 

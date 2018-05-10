@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Properties;
 
 
-public final class Cafe extends Application {
+public final class Cafe extends Application  {
 
     private static Logger frontlogger = Logger.getLogger("frontend");
     static Logger dbaseLogger = Logger.getLogger("dbase");
@@ -90,6 +90,14 @@ public final class Cafe extends Application {
         frontlogger.debug("Call current tabel name");
         return "Current table: " + currentTafel.getNaam();
     }
+
+    public int getCurrentTafelWaiterId(){
+        if(currentTafel.getOberId()==null){return currentWaiter.getID();}
+        return currentTafel.getOberId();
+    }
+
+
+
     //endregion
     //------------------------------
 

@@ -261,10 +261,12 @@ public class OrdersController implements Initializable {
         log.info("access orders while not logged in");
         }
 
-        if(isIngelogd&&Cafe.getInstance().currentTafel.getOberId()!= Cafe.getInstance().getOber().getID()){
+
+        if(isIngelogd&&Cafe.getInstance().getCurrentTafelWaiterId()!= Cafe.getInstance().getOber().getID()){
             log.info("ingelogd als verkeerde ober");
             WaiterActions.setVisible(false);
             totaalID.setVisible(false);
+
         }
     }
 

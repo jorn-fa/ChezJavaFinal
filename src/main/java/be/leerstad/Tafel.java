@@ -45,7 +45,7 @@ public final class Tafel  implements Comparable<Tafel>, java.io.Serializable {
         return order.getTotalPrice();
     }
 
-    public int getOberId(){
+    public Integer getOberId(){
         return order.getWaiterID();
     }
 

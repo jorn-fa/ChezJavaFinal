@@ -128,10 +128,21 @@ public class RapportController implements Initializable {
 
     }
 
+    private void waitForFile(int miliseconds)
+    {
+        try {
+            Thread.sleep(miliseconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     @FXML
     private void mailRapport(ActionEvent event) throws IOException , DocumentException {
         Button btn = (Button) event.getSource();
         String type = "";
+        String file ="";
+        String titel ="";
 
         try {
             type = btn.getId().substring(4);
@@ -143,22 +154,30 @@ public class RapportController implements Initializable {
         switch (type.toLowerCase()){
             case "total":{
                 totalByWaiter();
-                mailer(Cafe.getInstance().totalWaiterProp,"Total by waiter");
+                waitForFile(1000);
+                file=Cafe.getInstance().totalWaiterProp;
+                titel= "Total by waiter";
                 break;}
 
             case "top3":{
                 top3();
-                mailer(Cafe.getInstance().TopWaiterPie,"Top 3 Waiters");
+                waitForFile(1000);
+                file=Cafe.getInstance().TopWaiterPie;
+                titel="Top 3 Waiters";
                 break;}
 
                 case "totalwaiter":{
                     totalSalesForAllWaiters();
-                    mailer(Cafe.getInstance().totalWaitersProp,"Total Sales by Waiters");
+                    waitForFile(1000);
+                    file=Cafe.getInstance().totalWaitersProp;
+                    titel="Total Sales by Waiters";
                 break;}
 
                 case "onday":{
                     getByDay();
-                    mailer(Cafe.getInstance().totalSortedProp,"Total waiter by day");
+                    waitForFile(1000);
+                    file=Cafe.getInstance().totalSortedProp;
+                    titel="Total waiter by day";
                     break;}
 
                 case "":{log.debug("empty Fx:id in buttons rapport");
@@ -168,6 +187,9 @@ public class RapportController implements Initializable {
                 break;}
 
         }
+
+        if(file!=""&&titel!=""){
+        mailer(file,titel);}
 
     }
 
@@ -228,8 +250,6 @@ public class RapportController implements Initializable {
     private Set<Date>getOrderDatums()
     {
         OrdersDAOImpl ordersDAO = new OrdersDAOImpl();
-
-
         return ordersDAO.dateList();
 
     }
