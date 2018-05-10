@@ -51,20 +51,20 @@ private Tafel tafel1, tafel2;
     }
 
     @Test
-    public void tostring()
+    public void toStringTest()
     {
         assertEquals("Tafel{tafel een}",tafel1.toString());
         assertEquals("Tafel{tafel twee}",tafel2.toString());
     }
 
     @Test
-    public void compareto()
+    public void compareTo()
     {
         assertTrue(tafel1.compareTo(tafel2)<0);
     }
 
     @Test
-    public void getnaam()
+    public void getNaam()
     {
         assertEquals("tafel een",tafel1.getNaam().toLowerCase());
         assertNotEquals("tafel twee",tafel2.getNaam());
@@ -74,9 +74,67 @@ private Tafel tafel1, tafel2;
     public void hasOrders()
     {
         Ober ober=new Ober(1,"test","persoon");
-        assertTrue(tafel1.hasOrders()==false);
+        assertFalse(tafel1.hasOrders());
         Consumption consumption = new Consumption(1,"iets",1.0D,1);
         tafel1.addConsumption(consumption,ober);
-        assertTrue(tafel1.hasOrders()==true);
+        assertTrue(tafel1.hasOrders());
     }
+
+
+    @Test
+    public void checkTotaal()
+    {
+        hasOrders();
+        assertTrue(tafel1.hasOrders());
+        assertTrue(tafel1.getTotalPrice()==1d);
+    }
+
+    @Test
+    public void checkTotaalMultiple()
+    {
+        hasOrders();
+        Ober ober=new Ober(1,"test","persoon");
+        assertTrue(tafel1.hasOrders());
+        Consumption consumption = new Consumption(1,"anders",5.0D,1);
+        tafel1.addConsumption(consumption,ober);
+        assertTrue(tafel1.getTotalPrice()==6d);
+    }
+
+    @Test
+    public void checkTotaalWithRemovedOrder()
+    {
+        hasOrders();
+        Ober ober=new Ober(1,"test","persoon");
+        Consumption consumption = new Consumption(1,"iets",1.0D,-1);
+        tafel1.addConsumption(consumption,ober);
+        assertTrue(tafel1.getTotalPrice()==0d);
+    }
+
+    @Test
+    public void checkOberId(){
+        hasOrders();
+        assertTrue(tafel1.getOberId()==1);
+    }
+
+    @Test
+    public void checkOberIDAfterRemovingOrders(){
+        hasOrders();
+        Ober ober=new Ober(1,"test","persoon");
+        Consumption consumption = new Consumption(1,"iets",1.0D,-1);
+        tafel1.addConsumption(consumption,ober);
+        assertTrue(!tafel1.hasOrders());
+        Ober vervanger=new Ober(2,"test","persoon");
+        Consumption consumptionTest = new Consumption(1,"anders",5.0D,1);
+        tafel1.addConsumption(consumptionTest,vervanger);
+        assertTrue(tafel1.getOberId()==2);
+    }
+
+    @Test
+    public void payOrder(){
+        hasOrders();
+        assertTrue(tafel1.hasOrders());
+        tafel1.hasPaid();
+        assertFalse(tafel1.hasOrders());
+    }
+
 }

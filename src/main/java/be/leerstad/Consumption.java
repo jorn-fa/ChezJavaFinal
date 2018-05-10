@@ -1,10 +1,5 @@
 package be.leerstad;
 
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-import javafx.fxml.FXML;
 import org.apache.log4j.Logger;
 
 import java.text.DecimalFormat;
@@ -20,13 +15,13 @@ import java.util.Comparator;
 
 public final class Consumption implements Comparable<Consumption>,java.io.Serializable {
 
+    private static Logger logger = Logger.getLogger(Consumption.class.getName());
     private final int beverageId;
     private final String naam;
+    public int aantal;
     private double prijs;
     private int orderNummer;
     private int waiterID;
-    public int aantal;
-    private static Logger logger = Logger.getLogger(Consumption.class.getName());
 
 
     //gebruikt om orders uit sql te halen
@@ -136,9 +131,9 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
 
     @Override
     public int compareTo(Consumption consumption) {
-            return Comparator.comparing(Consumption::getNaam)
-                    .thenComparing(Consumption::getBeverageId)
-                    .compare(this,consumption);
+        return Comparator.comparing(Consumption::getNaam)
+                .thenComparing(Consumption::getBeverageId)
+                .compare(this,consumption);
     }
 
     @Override
@@ -152,16 +147,13 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
             sb.append("; aantal=" + aantal + "}");
         }
         else
-            {
-                sb.append("Ordernumber = " + orderNummer);
-                sb.append(", beverageid = " + beverageId );
-                sb.append(", Aantal = " + aantal);
-                sb.append(", Waiter = " + waiterID);
-                sb.append("\n");
-            }
+        {
+            sb.append("Ordernumber = " + orderNummer);
+            sb.append(", beverageid = " + beverageId );
+            sb.append(", Aantal = " + aantal);
+            sb.append(", Waiter = " + waiterID);
+            sb.append("\n");
+        }
         return sb.toString();
     }
-
-
-
 }

@@ -91,6 +91,21 @@ public class ConsumptionTest {
         char a = df.getDecimalFormatSymbols().getDecimalSeparator();
         assertEquals("Consumption{naam='Cola'; prijs= 2"+a+"40; aantal=1}",consumptie1.toString());
         assertEquals("Consumption{naam='Leffe'; prijs= 3"+a+"00; aantal=1}",consumptie2.toString());
+
+        Consumption derde = new Consumption(86,1,5,1);
+        assertEquals ("Ordernumber = 86, beverageid = 1, Aantal = 5, Waiter = 1",derde.toString().trim());
+
+        Consumption vierde = new Consumption(5,5,2);
+        assertEquals("Ordernumber = 0, beverageid = 5, Aantal = 5, Waiter = 2", vierde.toString().trim());
+    }
+
+    @Test
+    public void setPrice(){
+        System.out.println(consumptie1.getPrijs());
+        assertTrue(consumptie1.getPrijs()==2.4d);
+        consumptie1.setPrijs(5d);
+        assertFalse(consumptie1.getPrijs()==2.4d);
+        assertTrue(consumptie1.getPrijs()==5d);
     }
 
 }

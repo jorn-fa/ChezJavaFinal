@@ -73,12 +73,10 @@ public final class Tafel  implements Comparable<Tafel>, java.io.Serializable {
 
     }
 
-
     public boolean hasPaid(){
         hasOrders=false;
         order.clearOrder();
-        return true;
-    }
+        return true; }
 
 
     @Override

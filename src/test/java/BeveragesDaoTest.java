@@ -46,7 +46,7 @@ public class BeveragesDaoTest {
     {
         //lijst mag niet bestaan voor allereerste login
         Cafe cafe = new Cafe("test");
-        assertTrue(cafe.fillBeverageList()==true);
+        assertTrue(cafe.fillBeverageList());
     }
 
 
@@ -56,16 +56,16 @@ public class BeveragesDaoTest {
         cafe.uitloggen();
         Ober vergelijk = new Ober(1,"peters","wout","password");
         cafe.inloggen(vergelijk);
-        assertTrue(cafe.fillBeverageList()==true);
+        assertTrue(cafe.fillBeverageList());
     }
 
     @Test (expected = AssertionError.class)
     public void troughCafeWithLogoff(){Cafe cafe = new Cafe("test");
         Ober vergelijk = new Ober(1,"peters","wout","password");
         cafe.inloggen(vergelijk);
-        assertTrue(cafe.fillBeverageList()==true);
+        assertTrue(cafe.fillBeverageList());
         cafe.uitloggen();
-        assertTrue(cafe.fillBeverageList()==true);
+        assertTrue(cafe.fillBeverageList());
     }
 
 }

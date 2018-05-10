@@ -20,7 +20,7 @@ public class DbaseConnectiontest {
 
     @Test(timeout = 3000)
     public void isAlive() {
-        assertTrue(DbaseConnection.isAlive() == true);
+        assertTrue(DbaseConnection.isAlive());
     }
 
 }

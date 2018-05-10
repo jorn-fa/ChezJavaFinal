@@ -43,7 +43,7 @@ public final class Cafe extends Application  {
     public String TopWaiterPie;
 
 
-    public Cafe(){this(null);instance=this;}
+    //public Cafe(){this(null);instance=this;}
     public Cafe(String naam) { this.Naam=naam; chezJavaLogger.info("cafe created with name " + naam); }
 
     private Ober currentWaiter;
@@ -235,7 +235,7 @@ public final class Cafe extends Application  {
 
          return true;
      }
-        if (beverageList.isEmpty()==false&&currentWaiter!=null){
+        if (!beverageList.isEmpty()&&currentWaiter!=null){
             frontlogger.debug("reeds gevuld door andere ober");
             return true;
         }

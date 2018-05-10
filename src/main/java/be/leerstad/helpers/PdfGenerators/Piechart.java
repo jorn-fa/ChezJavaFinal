@@ -34,7 +34,7 @@ public class Piechart {
         DefaultPieDataset dataset = new DefaultPieDataset();
 
         for (int teller = 0; teller < 3; teller++) {
-            dataset.setValue(keyList.get(teller), new Double(valueList.get(teller)));
+            dataset.setValue(keyList.get(teller), valueList.get(teller));
         }
 
         JFreeChart chart = ChartFactory.createPieChart("Top waiters", dataset, true, true, false);

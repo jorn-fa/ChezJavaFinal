@@ -18,7 +18,8 @@ import org.junit.runners.Suite.SuiteClasses;
         DBtest.class,
         BeveragesDaoTest.class,
         SerialTest.class,
-        DeserialTest.class
+        DeserialTest.class,
+        cafeTest.class
 
 
         })
