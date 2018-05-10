@@ -35,7 +35,7 @@ public class loginFxmlTest extends GuiTest {
             parent = FXMLLoader.load(getClass().getResource("View/LogIn.fxml"));
             return parent;
         } catch (IOException ex) {
-            // TODO ...
+            ex.printStackTrace();
         }
         return parent;
     }
