@@ -20,7 +20,6 @@ public class PdfTotalByWaiter {
     private static final RapportDaoImpl rapportDaoImpl = new RapportDaoImpl();
 
     private static final int top = 842;  //hoogte A4 formaat itext - rekenwaarde
-    private static final int right = 595; //breedte ^
     private static final int leftRightMargin = 50;
 
 

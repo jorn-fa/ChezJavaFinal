@@ -9,7 +9,6 @@ import com.itextpdf.text.pdf.*;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.time.LocalDate;
@@ -31,10 +30,13 @@ public class PdfTotalByWaiterbyDay {
     private static final String IMAGE = "src/main/resources/images/chez.jpg";
 
 
-    private PdfTotalByWaiterbyDay(){};
+
+
+    private PdfTotalByWaiterbyDay(){}
 
     public static void totalByWaitersSortedByday(String destination, LocalDate localDate) throws IOException, DocumentException  {
         List<Consumption> lijst = rapportDaoImpl.printByDay(localDate);
+
 
         PdfBackdrop.createPDF();
         PdfReader pdfReader = new PdfReader(pdfBackdrop);
@@ -77,11 +79,11 @@ public class PdfTotalByWaiterbyDay {
         }
 
 
-        for (int teller = 0; teller < lijst.size(); teller++) {
+        for (Consumption Lijst : lijst) {
 
-            table.addCell(waiters.get(lijst.get(teller).getWaiterID())); //naam
-            table.addCell(beveragelijst.get(lijst.get(teller).getBeverageId()-1).getNaam());
-            int aantal = lijst.get(teller).getAantal();
+            table.addCell(waiters.get(Lijst.getWaiterID())); //naam
+            table.addCell(beveragelijst.get(Lijst.getBeverageId() - 1).getNaam());
+            int aantal = Lijst.getAantal();
 
             PdfPCell right = new PdfPCell(new Phrase(Integer.toString(aantal)));
             right.setHorizontalAlignment(Element.ALIGN_RIGHT);
@@ -89,7 +91,7 @@ public class PdfTotalByWaiterbyDay {
             table.addCell(right);
             DecimalFormat df = new DecimalFormat("##.### €");
 
-            double getal = beveragelijst.get(lijst.get(teller).getBeverageId()-1).getPrijs() * aantal;
+            double getal = beveragelijst.get(Lijst.getBeverageId() - 1).getPrijs() * aantal;
             totalSum += getal;
 
             String afdrukGetal = df.format(getal);

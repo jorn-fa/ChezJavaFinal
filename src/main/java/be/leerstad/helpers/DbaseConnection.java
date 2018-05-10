@@ -1,6 +1,5 @@
 package be.leerstad.helpers;
 
-import be.leerstad.Database.PropReader;
 import com.mysql.jdbc.Driver;
 import org.apache.log4j.Logger;
 

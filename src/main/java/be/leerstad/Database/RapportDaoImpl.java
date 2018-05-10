@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RapportDaoImpl implements RapportDAO {
+public final class RapportDaoImpl implements RapportDAO {
 
     private Logger logger = Logger.getLogger("dbase");
     private Connection connection = DbaseConnection.getConnection();

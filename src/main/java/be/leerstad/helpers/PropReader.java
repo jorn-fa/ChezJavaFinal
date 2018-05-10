@@ -1,4 +1,4 @@
-package be.leerstad.Database;
+package be.leerstad.helpers;
 
 
 import org.apache.log4j.Logger;

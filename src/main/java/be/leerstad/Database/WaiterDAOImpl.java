@@ -9,11 +9,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
 
-public class WaiterDAOImpl implements WaiterDAO {
+
+public final class WaiterDAOImpl implements WaiterDAO {
 
     private Connection connection = DbaseConnection.getConnection();
     private Logger logger = Logger.getLogger("dbase");
@@ -21,7 +19,7 @@ public class WaiterDAOImpl implements WaiterDAO {
 
     @Override
     public HashMap waiterList() {
-        HashMap<Integer, String> waiters = new HashMap<Integer, String>();
+        HashMap<Integer, String> waiters = new HashMap<>();
 
         String SQL = "select waiterid,firstname,lastname from waiters";
 

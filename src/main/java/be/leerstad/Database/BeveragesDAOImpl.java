@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class BeveragesDAOImpl implements BeveragesDAO {
+public final class BeveragesDAOImpl implements BeveragesDAO {
 
     private Logger logger = Logger.getLogger("dbase");
 
@@ -70,6 +70,8 @@ public class BeveragesDAOImpl implements BeveragesDAO {
             throw new IllegalArgumentException("check sql");
         }
         logger.debug("Opvragen prijslijst");
+
+        if (lijst.isEmpty()){logger.debug("check database - sql");}
         return pricelist;
 
     }
