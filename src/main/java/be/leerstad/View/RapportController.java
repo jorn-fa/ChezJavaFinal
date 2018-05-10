@@ -103,8 +103,8 @@ public class RapportController implements Initializable {
 
     @FXML
     private void top3() throws IOException, DocumentException {
-        PdfFactory.GetPDFbyType("topWaiterPieChart", Cafe.getInstance().TopWaiterPie);
-        showPdf(Cafe.getInstance().TopWaiterPie);
+        PdfFactory.GetPDFbyType("topWaiterPieChart", Cafe.getInstance().topWaiterPie);
+        showPdf(Cafe.getInstance().topWaiterPie);
     }
 
     @FXML
@@ -162,7 +162,7 @@ public class RapportController implements Initializable {
             case "top3":{
                 top3();
                 waitForFile(1000);
-                file=Cafe.getInstance().TopWaiterPie;
+                file=Cafe.getInstance().topWaiterPie;
                 titel="Top 3 Waiters";
                 break;}
 

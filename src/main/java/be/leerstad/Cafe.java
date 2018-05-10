@@ -40,10 +40,10 @@ public final class Cafe extends Application  {
     public String totalWaiterProp;
     public String totalWaitersProp;
     public String totalSortedProp;
-    public String TopWaiterPie;
+    public String topWaiterPie;
 
 
-    //public Cafe(){this(null);instance=this;}
+    public Cafe(){this(null);instance=this;}
     public Cafe(String naam) { this.Naam=naam; chezJavaLogger.info("cafe created with name " + naam); }
 
     private Ober currentWaiter;
@@ -176,11 +176,9 @@ public final class Cafe extends Application  {
 
 
 
-    public void loadProps(){
+    public boolean loadProps(){
         final String propertiesName = "cafe.properties";
         Properties props = new Properties ();
-
-
 
         try (InputStream inputStream = ClassLoader.getSystemResourceAsStream (propertiesName)) {
 
@@ -194,8 +192,11 @@ public final class Cafe extends Application  {
         totalWaiterProp = props.getProperty ("totalwaiter");
         totalWaitersProp = props.getProperty ("totalwaiters");
         totalSortedProp = props.getProperty ("totalByWaitersSortedByday");
-        TopWaiterPie = props.getProperty ("topWaiterPieChart");
+        topWaiterPie = props.getProperty ("topWaiterPieChart");
 
+        if(totalWaitersProp!=null&&totalWaiterProp!=null&&totalSortedProp!=null&&topWaiterPie!=null){
+        return true;}
+        return false;
     }
 
     public boolean inloggen(Ober ober)
