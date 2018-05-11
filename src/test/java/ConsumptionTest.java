@@ -101,7 +101,6 @@ public class ConsumptionTest {
 
     @Test
     public void setPrice(){
-        System.out.println(consumptie1.getPrijs());
         assertTrue(consumptie1.getPrijs()==2.4d);
         consumptie1.setPrijs(5d);
         assertFalse(consumptie1.getPrijs()==2.4d);

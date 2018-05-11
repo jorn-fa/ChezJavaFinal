@@ -2,12 +2,22 @@ import be.leerstad.Cafe;
 import be.leerstad.Consumption;
 import be.leerstad.Ober;
 import be.leerstad.Tafel;
+import org.jfree.io.FileUtilities;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import static org.junit.Assert.*;
 
-public class cafeTest {
+public class CafeTest {
 
     private Ober ober = new Ober (1,"peters","wout");
     private Ober andereOber = new Ober (2, "Segers","Nathalie");
@@ -20,6 +30,16 @@ public class cafeTest {
         cafe = new Cafe("1");
     }
 
+    @After
+    public void tearDown(){
+        String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-Tafel.6".replace("-", File.separator);
+        File file = new File(waar );
+
+        if(file.exists()){
+        file.setWritable(true);
+        file.delete();}
+    }
+
     @Test
     public void loadPropertiesTest(){
         assertTrue(cafe.loadProps());
@@ -29,6 +49,7 @@ public class cafeTest {
     public void inlogTest(){
         assertTrue(cafe!=null);
         assertTrue(cafe.getOber()==null);
+        assertEquals("please log in.",(cafe.getOberNaam()));
         cafe.inloggen(ober);
         assertFalse(cafe.getOber()==null);
         assertTrue(cafe.isIngelogd());
@@ -166,7 +187,7 @@ public class cafeTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void payOrdersTroughCafeWithFailedExeptionThrown() {
-        //will throw invalid SQL message  //bev-ID out of range
+        //will throw invalid SQL message  for beverage ID out of range
         cafe.inloggen(andereOber);
         testConsumptie.aantal=1;
         assertTrue(cafe.isIngelogd());
@@ -186,7 +207,7 @@ public class cafeTest {
         cafe.currentTafel.addConsumption(correcteConsumptie,ober);
         assertEquals(1,cafe.currentTafel.getLijstForPayment().size());
         cafe.afrekenen();
-        assertTrue(cafe.currentTafel.getTotalPrice()==00);
+        assertTrue(cafe.currentTafel.getTotalPrice()==0);
     }
 
     @Test
@@ -197,13 +218,108 @@ public class cafeTest {
         cafe.currentTafel.addConsumption(correcteConsumptie,andereOber);
         assertEquals(1,cafe.currentTafel.getLijstForPayment().size());
         cafe.afrekenen();
-        assertFalse(cafe.currentTafel.getTotalPrice()==00);
+        assertFalse(cafe.currentTafel.getTotalPrice()==0);
     }
 
 
+    @Test
+    public void wisselTafel()
+    {
+        cafe.inloggen(ober);
+        assertEquals("1" ,cafe.currentTafel.getNaam());
+        cafe.wisselTafel(2);
+        assertNotEquals("1" ,cafe.currentTafel.getNaam());
+        assertEquals("2" ,cafe.currentTafel.getNaam());
+    }
+
+    @Test
+    public void wisselTafelGoesInCatchExeption()
+    {
+        cafe.inloggen(ober);
+        assertEquals("1" ,cafe.currentTafel.getNaam());
+        cafe.wisselTafel(-20);
+        assertEquals("1" ,cafe.currentTafel.getNaam());
+        //logfile nalezen op warning, geen throw exeption
+        try {
+            String waar = System.getProperty("user.dir")+"-src-main-logs-frontend.log".replace("-", File.separator);
+            Path logfile = Paths.get(waar);
+            String content = new String(Files.readAllBytes(logfile), StandardCharsets.UTF_8);
+            int teller = content.length();
+            content=content.substring(teller-80,teller);
+            assertTrue(content.contains("tafelnummer is niet bestaande"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void wegSchrijvenTafel(){
+        String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-Tafel.6".replace("-", File.separator);
+        File file = new File(waar );
+
+        try {
+            file.delete();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        cafe.inloggen(ober);
+        assertTrue(cafe.isIngelogd());
+        assertEquals("1",cafe.currentTafel.getNaam());
+        cafe.wisselTafel(6);
+        assertEquals("6",cafe.currentTafel.getNaam());
+        cafe.currentTafel.addConsumption(correcteConsumptie,ober);
+        assertFalse(file.exists());
+        cafe.wegSchrijvenTafel();
+        assertTrue(file.exists());
+        //wissen na test
+        file.delete();
 
 
+    }
 
+    @Test(expected = IllegalAccessError.class)
+    public void wegSchrijvenTafelCatchSecion(){
+        String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-Tafel.6".replace("-", File.separator);
+        File file = new File(waar );
+        try {
+            file.delete();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        cafe.inloggen(ober);
+        assertTrue(cafe.isIngelogd());
+        cafe.wisselTafel(6);
+        cafe.currentTafel.addConsumption(correcteConsumptie,ober);
+        assertFalse(file.exists());
+        cafe.wegSchrijvenTafel();
+        assertTrue(file.exists());
+        //read only maken
+        file.setReadOnly();
+        assertFalse(file.canWrite());
+        cafe.wegSchrijvenTafel();
+    }
+
+    @Test
+    public void wegSchrijvenTafelZonderDirectory(){
+        String folder = System.getProperty("user.dir")+"-src-main-resources-serialize-".replace("-", File.separator);
+        Path location = Paths.get(folder);
+
+        //path wissen indien bestaande
+        if (Files.exists(location)) {
+            try {
+            Files.delete(location);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            assertFalse(Files.exists(location));
+        }
+        cafe.inloggen(ober);
+        cafe.wisselTafel(6);
+        cafe.currentTafel.addConsumption(correcteConsumptie,ober);
+        cafe.wegSchrijvenTafel();
+        assertTrue(Files.exists(location));
+
+    }
 
 
 }

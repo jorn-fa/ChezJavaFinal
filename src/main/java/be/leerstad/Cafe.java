@@ -286,7 +286,8 @@ public final class Cafe extends Application  {
         ObjectToSerialize ob = new ObjectToSerialize();
         try {
             ob.Serialize(currentTafel);
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             frontlogger.debug("Failure on write file");
         }
     }

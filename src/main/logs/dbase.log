@@ -1,225 +1,270 @@
-2018-05-10 20:42:10 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:10 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:10 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:10 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:67 - Opvragen hoogste nummer = 262
-2018-05-10 20:42:12 ERROR dbase:45 - SqlExeption @ writeOrder
-2018-05-10 20:42:12 DEBUG dbase:67 - Opvragen hoogste nummer = 262
-2018-05-10 20:42:12 DEBUG dbase:67 - Opvragen hoogste nummer = 265
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Wout Peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Nathalie Segers
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Nathalie Segers
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Nathalie Segers
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Nathalie Segers
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:67 - Opvragen hoogste nummer = 262
-2018-05-10 20:42:12 DEBUG dbase:264 - Order write procedure started
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : Nathalie Segers
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter Nathalie Segers
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:67 - Opvragen hoogste nummer = 266
-2018-05-10 20:42:12 ERROR dbase:45 - SqlExeption @ writeOrder
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : null null
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 20:42:12 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 20:42:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 20:42:12 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 20:42:12 DEBUG dbase:49 - opvragen ober met gegevens : login wont
-2018-05-10 21:09:30 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 21:09:30 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 21:09:30 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 21:09:30 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 21:09:37 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 21:09:37 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 21:09:37 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
-2018-05-10 21:09:37 DEBUG dbase:70 - Logged in waiter wout peters
-2018-05-10 21:09:37 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 21:09:37 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 21:09:37 DEBUG dbase:40 - Opvragen prijslijst
-2018-05-10 21:09:54 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 21:09:54 DEBUG dbase:45 - Property file read - ok 
-2018-05-10 21:09:54 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
-2018-05-10 21:09:54 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:10 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:10 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:10 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:10 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:67 - Opvragen hoogste nummer = 353
+2018-05-11 15:09:11 ERROR dbase:45 - SqlExeption @ writeOrder
+2018-05-11 15:09:11 DEBUG dbase:67 - Opvragen hoogste nummer = 353
+2018-05-11 15:09:11 DEBUG dbase:67 - Opvragen hoogste nummer = 356
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Wout Peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Nathalie Segers
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Nathalie Segers
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : Nathalie Segers
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter Nathalie Segers
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:11 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:11 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:11 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:11 DEBUG dbase:67 - Opvragen hoogste nummer = 353
+2018-05-11 15:09:12 DEBUG dbase:262 - Order write procedure started
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : Nathalie Segers
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter Nathalie Segers
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:67 - Opvragen hoogste nummer = 357
+2018-05-11 15:09:12 ERROR dbase:45 - SqlExeption @ writeOrder
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : null null
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:12 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:12 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:12 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:12 DEBUG dbase:49 - opvragen ober met gegevens : login wont
+2018-05-11 15:09:22 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:22 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:22 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:22 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:27 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:27 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:27 DEBUG dbase:49 - opvragen ober met gegevens : wout peters
+2018-05-11 15:09:27 DEBUG dbase:70 - Logged in waiter wout peters
+2018-05-11 15:09:27 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:27 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:27 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:36 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:36 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:36 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:36 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:36 DEBUG dbase:124 - Opvragen orderlist
+2018-05-11 15:09:37 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:37 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:37 DEBUG dbase:40 - Opvragen waiter lijst
+2018-05-11 15:09:37 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:37 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:37 DEBUG dbase:40 - Opvragen prijslijst
+2018-05-11 15:09:37 DEBUG dbase:32 - loaded from config file: C:\javaprojects\ChezJavaFinal\src\main\resources\dbase.properties
+2018-05-11 15:09:37 DEBUG dbase:45 - Property file read - ok 
+2018-05-11 15:09:37 DEBUG dbase:49 - Opvragen verkoop per dag

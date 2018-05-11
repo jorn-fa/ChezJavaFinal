@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 
 
-public class _1_Logtest {
+public class Logtest {
 
 
 

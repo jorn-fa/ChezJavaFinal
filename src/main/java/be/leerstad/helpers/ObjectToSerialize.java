@@ -26,13 +26,22 @@ public final class ObjectToSerialize {
 
         try {
 
-            Path location = Paths.get(waar.replace("-",File.separator) );
+            Path location = Paths.get(waar.replace("-", File.separator));
 
-            // naam baseren op class + id    eg.  tafel.1
-            Path name =  Paths.get (location + File.separator + tafel.getClass().getSimpleName() +"." + tafel.getNaam() );
+            // naam baseren op class + id    ex.  tafel.1
+            Path name = Paths.get(location + File.separator + tafel.getClass().getSimpleName() + "." + tafel.getNaam());
 
             //path maken indien niet existerend
-            if (!Files.exists(location)){Files.createDirectories(location);}
+            if (!Files.exists(location)) {
+                Files.createDirectories(location);
+            }
+
+
+            //nakijken op read-only
+            File file = new File(name.toString());
+            if (file.exists() && !file.canWrite()) {
+                geefMelding();
+            }
 
 
             FileOutputStream fileOut = new FileOutputStream(name.toString());
@@ -43,12 +52,20 @@ public final class ObjectToSerialize {
             fileOut.close();
 
 
-            logger.info("Serialized data is saved in "+ name.toString() );
-
-        } catch (IOException i) {
+            logger.info("Serialized data is saved in " + name.toString());
+        }
+        catch (IOException i) {
             logger.debug("Something gone wrong with file handling ");
             i.printStackTrace();
         }
+
+
+    }
+
+    private void geefMelding() throws IllegalAccessError
+    {
+        logger.debug("File is read-only");
+        throw new IllegalAccessError("File is Read only");
     }
 
 
