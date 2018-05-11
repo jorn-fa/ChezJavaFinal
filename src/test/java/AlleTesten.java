@@ -18,11 +18,9 @@ import org.junit.runners.Suite.SuiteClasses;
         SerialTest.class,
         DeserialTest.class,
         CafeTest.class
-
-
         })
 
-public class _AlleTesten {
+public class AlleTesten {
 
 
 

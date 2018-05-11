@@ -86,7 +86,7 @@ public final class Email {
 		} catch (MessagingException mex) {
 			log.error (mex);
 		}
-        log.debug("mail sent with titel" + titel);
+        log.debug("mail sent with titel: " + titel);
 		return sent;
 	}
 	

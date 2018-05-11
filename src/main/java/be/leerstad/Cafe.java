@@ -294,10 +294,10 @@ public final class Cafe extends Application  {
 
 
 
-    public void mailFile(String location,String titel)
+    public boolean mailFile(String location,String titel)
     {
         Email email = new Email();
-        email.sendMail(location,titel);
+        return email.sendMail(location,titel);
     }
 
 

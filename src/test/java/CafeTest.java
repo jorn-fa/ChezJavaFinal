@@ -322,4 +322,21 @@ public class CafeTest {
     }
 
 
+    @Test(timeout = 3000)
+    public void mailTest(){
+        String waar = System.getProperty("user.dir")+"-src-main-logs-email.log".replace("-", File.separator);
+        File file = new File(waar );
+        assertTrue(file.exists());
+        cafe.inloggen(ober);
+        assertTrue(cafe.isIngelogd());
+        assertTrue(cafe.mailFile(file.toString(),"Test Email Send"));
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void getInstance(){
+        //geen instantie getrokken
+        assertFalse(Cafe.getInstance().isIngelogd());
+    }
+
+
 }
