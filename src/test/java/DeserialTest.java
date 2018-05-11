@@ -102,8 +102,8 @@ public class DeserialTest {
         assertTrue((testTafels[1].getLijstForPayment().get(0).getNaam().matches(consumptie1.getNaam())));
     }
 
-    @Test
-    public void readTafelWithoutDirectory(){
+    @Test(expected = NullPointerException.class)
+    public void tryReadTafelWithoutDirectory(){
         String naam="tableWithaRandomName";
         Tafel verkeerdeNaam = new Tafel(naam);
         Tafel tafels[] = new Tafel[]{verkeerdeNaam};
@@ -115,9 +115,9 @@ public class DeserialTest {
 
         File file = new File(waar );
         assertTrue(file.exists());
-        //folder leegmaken en wissen
-        String folder = System.getProperty("user.dir")+"-src-main-resources-serialize-".replace("-", File.separator);
+        //null forceren = folder leegmaken en wissen -> onmogelijk om file in te lezen
 
+        String folder = System.getProperty("user.dir")+"-src-main-resources-serialize-".replace("-", File.separator);
         try {
             file.delete();
         } catch (Exception e) {
@@ -136,10 +136,11 @@ public class DeserialTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        tafels=null;
         assertFalse(folderDirectory.exists());
         ds.giveTafel(tafels);
         assertTrue(folderDirectory.exists());
-        assertEquals(naam,tafels[0].getNaam());
+        assertNotEquals(null,tafels[0].getNaam());
     }
 
 
