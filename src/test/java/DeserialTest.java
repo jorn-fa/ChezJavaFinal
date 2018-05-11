@@ -3,6 +3,8 @@ import be.leerstad.Consumption;
 import be.leerstad.Ober;
 import be.leerstad.Tafel;
 import be.leerstad.helpers.DeSerializer;
+import be.leerstad.helpers.ObjectToSerialize;
+import org.jfree.io.FileUtilities;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -14,6 +16,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
+
 
 
 import static org.junit.Assert.*;
@@ -55,6 +58,11 @@ public class DeserialTest {
         cafe.stop();
     }
 
+    @AfterClass
+    public static void shutDown(){
+        serialTest.wisser();
+    }
+
     @Test
     public void hasFiles(){
         assertTrue(serialTest.fileTeller()==2);
@@ -94,9 +102,45 @@ public class DeserialTest {
         assertTrue((testTafels[1].getLijstForPayment().get(0).getNaam().matches(consumptie1.getNaam())));
     }
 
+    @Test
+    public void readTafelWithoutDirectory(){
+        String naam="tableWithaRandomName";
+        Tafel verkeerdeNaam = new Tafel(naam);
+        Tafel tafels[] = new Tafel[]{verkeerdeNaam};
+        ObjectToSerialize ob = new ObjectToSerialize();
+        ob.Serialize(verkeerdeNaam);
 
-    @AfterClass
-    public static void shutDown(){
-        serialTest.wisser();
+        String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-Tafel."+naam+"";
+        waar=waar.replace("-", File.separator);
+
+        File file = new File(waar );
+        assertTrue(file.exists());
+        //folder leegmaken en wissen
+        String folder = System.getProperty("user.dir")+"-src-main-resources-serialize-".replace("-", File.separator);
+
+        try {
+            file.delete();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        File folderDirectory = new File(folder);
+        if(folderDirectory.isDirectory()){
+            File[] files = folderDirectory.listFiles();
+            for (File wisFile:files) {
+                wisFile.delete();
+            }
+        }
+        try {
+            folderDirectory.delete();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        assertFalse(folderDirectory.exists());
+        ds.giveTafel(tafels);
+        assertTrue(folderDirectory.exists());
+        assertEquals(naam,tafels[0].getNaam());
     }
+
+
 }
