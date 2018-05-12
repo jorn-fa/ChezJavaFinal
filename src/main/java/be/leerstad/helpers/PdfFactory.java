@@ -49,13 +49,16 @@ public final class PdfFactory {
      * @param localDate localdate
      *
      */
-    public static void GetPDFbyType(String type, String destination, LocalDate localDate) throws IOException, DocumentException {
+    public static void GetPDFbyType(String type, String destination, LocalDate localDate) throws IOException, IllegalArgumentException, DocumentException {
 
         switch (type.toLowerCase()) {
             case "totalbywaiterssortedbyday":
                 logger.debug("opvragen waiters per dag");
                 PdfTotalByWaiterbyDay.totalByWaitersSortedByday(destination,localDate);
                 break;
+                default:
+                    throw new IllegalArgumentException("Type unknown");
+
         }
 
     }
@@ -65,7 +68,7 @@ public final class PdfFactory {
      * @param type totalwaiter,topWaiterPieChart
      *
      */
-    public  static HashMap GetPDFbyType(String type, String destination) throws IOException, DocumentException {
+    public  static HashMap GetPDFbyType(String type, String destination) throws IOException, DocumentException, IllegalArgumentException {
             HashMap result = new HashMap();
 
         switch (type.toLowerCase()) {
@@ -78,6 +81,8 @@ public final class PdfFactory {
             case "totalwaiters":
                 PdfTotalByWaiters.totalByWaiters(destination);
                 break;
+            default:
+                throw new IllegalArgumentException("Type unknown");
             }
             return result;
         }
@@ -91,15 +96,15 @@ public final class PdfFactory {
      * @throws IOException Ioexeption
      * @throws DocumentException DocumentExeption
      */
-    public static void GetPDFbyType(String type, String destination, Ober ober) throws IOException, DocumentException {
+    public static void GetPDFbyType(String type, String destination, Ober ober) throws IOException, DocumentException,IllegalArgumentException {
 
         switch (type.toLowerCase()) {
             case "totalwaiter":
                 PdfTotalByWaiter.totalWaiter(destination, ober);
                 break;
             default:
-                System.out.println("ja");
-                break;
+                throw new IllegalArgumentException("Type unknown");
+
         }
 }
 

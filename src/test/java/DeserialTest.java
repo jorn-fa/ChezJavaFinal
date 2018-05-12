@@ -105,10 +105,10 @@ public class DeserialTest {
     @Test(expected = NullPointerException.class)
     public void tryReadTafelWithoutDirectory(){
         String naam="tableWithaRandomName";
-        Tafel verkeerdeNaam = new Tafel(naam);
-        Tafel tafels[] = new Tafel[]{verkeerdeNaam};
+        Tafel otherName = new Tafel(naam);
+        Tafel tafels[] = new Tafel[]{otherName};
         ObjectToSerialize ob = new ObjectToSerialize();
-        ob.Serialize(verkeerdeNaam);
+        ob.Serialize(otherName);
 
         String waar = System.getProperty("user.dir")+"-src-main-resources-serialize-Tafel."+naam+"";
         waar=waar.replace("-", File.separator);
@@ -142,6 +142,8 @@ public class DeserialTest {
         assertTrue(folderDirectory.exists());
         assertNotEquals(null,tafels[0].getNaam());
     }
+
+
 
 
 }

@@ -7,7 +7,7 @@ import java.util.Properties;
 
 import static org.junit.Assert.assertTrue;
 
-public class dbasePropertiesTest {
+public class DbasePropertiesTest {
 
     File bestand = new File(System.getProperty("user.dir") + "*src*main*resources*dbase.properties".replace("*", File.separator));
     Properties eigenschappen = new Properties();

@@ -12,12 +12,13 @@ import org.junit.runners.Suite.SuiteClasses;
         ConsumptionTest.class,
         OberTest.class,
         TafelTest.class,
-        dbasePropertiesTest.class,
+        DbasePropertiesTest.class,
         DBtest.class,
         BeveragesDaoTest.class,
         SerialTest.class,
         DeserialTest.class,
-        CafeTest.class
+        CafeTest.class,
+        PdfFactoryTest.class,
         })
 
 public class AlleTesten {

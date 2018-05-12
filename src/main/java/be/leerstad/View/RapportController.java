@@ -90,25 +90,29 @@ public class RapportController implements Initializable {
         } catch (DocumentException e) {
             e.printStackTrace();
         }
+        catch (IllegalArgumentException e)
+        {
+            log.debug("Wrong type request in getByDay");
+        }
         showPdf(Cafe.getInstance().totalSortedProp);
 
     }
 
     @FXML
-    private void totalByWaiter() throws IOException, DocumentException {
+    private void totalByWaiter() throws IOException, DocumentException,IllegalArgumentException {
         PdfFactory.GetPDFbyType("totalwaiter", Cafe.getInstance().totalWaiterProp, Cafe.getInstance().getOber());
         showPdf(Cafe.getInstance().totalWaiterProp);
 
     }
 
     @FXML
-    private void top3() throws IOException, DocumentException {
+    private void top3() throws IOException, DocumentException,IllegalArgumentException {
         PdfFactory.GetPDFbyType("topWaiterPieChart", Cafe.getInstance().topWaiterPie);
         showPdf(Cafe.getInstance().topWaiterPie);
     }
 
     @FXML
-    private void totalSalesForAllWaiters() throws IOException, DocumentException {
+    private void totalSalesForAllWaiters() throws IOException, DocumentException,IllegalArgumentException {
         PdfFactory.GetPDFbyType("totalwaiters", Cafe.getInstance().totalWaitersProp);
         showPdf(Cafe.getInstance().totalWaitersProp);
     }

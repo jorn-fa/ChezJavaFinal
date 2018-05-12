@@ -2,13 +2,12 @@ import be.leerstad.Cafe;
 import be.leerstad.Consumption;
 import be.leerstad.Ober;
 import be.leerstad.Tafel;
-import org.jfree.io.FileUtilities;
+import be.leerstad.helpers.PropReader;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -24,6 +23,7 @@ public class CafeTest {
     private Consumption testConsumptie = new Consumption(50,"test",5d);
     private Consumption correcteConsumptie = new Consumption(1,"Cola",2.4d);
     private Cafe cafe;
+
 
     @Before
     public void setUp() {
@@ -44,6 +44,8 @@ public class CafeTest {
     public void loadPropertiesTest(){
         assertTrue(cafe.loadProps());
     }
+
+
 
     @Test
     public void inlogTest(){
@@ -322,7 +324,7 @@ public class CafeTest {
     }
 
 
-    @Test(timeout = 3000)
+    @Test(timeout = 5000)
     public void mailTest(){
         String waar = System.getProperty("user.dir")+"-src-main-logs-email.log".replace("-", File.separator);
         File file = new File(waar );
@@ -338,5 +340,9 @@ public class CafeTest {
         assertFalse(Cafe.getInstance().isIngelogd());
     }
 
+    @Test(timeout = 3000)
+    public void calenderDateTestForFX(){
+
+    }
 
 }
