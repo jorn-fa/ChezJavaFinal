@@ -68,10 +68,10 @@ public final class Email {
 			multipart.addBodyPart (messageBodyPart);
 			
 			messageBodyPart = new MimeBodyPart ();
-			String attachment = file;
-			DataSource source = new FileDataSource (attachment);
+			//String attachment = file;
+			DataSource source = new FileDataSource (file);
 			messageBodyPart.setDataHandler (new DataHandler (source));
-			messageBodyPart.setFileName (attachment);
+			messageBodyPart.setFileName (file);
 			multipart.addBodyPart (messageBodyPart);
 			
 			message.setContent (multipart);

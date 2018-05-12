@@ -24,7 +24,7 @@ public class PdfTotalByWaiters {
     private static final int right = 595; //breedte ^
     private static final int leftRightMargin = 50;
 
-    //private  HashMap PdfTotalByWaiter(){return new HashMap();}
+
     private static HashMap<Integer, String> waiters = new WaiterDAOImpl().waiterList();
     private static List<Consumption> consumptionList = new OrdersDAOImpl().orderList();
     private static HashMap<Integer, Double> pricelist = new BeveragesDAOImpl().priceList();

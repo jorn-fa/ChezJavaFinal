@@ -1,8 +1,8 @@
 import be.leerstad.Cafe;
 import be.leerstad.Consumption;
+import be.leerstad.Database.OrdersDAOImpl;
 import be.leerstad.Ober;
 import be.leerstad.Tafel;
-import be.leerstad.helpers.PropReader;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -340,9 +340,14 @@ public class CafeTest {
         assertFalse(Cafe.getInstance().isIngelogd());
     }
 
-    @Test(timeout = 3000)
+    @Test(timeout = 3000, expected = NullPointerException.class)
     public void calenderDateTestForFX(){
+        cafe.inloggen(ober);
+        assertTrue(cafe.isIngelogd());
+        OrdersDAOImpl ordersDAOimpl = new OrdersDAOImpl();
+        System.out.println(ordersDAOimpl.dateList());
 
     }
+
 
 }

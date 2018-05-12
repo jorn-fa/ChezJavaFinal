@@ -26,8 +26,8 @@ import java.util.Properties;
 public final class Cafe extends Application  {
 
     private static Logger frontlogger = Logger.getLogger("frontend");
-    static Logger dbaseLogger = Logger.getLogger("dbase");
-    static Logger chezJavaLogger = Logger.getLogger("ChezJava");
+    private static Logger dbaseLogger = Logger.getLogger("dbase");
+    private static Logger chezJavaLogger = Logger.getLogger("ChezJava");
 
 
 
@@ -194,9 +194,7 @@ public final class Cafe extends Application  {
         totalSortedProp = props.getProperty ("totalByWaitersSortedByday");
         topWaiterPie = props.getProperty ("topWaiterPieChart");
 
-        if(totalWaitersProp!=null&&totalWaiterProp!=null&&totalSortedProp!=null&&topWaiterPie!=null){
-        return true;}
-        return false;
+        return totalWaitersProp != null && totalWaiterProp != null && totalSortedProp != null && topWaiterPie != null;
     }
 
     public boolean inloggen(Ober ober)
