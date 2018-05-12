@@ -1,64 +1,58 @@
-2018-05-12 13:31:48 DEBUG frontend:87 - oproepen order window zonder ingelogd te zijn
-2018-05-12 13:31:50 DEBUG frontend:240 - reeds gevuld door andere ober
-2018-05-12 13:31:50 DEBUG frontend:240 - reeds gevuld door andere ober
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:50 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:50.787
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:50 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:50.815
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:1
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 1
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 2
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:50 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:50.883
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 2
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:50 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:50.952
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:50 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 2
-2018-05-12 13:31:50 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:50 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:50.989
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:51 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:51.020
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:51 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:51.056
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:51 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:51.099
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:3
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 2
-2018-05-12 13:31:51 DEBUG frontend:281 - On exit - serial table: 3
-2018-05-12 13:31:51 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:31:51.133
-2018-05-12 13:31:51 DEBUG frontend:240 - reeds gevuld door andere ober
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:6
-2018-05-12 13:31:51 DEBUG frontend:270 - Wrong waiter on order payment
-2018-05-12 13:31:51 DEBUG frontend:250 - tafel wisselen naar tafel:6
-2018-05-12 13:31:51 DEBUG frontend:252 - tafelnummer is niet bestaande
-2018-05-12 13:31:51 DEBUG frontend:263 - Payment button pressed
-2018-05-12 13:31:53 DEBUG frontend:250 - tafel wisselen naar tafel:6
-2018-05-12 13:31:53 DEBUG frontend:250 - tafel wisselen naar tafel:2
-2018-05-12 13:31:53 DEBUG frontend:87 - oproepen order window zonder ingelogd te zijn
-2018-05-12 13:31:53 DEBUG frontend:91 - Call current tabel name
-2018-05-12 13:52:19 DEBUG frontend:125 - User login screen
-2018-05-12 13:52:23 DEBUG frontend:141 - Rapport Screen
-2018-05-12 13:55:06 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:55:06.624
-2018-05-12 13:55:38 DEBUG frontend:125 - User login screen
-2018-05-12 13:55:41 DEBUG frontend:141 - Rapport Screen
-2018-05-12 13:56:14 DEBUG frontend:124 - system shutdown on: 2018-05-12T13:56:14.941
+2018-05-12 14:11:23 DEBUG frontend:88 - oproepen order window zonder ingelogd te zijn
+2018-05-12 14:11:27 DEBUG frontend:239 - reeds gevuld door andere ober
+2018-05-12 14:11:27 DEBUG frontend:239 - reeds gevuld door andere ober
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:27 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:27 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:27.818
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:27 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:27 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:27.848
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:1
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:27 DEBUG frontend:280 - On exit - serial table: 1
+2018-05-12 14:11:27 DEBUG frontend:280 - On exit - serial table: 2
+2018-05-12 14:11:27 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:27 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:27.921
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:27 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:27 DEBUG frontend:280 - On exit - serial table: 2
+2018-05-12 14:11:27 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:27 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:27.980
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:28 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:28.010
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:28 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:28.085
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:28 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:28.145
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:28 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:28.196
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:3
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 2
+2018-05-12 14:11:28 DEBUG frontend:280 - On exit - serial table: 3
+2018-05-12 14:11:28 DEBUG frontend:125 - system shutdown on: 2018-05-12T14:11:28.226
+2018-05-12 14:11:28 DEBUG frontend:239 - reeds gevuld door andere ober
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:6
+2018-05-12 14:11:28 DEBUG frontend:269 - Wrong waiter on order payment
+2018-05-12 14:11:28 DEBUG frontend:249 - tafel wisselen naar tafel:6
+2018-05-12 14:11:28 DEBUG frontend:251 - tafelnummer is niet bestaande
+2018-05-12 14:11:28 DEBUG frontend:262 - Payment button pressed
+2018-05-12 14:11:30 DEBUG frontend:249 - tafel wisselen naar tafel:6
+2018-05-12 14:11:30 DEBUG frontend:249 - tafel wisselen naar tafel:2
+2018-05-12 14:11:30 DEBUG frontend:88 - oproepen order window zonder ingelogd te zijn
+2018-05-12 14:11:30 DEBUG frontend:92 - Call current tabel name

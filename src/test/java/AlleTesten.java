@@ -18,7 +18,7 @@ import org.junit.runners.Suite.SuiteClasses;
         SerialTest.class,
         DeserialTest.class,
         CafeTest.class,
-        PdfFactoryTest.class,
+        PdfFactoryTest.class
         })
 
 public class AlleTesten {

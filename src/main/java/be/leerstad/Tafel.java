@@ -1,8 +1,6 @@
 package be.leerstad;
 
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import org.apache.log4j.Logger;
 
 import java.util.Comparator;

@@ -4,19 +4,11 @@ import be.leerstad.Ober;
 import be.leerstad.Tafel;
 import be.leerstad.helpers.DeSerializer;
 import be.leerstad.helpers.ObjectToSerialize;
-import org.jfree.io.FileUtilities;
 import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.stream.Stream;
-
 
 
 import static org.junit.Assert.*;

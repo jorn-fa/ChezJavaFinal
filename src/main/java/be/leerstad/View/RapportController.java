@@ -12,14 +12,11 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.util.Callback;
 import org.apache.log4j.Logger;
 
-;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;

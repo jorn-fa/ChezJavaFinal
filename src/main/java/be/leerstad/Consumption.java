@@ -141,18 +141,18 @@ public final class Consumption implements Comparable<Consumption>,java.io.Serial
         StringBuilder sb = new StringBuilder();
         DecimalFormat df = new DecimalFormat("#0.00");
         if (naam!=null) {
-            sb.append("Consumption{");
-            sb.append("naam='" + naam + '\'');
-            sb.append("; prijs= " + df.format(prijs ));
-            sb.append("; aantal=" + aantal + "}");
+            sb.append("Consumption{")
+            .append("naam='" + naam + '\'')
+            .append("; prijs= " + df.format(prijs ))
+            .append("; aantal=" + aantal + "}");
         }
         else
         {
-            sb.append("Ordernumber = " + orderNummer);
-            sb.append(", beverageid = " + beverageId );
-            sb.append(", Aantal = " + aantal);
-            sb.append(", Waiter = " + waiterID);
-            sb.append("\n");
+            sb.append("Ordernumber = " + orderNummer)
+            .append(", beverageid = " + beverageId )
+            .append(", Aantal = " + aantal)
+            .append(", Waiter = " + waiterID)
+            .append("\n");
         }
         return sb.toString();
     }

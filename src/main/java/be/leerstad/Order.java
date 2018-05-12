@@ -34,7 +34,7 @@ public final class Order  implements java.io.Serializable{
     public boolean clearOrder()
     {
         lijst.clear();
-        return lijst.size() == 00;
+        return lijst.size() == 0;
     }
 
     public Integer getWaiterID(){

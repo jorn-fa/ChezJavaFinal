@@ -1,7 +1,6 @@
 import be.leerstad.Cafe;
 import be.leerstad.Ober;
 import be.leerstad.helpers.PdfFactory;
-import be.leerstad.helpers.PropReader;
 import com.itextpdf.text.DocumentException;
 import org.junit.Before;
 import org.junit.Test;
@@ -96,7 +95,7 @@ public class PdfFactoryTest {
         }
     }
 
-    @Test
+    @Test(timeout = 5000)
     public void getPdfs(){
         loadProps();
 
@@ -141,7 +140,7 @@ public class PdfFactoryTest {
         } catch (IOException e) {
             e.printStackTrace();
         } catch (DocumentException e) {
-            e.printStackTrace();
+            e.getLocalizedMessage();
         }
         assertTrue(folderDirectory.exists());
     }

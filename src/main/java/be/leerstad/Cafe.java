@@ -43,7 +43,7 @@ public final class Cafe extends Application  {
     public String topWaiterPie;
 
 
-    public Cafe(){this(null);instance=this;}
+    public Cafe(){this("geen");instance=this;}
     public Cafe(String naam) { this.Naam=naam; chezJavaLogger.info("cafe created with name " + naam); }
 
     private Ober currentWaiter;
