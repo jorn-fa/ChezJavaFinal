@@ -44,6 +44,12 @@ public final class Email {
 
 		from = props.getProperty ("mail.smtp.user");
 		to = props.getProperty ("Receiver");
+		//deze staat erbij om over Avast te geraken --> of SSL scannen in avast even
+        //uitzetten om te testen
+
+		props.put("mail.smtp.ssl.checkserveridentity", "false");
+		props.put("mail.smtp.ssl.trust", "*");
+		props.put("mail.smtp.connectiontimeout", "10000");
 
 
         Session session = Session.getInstance (props,
