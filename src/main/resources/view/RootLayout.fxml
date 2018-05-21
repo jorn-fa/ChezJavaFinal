@@ -99,19 +99,16 @@
                      <children>
                         <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="4.0" layoutY="21.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="0.0">
                            <cursor>
-                              <Cursor fx:constant="HAND" />
+                              <Cursor fx:constant="DEFAULT" />
                            </cursor>
                            <image>
-                              <Image url="@../images/rapport.png" />
+                              <Image url="@/images/rapport.png" />
                            </image>
                         </ImageView>
                         <Button layoutX="53.0" layoutY="174.0" mnemonicParsing="false" onAction="#RapportAction" text="Rapporten" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
                      </children>
                   </AnchorPane>
                </children>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
             </VBox>
          </children>
       </AnchorPane>
@@ -131,7 +128,7 @@
                   <Circle fx:id="circle2" fill="DODGERBLUE" layoutX="115.0" layoutY="85.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="45.0" />
                   <ImageView fx:id="table_2_IMg" fitHeight="150.0" fitWidth="150.0" layoutX="214.0" layoutY="43.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <image>
-                        <Image url="/images/tafel_main_icon.png" />
+                        <Image url="@/images/tafel_main_icon.png" />
                      </image>
                   </ImageView>
                </children>
